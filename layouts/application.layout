@@ -88,6 +88,8 @@
             {{yield}}
             <footer>
                 <p>
+                    ©2015 MIDTOWN PLAZA | 
+                    <a href-"#">PRIVACY POLICY</a>
                     
                 </p>
             </footer>
