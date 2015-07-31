@@ -25,3 +25,7 @@
     font-size:22px;
     color:#000;
 }
+
+#menu a:hover{
+    text-decoration:none;
+}
