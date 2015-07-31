@@ -23,6 +23,7 @@ a:hover, a:focus{
     height:16px;
     width:16px;
     background: #ded8d3;
+    box-shadow: none;
 }
 
 .custom_backdrop img{
