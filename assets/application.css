@@ -66,3 +66,9 @@ a:hover, a:focus{
 .footer a{
     color: #fff;
 }
+
+.footer img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
