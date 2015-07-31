@@ -41,7 +41,7 @@
                 </div>
                 <div id="menu">
                     <div class="row">
-                        <div class="col-md-2 text-left">
+                        <div class="col-md-2">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Shopping</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -51,10 +51,10 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-3 text-center">
+                        <div class="col-md-3 ">
                             <a href="#">Promotion & Events</a>
                         </div>
-                        <div class="col-md-3 text-center">
+                        <div class="col-md-3">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Style</a>
                                 <ul class="dropdown-menu align_center" aria-labelledby="dropdownMenu2">
@@ -63,7 +63,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 text-center">
+                        <div class="col-md-2">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
@@ -72,7 +72,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-2 text-right">
+                        <div class="col-md-2">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
