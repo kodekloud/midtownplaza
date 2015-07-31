@@ -15,6 +15,10 @@ a:hover, a:focus{
     border:0;
 }
 
+.flex-direction-nav a{
+    height:45px    
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
