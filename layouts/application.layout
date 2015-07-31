@@ -43,7 +43,7 @@
                     <div class="row">
                         <div class="col-md-2 text-left">
                             <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">SHOPPING</button>
+                                <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">SHOPPING</button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                                     <li><a href="#">Directory</a></li>
                                     <li><a href="#">Hours</a></li>
