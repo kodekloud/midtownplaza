@@ -33,9 +33,7 @@
         <script src="/application.js"></script>
     </head>
     <body>
-      
-                {{yield}}
-            
+        {{yield}}
     </body>
 </html>
 
