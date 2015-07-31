@@ -6,6 +6,28 @@ a:hover, a:focus{
     text-decoration:none;
 }
 
+.custom_backdrop{
+    opacity:0.5;
+    background:#fff;
+    text-align:center;
+}
+
+.scrolloff {
+    pointer-events: none;
+}
+
+.custom_backdrop img{
+    width:80px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .yield{
     display:none;
 }
