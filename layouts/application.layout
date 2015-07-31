@@ -55,7 +55,14 @@
                             <a href="#">Promotion & Events</a>
                         </div>
                         <div class="col-md-3 text-center">
-                            Shopping
+                            <div class="dropdown">
+                                <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Shopping</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <li><a href="#">Directory</a></li>
+                                    <li><a href="#">Hours</a></li>
+                                    <li><a href="#">Parking</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-2 text-center">
                             Shopping
