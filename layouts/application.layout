@@ -41,16 +41,16 @@
                 </div>
                 <div id="menu">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-2 text-left">
                             Shopping
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 text-center">
                             Shopping
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 text-center">
                             Shopping
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 text-center">
                             Shopping
                         </div>
                         <div class="col-md-2 text-right">
