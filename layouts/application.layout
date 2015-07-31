@@ -64,7 +64,13 @@
                             </div>
                         </div>
                         <div class="col-md-2 text-center">
-                            Shopping
+                            <div class="dropdown">
+                                <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                    <li><a href="#">Gift Cards</a></li>
+                                    <li><a href="#">Security & Accessibilty</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-2 text-right">
                             Shopping
