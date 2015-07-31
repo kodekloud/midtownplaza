@@ -131,6 +131,7 @@ a:hover, a:focus{
 
 .feature_column{
     float:left;
+    width: 33.33333333%;
 }
 
 
