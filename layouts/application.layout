@@ -72,7 +72,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 text-right">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
