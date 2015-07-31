@@ -19,6 +19,11 @@ a:hover, a:focus{
     height:45px    
 }
 
+.flex-control-paging li a{
+    height:16px;
+    width:16px;
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
