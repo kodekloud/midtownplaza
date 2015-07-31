@@ -56,11 +56,10 @@
                         </div>
                         <div class="col-md-3 text-center">
                             <div class="dropdown">
-                                <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Shopping</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="#">Directory</a></li>
-                                    <li><a href="#">Hours</a></li>
-                                    <li><a href="#">Parking</a></li>
+                                <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Style</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Shop the Look</a></li>
                                 </ul>
                             </div>
                         </div>
