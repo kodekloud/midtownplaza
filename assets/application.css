@@ -26,6 +26,10 @@ a:hover, a:focus{
     box-shadow: none;
 }
 
+.flex-control-paging li a.flex-active{
+    background: #fff;
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
