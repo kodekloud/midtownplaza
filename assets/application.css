@@ -46,6 +46,7 @@
 .dropdown-menu{
     border: 0;
     box-shadow: none;
+    width:100%;
 }
 
 .dropdown-menu>li>a{
