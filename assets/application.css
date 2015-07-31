@@ -27,7 +27,7 @@ a:hover, a:focus{
 }
 
 .flex-control-paging li .flex-active{
-    background: #fff;
+    background: #fff !important;
 }
 
 .custom_backdrop img{
