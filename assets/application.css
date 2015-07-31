@@ -12,9 +12,6 @@ a:hover, a:focus{
     text-align:center;
 }
 
-.scrolloff {
-    pointer-events: none;
-}
 
 .custom_backdrop img{
     width:80px;
