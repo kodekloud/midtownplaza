@@ -97,6 +97,7 @@ a:hover, a:focus{
     border: 0;
     box-shadow: none;
     width:208px;
+        border-radius: 0;
     /*padding:10px;*/
 }
 
