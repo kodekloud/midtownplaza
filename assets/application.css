@@ -37,6 +37,10 @@ a:hover, a:focus{
     color:#000;
 }
 
+.no_margin{
+    margin:0 !important;
+}
+
 .align_center{
     left: 50%;
     -webkit-transform: translateX(-50%);
