@@ -2,7 +2,7 @@
     <ul class="slides" id="home_banner">
             <li>
                 <a href="{{url}}">
-                    <img alt="banner" src="{{image_url}}"/>
+                    <img alt="banner" src=""/>
                 </a>
             </li>
         
