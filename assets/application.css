@@ -96,7 +96,8 @@ a:hover, a:focus{
 .dropdown-menu{
     border: 0;
     box-shadow: none;
-    width:100%;
+    width:208px;
+    padding:10px;
 }
 
 .dropdown-menu>li>a{
