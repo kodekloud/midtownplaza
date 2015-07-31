@@ -20,10 +20,10 @@
     </ul>
 </div>
 <div class="feature_row">
-    <div class="col-md-4">
+    <div class="feature_column">
         yo
     </div>
-    <div class="col-md-4">
+    <div class="feature_column">
         wr
     </div>
     <div class="col-md-4">
