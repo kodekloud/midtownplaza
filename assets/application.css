@@ -125,8 +125,8 @@ a:hover, a:focus{
 }
 
 .feature_row{
-    margin-left:7px;
-    margin-right:7px;
+    margin-left:-7px;
+    margin-right:-7px;
 }
 
 .feature_column{
