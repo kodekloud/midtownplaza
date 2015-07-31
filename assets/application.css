@@ -42,3 +42,8 @@
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
+.dropdown-menu{
+    border: 0;
+    box-shadow: none;
+}
