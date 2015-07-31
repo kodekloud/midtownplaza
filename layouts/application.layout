@@ -88,8 +88,7 @@
             {{yield}}
             <footer>
                 <p>
-                    ©2015 MIDTOWN PLAZA | 
-                    <a href-"#">PRIVACY POLICY</a>
+                    ©2015 MIDTOWN PLAZA | <a href-"#">PRIVACY POLICY</a> | POWERED BY MALL MAVERICK
                     
                 </p>
             </footer>
