@@ -40,7 +40,9 @@
                     <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/e6ffc0b818f8b66e26d4e33c71eba1e6/SK's_Premier_artwork.jpg" class="logo_2" alt="logo 2">
                 </div>
                 <div id="menu">
-                    
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                    </div>
                 </div>
             </header>
             {{yield}}
