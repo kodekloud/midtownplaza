@@ -33,3 +33,8 @@
 #menu a:hover, #menu a:focus{
     text-decoration:none;
 }
+
+.align_center{
+    left: 50%;
+    transform: translateX(-50%);
+}
