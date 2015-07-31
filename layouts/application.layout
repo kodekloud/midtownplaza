@@ -22,8 +22,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
         <script>
             setEndPoint('http://midtownplaza.mallmaverick.com/api/v2/midtownplaza/all.json');
-            sessionStorage.setItem('primary_locale', 'en-CA');
-            sessionStorage.setItem('secondary_locale', 'fr-CA');
         </script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
