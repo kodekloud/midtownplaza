@@ -30,6 +30,10 @@ a:hover, a:focus{
     background: #fff;
 }
 
+.flex-control-nav{
+    bottom:20px;
+}
+
 .custom_backdrop img{
     width:80px;
     position: absolute;
