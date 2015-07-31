@@ -47,3 +47,7 @@
     border: 0;
     box-shadow: none;
 }
+
+.dropdown-menu>li>a{
+    padding-left:0;
+}
