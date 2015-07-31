@@ -22,6 +22,7 @@ a:hover, a:focus{
 .flex-control-paging li a{
     height:16px;
     width:16px;
+    background: #ded8d3;
 }
 
 .custom_backdrop img{
