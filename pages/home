@@ -21,7 +21,9 @@
 </div>
 <div class="feature_row">
     <div class="feature_column">
-        <img class="full_width" src="http://placehold.it/350x150">
+        <div class="newsletter_box">
+            
+        </div>
     </div>
     <div class="feature_column">
         <img class="full_width" src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/giftcard.jpg">
