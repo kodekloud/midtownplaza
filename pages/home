@@ -30,6 +30,7 @@
         <img class="full_width" src="http://placehold.it/350x150">
     </div>
 </div>
+<div class"clearfix"></div>
 <script>
     $(document).ready(function(e){
         init(e);
