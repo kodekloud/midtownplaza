@@ -87,9 +87,7 @@
             </header>
             {{yield}}
             <footer class="footer">
-                <p>
-                    ©2015 MIDTOWN PLAZA | <a href="#">PRIVACY POLICY</a> | POWERED BY MALL MAVERICK
-                </p>
+                <p>©2015 MIDTOWN PLAZA | <a href="#">PRIVACY POLICY</a> | POWERED BY MALL MAVERICK</p>
             </footer>
         </div>
     </body>
