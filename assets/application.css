@@ -297,4 +297,8 @@ a{
     .site_container{
         width:100%
     }
+    .feature_row{
+        padding: 0 5px;
+    }
+    
 }
