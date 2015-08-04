@@ -308,7 +308,6 @@ a{
 }
 @media(max-width:800px){
     .feature_row{
-        padding: 0 5px;
         margin:0;
     }
     .feature_column{
