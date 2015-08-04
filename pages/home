@@ -51,7 +51,7 @@
         <h3 class="feature_header">Promotions & Events</h3>
         <div class="feature_insider">
             <div class="feature_insider_left">
-                <img class="feature_image" src="http://placehold.it/120x160" />
+                <img alt="promos/events" class="feature_image" src="http://placehold.it/120x160" />
             </div>
             <div class="feature_insider_right">
                 <h3 class="feature_2_header">SUMMER LAUNCH DAVIDs TEA</h3>
@@ -65,7 +65,7 @@
         <h3 class="feature_header">Style</h3>
         <div class="feature_insider">
             <div class="feature_insider_left">
-                <img class="feature_image" src="http://placehold.it/120x160" />
+                <img alt="promos/events" class="feature_image" src="http://placehold.it/120x160" />
             </div>
             <div class="feature_insider_right">
                 <h3 class="feature_2_header">SHOP THE LOOK</h3>
@@ -79,7 +79,7 @@
         <h3 class="feature_header">Blog</h3>
         <div class="feature_insider">
             <div class="feature_insider_left show_phone">
-                <img class="feature_image" src="http://placehold.it/120x160" />
+                <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
             </div>
             <div class="feature_insider_right">
                 <h3 class="feature_2_header">AUGUST 6, 2015</h3>
@@ -88,7 +88,7 @@
                 <a class="read_more" href="#">read more</a>
             </div>
             <div class="feature_insider_left hide_phone">
-                <img class="feature_image" src="http://placehold.it/120x160" />
+                <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
             </div>
         </div>
     </div>
