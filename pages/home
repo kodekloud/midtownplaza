@@ -24,6 +24,7 @@
         <div class="newsletter_box feature_box">
             <h3 class="newsletter_header">NEWSLETTER</h3>
             <p>Exclusive deals straight to your inbox!</p>
+            <input type="text" placeholder="Enter your email address" />
         </div>
     </div>
     <div class="feature_column">
