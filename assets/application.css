@@ -386,4 +386,7 @@ a{
     .feature_insider_right{
         width:180px;
     }
+    .newsletter_box p{
+        font-size:14px;
+    }
 }
