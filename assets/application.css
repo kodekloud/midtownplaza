@@ -198,6 +198,7 @@ a:hover, a:focus{
     color:#000;
     font-weight:bold;
     font-size:19px;
+    display:inline-block;
 }
 
 
