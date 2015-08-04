@@ -19,6 +19,10 @@ a{
     width:100%;
 }
 
+.navbar-default{
+    background-color: #f8f8f8; */
+    border-color: #e7e7e7; 
+}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
