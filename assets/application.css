@@ -294,5 +294,7 @@ a{
 
 
 @media(max-width:800px){
-    .site_container:100%
+    .site_container{
+        width:100%
+    }
 }
