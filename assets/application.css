@@ -307,6 +307,9 @@ a{
     }
 }
 @media(max-width:800px){
+    .footer{
+        text-align:center;
+    }
     #menu{
         display:none
     }
