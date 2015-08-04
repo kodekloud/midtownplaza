@@ -5,7 +5,7 @@
 }
 
 .show_phone{
-    display:block;
+    display:none;
 }
 
 a:hover, a:focus{
