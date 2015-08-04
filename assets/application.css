@@ -349,4 +349,7 @@ a{
     .top_logos{
         margin-bottom:0;
     }
+    ..navbar-toggle .icon-bar{
+        margin:0 auto;
+    }
 }
