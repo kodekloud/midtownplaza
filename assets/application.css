@@ -293,4 +293,6 @@ a{
 
 
 
-
+@media(max-width:800px){
+    .site_container:100%
+}
