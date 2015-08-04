@@ -44,6 +44,14 @@
     </div>
     <div class="clearfix"></div>
 </div>
+<div class="feature_row">
+    <div class="feature_column">
+    </div>
+    <div class="feature_column">
+    </div>
+    <div class="feature_column">
+    </div>
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
