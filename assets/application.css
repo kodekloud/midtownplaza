@@ -383,4 +383,7 @@ a{
     .check_text{
         font-size:10px;
     }
+    .feature_insider_right{
+        width:190px;
+    }
 }
