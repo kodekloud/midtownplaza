@@ -22,6 +22,7 @@ a{
 .navbar-default{
     background-color: #fff;
     border:0; 
+    margin-bottom:0;
 }
 .custom_backdrop{
     opacity:0.5;
