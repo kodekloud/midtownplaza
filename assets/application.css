@@ -232,6 +232,7 @@ a{
 
 .feature_header{
     font-family: 'EB Garamond';
+    font-size:22px;
     margin-top: 10px;
     padding-bottom: 12px;
     border-bottom: 2px solid #ccc;
