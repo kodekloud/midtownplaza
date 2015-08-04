@@ -272,6 +272,11 @@ a{
 
 .feature_2_dates{
     font-size:16px;
+    margin-bottom:5px;
+}
+
+.feature_2_description{
+    font-weight:light;
 }
 
 
