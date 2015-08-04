@@ -56,7 +56,7 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         Shopping
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu center_menu">
                                         <li><a href="#">Directory</a></li>
                                         <li><a href="#">Mall Hours</a></li>
                                         <li><a href="#">Parking</a></li>
