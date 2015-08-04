@@ -246,8 +246,6 @@ a{
 }
 
 .feature_insider_left{
-    max-width: 120px;
-    max-height: 160px;
     float: left;
     padding: 0 5px;
 }
