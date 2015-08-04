@@ -148,7 +148,11 @@ a:hover, a:focus{
     padding:20px;
 }
 
-
+.newsletter_header{
+    margin-top: 0;
+    margin-bottom: 15px;
+    color:#fff;
+}
 
 
 
