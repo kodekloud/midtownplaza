@@ -317,7 +317,7 @@ a{
         width:210px;
     }
 }
-@media(max-width:500px){
+@media(max-width:800px){
     .footer{
         text-align:center;
     }
