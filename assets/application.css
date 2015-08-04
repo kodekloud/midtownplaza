@@ -319,7 +319,8 @@ a{
         display:none
     }
     #menu_mobile{
-        font-family: 'EB Garamond';;
+        font-family: 'EB Garamond';
+        font-sixe:20px;
     }
     .feature_row{
         margin:0;
