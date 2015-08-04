@@ -31,7 +31,9 @@
         </div>
     </div>
     <div class="feature_column">
-        <a href="#"><img class="full_width" src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/giftcard.jpg"></a>
+        <a href="#">
+            <img alt="gift cards" class="full_width" src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/giftcard.jpg">
+        </a>
     </div>
     <div class="feature_column">
         <div class="hours_box feature_box">
