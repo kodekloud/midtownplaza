@@ -1,6 +1,8 @@
 /*Created 2015-07-31 by Rajbir Karan Singh*/
 
-
+.hide_phone{
+    display:block;
+}
 
 a:hover, a:focus{
     text-decoration:none;
