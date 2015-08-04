@@ -204,6 +204,7 @@ a:hover, a:focus{
 .check_hours{
     font-family: 'EB Garamond';
     font-size:20px;
+    text-decoration:underline;
 }
 
 
