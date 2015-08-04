@@ -353,4 +353,7 @@ a{
     .navbar-toggle .icon-bar{
         margin:0 auto;
     }
+    .center_menu li{
+        text-align:center;
+    }
 }
