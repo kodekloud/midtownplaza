@@ -376,4 +376,8 @@ a{
     #newsletter_email{
         width:165px;
     }
+    .btn_mp{
+        width: 90px;
+        padding: 0
+    }
 }
