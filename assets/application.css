@@ -251,6 +251,11 @@ a{
     padding: 0 5px;
 }
 
+.feature_insider_right{
+    width: 130px;
+    float: left;
+    padding: 0 5px;
+}
 
 .feature_image{
     max-width:120px;
