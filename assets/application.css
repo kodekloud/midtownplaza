@@ -192,6 +192,14 @@ a:hover, a:focus{
     padding:20px;
 }
 
+.hours_header{
+    margin-top: 0;
+    margin-bottom: 15px;
+    color:#fff;
+    font-weight:bold;
+    font-size:19px;
+}
+
 
 
 
