@@ -52,7 +52,7 @@
                         <!-- Collection of nav links and other content for toggling -->
                         <div id="navbarCollapse" class="collapse navbar-collapse">
                             <ul class="nav navbar-nav text-center">
-                                <li><a href="#">Shopping</a></li>
+                                <li class="dropdown"><a href="#">Shopping</a></li>
                                 <li><a href="#">Promotions & Events</a></li>
                                 <li><a href="#">Messages</a></li>
                             </ul>
