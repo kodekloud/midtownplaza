@@ -1,7 +1,7 @@
 /*Created 2015-07-31 by Rajbir Karan Singh*/
 
 .hide_phone{
-    display:none;
+    display:block;
 }
 
 .show_phone{
