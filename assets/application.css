@@ -180,6 +180,7 @@ a{
     border: 0;
     height: 30px;
     width: 185px;
+    border-radius:0
 }
 
 .btn_mp{
