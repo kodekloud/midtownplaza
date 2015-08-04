@@ -300,5 +300,8 @@ a{
     .feature_row{
         padding: 0 5px;
     }
-    
+    .feature_column{
+        width:100%;
+        margin-bottom:10px;
+    }
 }
