@@ -167,7 +167,13 @@ a:hover, a:focus{
     width: 185px;
 }
 
-
+.btn_mp{
+    color: #fff;
+    background-color: #7abfc7;
+    border: 2px solid;
+    height: 30px;
+    width: 96px;
+}
 
 
 
