@@ -380,4 +380,7 @@ a{
         width: 90px;
         padding: 0
     }
+    .check_text{
+        font-size:10px;
+    }
 }
