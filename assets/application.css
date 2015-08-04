@@ -211,7 +211,10 @@ a:hover, a:focus{
 }
 
 .hours_home{
-    
+    margin-top: -10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
 }
 
 
