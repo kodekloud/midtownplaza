@@ -22,7 +22,7 @@
 <div class="feature_row">
     <div class="feature_column">
         <div class="newsletter_box feature_box">
-            <h3>NEWSLETTER</h3>
+            <h3 class="newsletter_header">NEWSLETTER</h3>
             <p>Exclusive deals straight to your inbox</p>
         </div>
     </div>
