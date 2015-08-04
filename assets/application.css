@@ -226,7 +226,7 @@ a{
     font-size:20px;
 }
 
-.call_mp_home a:hover{
+.call_mp_home a:hover,.call_hours a:hover{
     color:#000;
 }
 
