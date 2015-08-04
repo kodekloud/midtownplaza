@@ -26,7 +26,7 @@
             <p>Exclusive deals straight to your inbox!</p>
             <input type="text" placeholder="Enter your email address" id="newsletter_email" />
             <input type="submit" value="SUBSCRIBE" class="btn_mp pull-right" />
-            <inpu type="checkbox" id="newsletter_agree" />I agree to receive newsletter from Midtown Plaza.
+            <input type="checkbox" id="newsletter_agree" />I agree to receive newsletter from Midtown Plaza.
         </div>
     </div>
     <div class="feature_column">
