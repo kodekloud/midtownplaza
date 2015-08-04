@@ -40,7 +40,7 @@
                     <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/e6ffc0b818f8b66e26d4e33c71eba1e6/SK's_Premier_artwork.jpg" class="logo_2" alt="logo 2">
                 </div>
                 <div id="menu_mobile">
-                    <nav role="navigation" class="navbar navbar-default">
+                    <nav role="navigation" class="navbar">
                         <div class="navbar-header">
                             <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                                 <span class="sr-only">Toggle navigation</span>
