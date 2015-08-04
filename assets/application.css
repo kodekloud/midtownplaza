@@ -318,6 +318,9 @@ a{
     #menu{
         display:none
     }
+    #menu_mobile{
+        font-family:;
+    }
     .feature_row{
         margin:0;
     }
