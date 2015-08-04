@@ -41,7 +41,7 @@
                 </div>
                 <div id="menu_mobile" class="show_phone">
                     <nav role="navigation" class="navbar navbar-default">
-                        <div class="navbar-header">
+                        <div class="navbar-header text-center">
                             <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
