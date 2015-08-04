@@ -345,6 +345,7 @@ a{
     .navbar-toggle{
         float:none;
         margin:10px 0;
+        width:98%;
     }
     .top_logos{
         margin-bottom:0;
