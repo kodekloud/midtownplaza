@@ -230,6 +230,15 @@ a{
     color:#000;
 }
 
+.feature_header{
+    font-family: 'EB Garamond';
+    margin-top: 10px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
 
 
 
