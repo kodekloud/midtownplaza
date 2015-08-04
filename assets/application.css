@@ -308,7 +308,7 @@ a{
 }
 @media(max-width:800px){
     #menu{
-        dispaly:none
+        display:none
     }
     .feature_row{
         margin:0;
