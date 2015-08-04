@@ -62,9 +62,33 @@
     </div>
     <div class="feature_column">
         <h3 class="feature_header">Style</h3>
+        <div class="feature_insider">
+            <div class="feature_insider_left">
+                <img class="feature_image" src="http://placehold.it/120x160" />
+            </div>
+            <div class="feature_insider_right">
+                <h3 class="feature_2_header">SUMMER LAUNCH DAVIDs TEA</h3>
+                <p class="feature_2_dates">May 06-Aug 31</p>
+                <p class="feature_2_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+            </div>
+        </div>
     </div>
     <div class="feature_column">
         <h3 class="feature_header">Blog</h3>
+        <div class="feature_insider">
+            <div class="feature_insider_left">
+                <img class="feature_image" src="http://placehold.it/120x160" />
+            </div>
+            <div class="feature_insider_right">
+                <h3 class="feature_2_header">SUMMER LAUNCH DAVIDs TEA</h3>
+                <p class="feature_2_dates">May 06-Aug 31</p>
+                <p class="feature_2_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+            </div>
+        </div>
     </div>
     <div class="clearfix"></div>
 </div>
