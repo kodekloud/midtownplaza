@@ -307,4 +307,8 @@ a{
         width:100%;
         margin-bottom:10px;
     }
+    .social_footer{
+        float:none;
+        text-align:center;
+    }
 }
