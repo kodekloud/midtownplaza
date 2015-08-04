@@ -35,6 +35,10 @@
     <body>
         <div class="site_container">
             <header>
+                <div class="top_logos">
+                    <a href="/"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/e6ffc0b818f8b66e26d4e33c71eba1e6/MP_logo.png" class="main_logo" alt="logo"></a>
+                    <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/e6ffc0b818f8b66e26d4e33c71eba1e6/SK's_Premier_artwork.jpg" class="logo_2" alt="logo 2">
+                </div>
                 <div id="menu_mobile" class="show_phone">
                     <nav role="navigation" class="navbar navbar-default">
                         <div class="navbar-header">
@@ -57,10 +61,6 @@
                             </ul>
                         </div>
                     </nav>
-                </div>
-                <div class="top_logos">
-                    <a href="/"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/e6ffc0b818f8b66e26d4e33c71eba1e6/MP_logo.png" class="main_logo" alt="logo"></a>
-                    <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/e6ffc0b818f8b66e26d4e33c71eba1e6/SK's_Premier_artwork.jpg" class="logo_2" alt="logo 2">
                 </div>
                 <div id="menu">
                     <div class="row">
