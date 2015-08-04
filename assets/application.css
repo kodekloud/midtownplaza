@@ -302,12 +302,12 @@ a{
 }
 
 @media(max-width:1024px){
-    
-}
-@media(max-width:800px){
     .site_container{
         width:100%
     }
+}
+@media(max-width:800px){
+    
     .feature_row{
         padding: 0 5px;
     }
