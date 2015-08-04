@@ -39,7 +39,7 @@
             <p class="check_hours">Check Holiday Hours</p>
             <h3 class="newsletter_header">MONDAY AUGUST 00</h3>
             <h3 class="hours_home">9:30 am - 5:30 pm</h3>
-            <p class="call_mp_home"><a>Call 306-653-8844</a></p>
+            <p class="call_mp_home"><a href="tel:3066538844">Call 306-653-8844</a></p>
         </div>
     </div>
     <div class="clearfix"></div>
