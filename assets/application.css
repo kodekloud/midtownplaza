@@ -310,6 +310,9 @@ a{
     .site_container{
         width:100%
     }
+    .feature_insider_right{
+        width:210px;
+    }
 }
 @media(max-width:800px){
     .footer{
