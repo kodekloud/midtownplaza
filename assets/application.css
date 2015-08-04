@@ -181,6 +181,10 @@ a:hover, a:focus{
     font-size: 12px;
 }
 
+.check_text input{
+    margin-right:10px;
+}
+
 
 
 
