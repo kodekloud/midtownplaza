@@ -291,6 +291,9 @@ a{
     text-decoration:underline;
 }
 
+.social_footer{
+    float:right;
+}
 
 
 @media(max-width:800px){
