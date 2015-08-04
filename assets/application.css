@@ -175,7 +175,11 @@ a:hover, a:focus{
     width: 96px;
 }
 
-
+.check_text{
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 12px;
+}
 
 
 
