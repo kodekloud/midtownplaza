@@ -342,4 +342,8 @@ a{
     .hide_phone{
         display:none;
     }
+    .navbar-toggle{
+        float:none;
+        margin:10px 0;
+    }
 }
