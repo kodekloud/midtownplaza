@@ -189,6 +189,7 @@ a{
     border: 2px solid;
     height: 30px;
     width: 96px;
+    border-radius:0
 }
 
 .check_text{
