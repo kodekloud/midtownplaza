@@ -35,7 +35,7 @@
     </div>
     <div class="feature_column">
         <div class="hours_box feature_box">
-            
+            <h3 class="hours_header">HOURS</h3>
         </div>
     </div>
     <div class="clearfix"></div>
