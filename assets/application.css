@@ -3,6 +3,7 @@
 .hide_phone{
     display:none;
 }
+
 .show_phone{
     display:block;
 }
@@ -325,5 +326,8 @@ a{
     }
     .show_phone{
         display:block;
+    }
+    .hide_phone{
+        display:none;
     }
 }
