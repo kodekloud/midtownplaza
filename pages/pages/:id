@@ -10,9 +10,9 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            //renderpageHTML();
+            init_home_hours();
+            renderpageHTML();
             
-             show_content();
         }
         
         function renderpageHTML(){
@@ -37,7 +37,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
-           
+            show_content();
             
         }
         loadMallDataCached(renderAll); 
