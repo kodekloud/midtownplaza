@@ -13,6 +13,7 @@
             init_home_hours();
             renderpageHTML();
             $(".modal-backdrop").remove();
+             show_content();
         }
         
         function renderpageHTML(){
@@ -37,7 +38,7 @@
             //         $("#404_msg").fadeIn("fast");
             //     }
             }); 
-            show_content();
+           
             
         }
         loadMallDataCached(renderAll); 
