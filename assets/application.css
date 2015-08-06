@@ -13,6 +13,7 @@
 .page_header{
     margin-bottom:36px !important;   
     margin-top:46px !important;
+    text-tranform:uppercase;
 }
 
 .show_phone{
