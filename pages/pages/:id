@@ -39,6 +39,7 @@
                 <div class="feature_insider_left hide_phone">
                     <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
                 </div>
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>
