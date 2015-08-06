@@ -2,6 +2,9 @@
     <div class="page_left">
         
     </div>
+    <div class="page_right">
+        
+    </div>
 </div>
 <script>
     $(document).ready(function(e) {
