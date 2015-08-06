@@ -319,6 +319,11 @@ a{
     float:left;
     padding:0 15px;
 }
+.page_right{
+    width:33.3333333%;
+    float:left;
+    padding:0 15px;
+}
 
 
 @media(max-width:1024px){
