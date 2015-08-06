@@ -10,6 +10,10 @@
     margin-bottom:14px;
 }
 
+.page_header{
+    margin-bottom:3px;    
+}
+
 .show_phone{
     display:none;
 }
