@@ -11,7 +11,7 @@
 }
 
 .page_header{
-    margin-bottom:36px;    
+    margin-bottom:36px !important;    
 }
 
 .show_phone{
