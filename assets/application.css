@@ -10,6 +10,11 @@
     margin-bottom:14px;
 }
 
+
+.hidden_now{
+    display:none;    
+}
+
 .page_header{
     margin-bottom:36px !important;   
     margin-top:46px !important;
