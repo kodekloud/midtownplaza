@@ -309,6 +309,12 @@ a{
     float:right;
 }
 
+
+.page_main_container{
+    margin:0 -15px;    
+}
+
+
 @media(max-width:1024px){
     .site_container{
         width:100%
