@@ -10,7 +10,6 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            init_home_hours();
             //renderpageHTML();
             
              show_content();
