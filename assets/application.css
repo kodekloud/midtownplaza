@@ -12,7 +12,7 @@
 
 .page_header{
     margin-bottom:36px !important;   
-    margin-top:46px;
+    margin-top:46px !important;
 }
 
 .show_phone{
