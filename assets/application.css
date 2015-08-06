@@ -325,6 +325,10 @@ a{
     padding:0 15px;
 }
 
+.page_right .feature_box{
+    margin-bottm:14px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
