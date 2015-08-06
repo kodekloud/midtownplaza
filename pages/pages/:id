@@ -5,6 +5,7 @@
     <div class="page_right">
         lo
     </div>
+    <div class="clearfix"></div>
 </div>
 <script>
     $(document).ready(function(e) {
