@@ -36,7 +36,7 @@
                     <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <a class="read_more" href="#">read more</a>
                 </div>
-                <div class="feature_insider_left hide_phone">
+                <div class="feature_insider_left">
                     <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
                 </div>
                 <div class="clearfix"></div>
