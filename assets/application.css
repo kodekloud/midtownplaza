@@ -305,6 +305,10 @@ a{
     margin-bottom:5px;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    font-size:20px;
+}
+
 .feature_2_description{
     font-weight:200;
 }
