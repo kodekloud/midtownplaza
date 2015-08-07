@@ -363,6 +363,9 @@ a{
     .page_left{
         width:610px;
     }
+    .feature_insider_right{
+        width:450px;
+    }
 }
 @media(max-width:800px){
     .footer{
