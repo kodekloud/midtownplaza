@@ -354,7 +354,7 @@ a{
     .site_container{
         width:100%
     }
-    .feature_insider_right{
+    .feature_insider_left{
         width:210px;
     }
 }
@@ -434,7 +434,7 @@ a{
     .check_text{
         font-size:10px;
     }
-    .feature_insider_right{
+    .feature_insider_left{
         width:180px;
     }
     .newsletter_box p{
