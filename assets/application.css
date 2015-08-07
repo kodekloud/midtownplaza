@@ -407,6 +407,10 @@ a{
     .center_menu li{
         text-align:center;
     }
+    
+    .page_main_container{
+        margin:0;
+    }
     .page_left{
         width:100%;
     }
