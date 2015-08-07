@@ -276,14 +276,14 @@ a{
 }
 
 .feature_insider_left{
-    width: 216px;
+    width: 130px;
     float: left;
     padding: 0 5px;
 }
 
 .feature_insider_right{
-    width: 130px;
-    float: right;
+    width: 216px;
+    float: left;
     padding: 0 5px;
 }
 
@@ -354,7 +354,7 @@ a{
     .site_container{
         width:100%
     }
-    .feature_insider_left{
+    .feature_insider_right{
         width:210px;
     }
 }
@@ -434,7 +434,7 @@ a{
     .check_text{
         font-size:10px;
     }
-    .feature_insider_left{
+    .feature_insider_right{
         width:180px;
     }
     .newsletter_box p{
