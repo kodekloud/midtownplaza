@@ -276,13 +276,13 @@ a{
 }
 
 .feature_insider_left{
-    width: 130px;
+    width: 216px;
     float: left;
     padding: 0 5px;
 }
 
 .feature_insider_right{
-    width: 216px;
+    width: 130px;
     float: right;
     padding: 0 5px;
 }
