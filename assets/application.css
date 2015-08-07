@@ -357,6 +357,12 @@ a{
     .feature_insider_right{
         width:210px;
     }
+    .page_right{
+        float:right;
+    }
+    .page_left{
+        width:610px;
+    }
 }
 @media(max-width:800px){
     .footer{
