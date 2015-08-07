@@ -407,6 +407,9 @@ a{
     .center_menu li{
         text-align:center;
     }
+    .page_left{
+        width:100%;
+    }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
