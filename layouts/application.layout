@@ -146,10 +146,10 @@
             </div>
             <footer class="footer">
                 <p class="social_footer">
-                    <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Facebook_icon.jpg" class="" alt="fb">
-                    <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Twitter_icon.jpg" class="" alt="twitter">
-                    <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Pinterest_icon.jpg" class="" alt="pinterest">
-                    <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Instagram_icon.jpg" class="" alt="instagram">
+                    <a href="#"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Facebook_icon.jpg" class="" alt="fb"></a>
+                    <a href="#"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Twitter_icon.jpg" class="" alt="twitter"></a>
+                    <a href="#"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Pinterest_icon.jpg" class="" alt="pinterest"></a>
+                    <a href="#"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/Instagram_icon.jpg" class="" alt="instagram"></a>
                 </p>
                 <p class="no_margin">©2015 MIDTOWN PLAZA | <a href="#">PRIVACY POLICY</a> | POWERED BY MALL MAVERICK</p>
             </footer>
