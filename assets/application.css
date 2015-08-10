@@ -428,6 +428,9 @@ a{
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    .flex-direction-nav a{
+        display:none;
+    }
     .main_logo{
         width:140px;
     }
