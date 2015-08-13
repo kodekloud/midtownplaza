@@ -13,6 +13,7 @@
 .menu_divider{
     width:138.5px;
     height:10px;
+    float:left;
 }
 
 .hidden_now{
