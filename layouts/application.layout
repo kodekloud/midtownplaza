@@ -96,7 +96,7 @@
                     </nav>
                 </div>
                 <div id="menu">
-                    <div class="">
+                    <div class="row">
                         <div class="menu_link text-left">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Shopping</a>
