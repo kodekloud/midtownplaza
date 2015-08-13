@@ -26,7 +26,7 @@
             <input type="text" placeholder="Enter your email address" id="newsletter_email" class="pull-left" />
             <input type="submit" value="SUBSCRIBE" class="btn_mp pull-left" />
             <div class="clearfix"></div>
-            <label class="check_text"><input type="checkbox" id="newsletter_agree" />I agree to receive newsletter from Midtown Plaza.</label>
+            <label class="check_text"><input type="checkbox" id="newsletter_agree" />I agree to receive newsletters from Midtown Plaza.</label>
         </div>
     </div>
     <div class="feature_column">
