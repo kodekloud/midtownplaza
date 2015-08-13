@@ -146,8 +146,7 @@ a{
 }
 
 .dropdown-menu>li>a{
-    font-size:20px;
-    
+    font-size:20px !important;
 }
 
 .footer{
