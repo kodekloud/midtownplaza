@@ -147,8 +147,7 @@ a{
     padding-top: 20px;
     width: 208px;
     border-radius: 0;
-    height: 124px;
-    padding-bottom: 0;
+    padding-bottom: 15px;
 }
 
 .dropdown-menu>li>a{
