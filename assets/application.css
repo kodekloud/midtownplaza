@@ -339,6 +339,9 @@ a{
 .social_footer a{
     padding:0 4px;
 }
+.menu_link{
+    float:left;
+}
 
 
 .page_main_container{
