@@ -342,6 +342,7 @@ a{
 .menu_link{
     float:left;
     width:208px;
+    padding:0 15px;
 }
 
 
