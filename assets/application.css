@@ -142,11 +142,12 @@ a{
     border: 0;
     box-shadow: none;
     border-radius: 0;
-    padding:10px;
+    
 }
 
 .dropdown-menu>li>a{
     padding-left:0;
+    
 }
 
 .footer{
