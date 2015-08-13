@@ -336,6 +336,10 @@ a{
     margin-right: -4px;
 }
 
+.social_footer a{
+    padding:0 4px;
+}
+
 
 .page_main_container{
     margin:0 -15px;    
