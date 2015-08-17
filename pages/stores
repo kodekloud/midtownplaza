@@ -11,9 +11,7 @@
             </div>
         </div>
         <div class="clearfix"></div>
-        <div>
-            <p class="store_list_promo"><i class="fa fa-circle promo_circle"></i>Store Promotion</p>
-        </div>
+        <p class="store_list_promo"><i class="fa fa-circle promo_circle"></i>Store Promotion</p>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
