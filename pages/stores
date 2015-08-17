@@ -11,7 +11,7 @@
             </div>
         </div>
         <div>
-            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i><p class="store_list_promo">Store Promotion</p>
         </div>
     </div>
     <div class="page_right">
