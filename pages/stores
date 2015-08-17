@@ -10,7 +10,7 @@
             </div>
         </div>
         <p class="store_list_promo"><i class="fa fa-circle promo_circle"></i>Store Promotion</p>
-        <div class="feature_row">
+        <div class="row">
             <div class="feature_column">
                 <p class="store_list_headers"><i class="fa fa-circle promo_circle visibility_hidden"></i>STORE</p>
             </div>
