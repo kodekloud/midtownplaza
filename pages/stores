@@ -23,7 +23,7 @@
         </div>
         
         <div >
-            <div class="feature_row" id="store_list_container">
+            <div class="row" id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
                     <div class="feature_column">
                         <p class="store_list_headers"><i class="fa fa-circle promo_circle visibility_hidden"></i>{{name}}</p>
