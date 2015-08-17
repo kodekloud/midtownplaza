@@ -110,7 +110,7 @@ function renderStoreDetails(container, template, collection, slug){
         // renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
         
         if (val.website.length > 0){
-            val.show = "display:block"
+            val.show = "display:inline-block"
         }
         else{
             val.show = "display:none"
