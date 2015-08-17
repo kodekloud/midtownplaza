@@ -97,14 +97,8 @@ function renderStoreDetails(container, template, collection, slug){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if (val.z_coordinate = 1){
-            val.level = "Lower Level"
-        }
-        else{
-            val.level = "Upper Level"
-        }
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
+            val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png"
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
