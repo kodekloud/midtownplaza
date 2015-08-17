@@ -26,7 +26,8 @@
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <div class="row">
                     <div class="col-md-5">
-                        <i class="fa fa-circle promo_circle visibility_hidden"></i>{{name}}
+                        <i class="fa fa-circle promo_circle visibility_hidden"></i>
+                        <p>{{name}}</p>
                     </div>
                     <div class="col-md-3">
                         <p class="">{{phone}}</p>
