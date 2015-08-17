@@ -314,6 +314,11 @@ a{
     height:158px;
 }
 
+.store_details_container img{
+    max-height:134px;
+    max-width:134px;
+}
+
 .feature_insider{
     margin-left:-5px;
     margin-right:-5px;
