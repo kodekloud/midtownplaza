@@ -124,3 +124,78 @@ function renderStoreDetails(container, template, collection, slug){
     $(container).html(item_rendered.join(''));
     $(".modal-backdrop").remove();
 }
+
+function renderStoreExtras(container, template, type, ids){
+            if (ids.length > 0 && type == "promos") {
+                $('#promotion_extra').show()
+            }
+            if (ids.length > 0 && type == "jobs") {
+                $('#employment_extra').show()
+            }
+            if (type == "promos"){
+                var collection = getPromotionsForIds(ids)
+            }
+            else if (type =="jobs"){
+                var collection = getJobsForIds(ids)
+            }
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            $.each( collection , function( key, val ) {
+                start = new Date (val.start_date);
+                end = new Date (val.end_date);
+                start.setDate(start.getDate()+1);
+                end.setDate(end.getDate()+1);
+                if (start.toDateString() == end.toDateString()) {
+                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+                } else {
+                    val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+                }
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            }) 
+            $(container).html(item_rendered.join(''));
+        }
+        function get_month (id){
+            switch(id) {
+                case 0:
+                    month = "Jan"
+                    break;
+                case 1:
+                    month = "Feb"
+                    break;
+                case 2:
+                    month = "Mar"
+                    break;
+                case 3:
+                    month = "Apr"
+                    break;
+                case 4:
+                    month = "May"
+                    break;
+                case 5:
+                    month = "June"
+                    break;
+                case 6:
+                    month = "July"
+                    break;
+                case 7:
+                    month = "Aug"
+                    break;
+                case 8:
+                    month = "Sep"
+                    break;
+                case 9:
+                    month = "Oct"
+                    break;
+                case 10:
+                    month = "Nov"
+                    break;
+                case 11:
+                    month = "Dec"
+                    break;
+                    
+            }
+            return month;
+        }
