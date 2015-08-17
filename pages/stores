@@ -16,10 +16,10 @@
                 <p class="store_list_header">STORE</p>
             </div>
             <div class="col-md-3">
-                <p class="">PHONE NUMBER</p>
+                <p class="store_list_header">PHONE NUMBER</p>
             </div>
             <div class="col-md-4">
-                <p class="">CATEGORY</p>
+                <p class="store_list_header">CATEGORY</p>
             </div>
         </div>
         
