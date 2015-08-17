@@ -306,6 +306,11 @@ a{
     text-align: center;
 }
 
+.store_details_container{
+    margin-top:13px;
+    margin-bottom:32px;
+    border-top:;
+}
 
 .feature_insider{
     margin-left:-5px;
