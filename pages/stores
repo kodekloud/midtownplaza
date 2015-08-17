@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-md-5 display_table">
                         <i class="display_cell fa fa-circle promo_circle visibility_hidden"></i>
-                        <p class="display_cell">{{name}}</p>
+                        <p class="display_cell store_list_name">{{name}}</p>
                     </div>
                     <div class="col-md-3">
                         <p class="">{{phone}}</p>
