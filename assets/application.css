@@ -8,6 +8,14 @@
     visibility:hidden;
 }
 
+.display_table{
+    display:table;
+}
+
+.display_cell{
+    display:table-cell;
+}
+
 .green_bar{
     background:#7abfc7;
     height:40px;
