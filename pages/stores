@@ -1,6 +1,9 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
+        <div class="feature_row">
+            
+        </div>
         <h2 class="store_list_heading">STORE DIRECTORY</h2>
     </div>
     <div class="page_right">
