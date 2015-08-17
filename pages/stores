@@ -27,7 +27,7 @@
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <div class="feature_row">
                     <div class="feature_column">
-                        <p class="store_list_headers"><i class="fa fa-circle promo_circle visibility_hidden"></i>STORE</p>
+                        <p class="store_list_headers"><i class="fa fa-circle promo_circle visibility_hidden"></i>{{name}}</p>
                     </div>
                     <div class="feature_column">
                         <p class="store_list_headers">PHONE NUMBER</p>
