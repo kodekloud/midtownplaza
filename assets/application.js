@@ -56,7 +56,7 @@ function renderStoreList(container, template, collection, type){
         }
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
-        val.categories_list = val.category_list = getCategoriesNamesByStoreSlug(val.slug)
+        val.categories_list = val.category_list = getCategoriesNamesByStoreSlug(val.slug);
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;";
@@ -98,26 +98,26 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png"
+            val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
-        val.category_list = getCategoriesNamesByStoreSlug(slug)
+        val.category_list = getCategoriesNamesByStoreSlug(slug);
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
-        val.property_map = getPropertyDetails().mm_host + getPropertyDetails().map_url
-        renderStoreExtras($('#promotions_container'), $('#promotions_template'), "promos", val.promotions)
-        // renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
+        val.property_map = getPropertyDetails().mm_host + getPropertyDetails().map_url;
+        renderStoreExtras($('#promotions_container'), $('#promotions_template'), "promos", val.promotions);
+        // renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
         
         if (val.website.length > 0){
-            val.show = "display:inline-block"
+            val.show = "display:inline-block";
         }
         else{
-            val.show = "display:none"
+            val.show = "display:none";
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
-    })
+    });
     
     $(container).show();
     
@@ -127,13 +127,13 @@ function renderStoreDetails(container, template, collection, slug){
 
 function renderStoreExtras(container, template, type, ids){
             if (ids.length > 0 && type == "promos") {
-                $('#promotion_extra').show()
+                $('#promotion_extra').show();
             }
             if (ids.length > 0 && type == "jobs") {
-                $('#employment_extra').show()
+                $('#employment_extra').show();
             }
             if (type == "promos"){
-                var collection = getPromotionsForIds(ids)
+                var collection = getPromotionsForIds(ids);
             }
             else if (type =="jobs"){
                 var collection = getJobsForIds(ids)
@@ -154,46 +154,46 @@ function renderStoreExtras(container, template, type, ids){
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-            }) 
+            }) ;
             $(container).html(item_rendered.join(''));
         }
         function get_month (id){
             switch(id) {
                 case 0:
-                    month = "Jan"
+                    month = "Jan";
                     break;
                 case 1:
-                    month = "Feb"
+                    month = "Feb";
                     break;
                 case 2:
-                    month = "Mar"
+                    month = "Mar";
                     break;
                 case 3:
-                    month = "Apr"
+                    month = "Apr";
                     break;
                 case 4:
-                    month = "May"
+                    month = "May";
                     break;
                 case 5:
-                    month = "June"
+                    month = "June";
                     break;
                 case 6:
-                    month = "July"
+                    month = "July";
                     break;
                 case 7:
-                    month = "Aug"
+                    month = "Aug";
                     break;
                 case 8:
-                    month = "Sep"
+                    month = "Sep";
                     break;
                 case 9:
-                    month = "Oct"
+                    month = "Oct";
                     break;
                 case 10:
-                    month = "Nov"
+                    month = "Nov";
                     break;
                 case 11:
-                    month = "Dec"
+                    month = "Dec";
                     break;
                     
             }
