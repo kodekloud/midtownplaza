@@ -371,6 +371,14 @@ a{
     margin-bottom: 36px;
 }
 
+.store_list_heading {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #cf717d;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+
 .floor_plan{
     margin-top: 15px;
     font-size:15px;
