@@ -360,6 +360,10 @@ a{
     width:25px;
 }
 
+.store_initial{
+    font-weight:bold;
+    font-size:16px;
+}
 .store_list_promo{
     margin-bottom:36px;
     font-size:16px;
