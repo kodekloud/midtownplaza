@@ -64,6 +64,7 @@ function renderStoreList(container, template, collection, type){
         else{
             val.initial = current_initial;
             store_initial = current_initial;
+            console.log(val.initial == "A")
             if (val.initial == "A"){
                 val.show = "display:inline-block;margin-top:24px";
             }
