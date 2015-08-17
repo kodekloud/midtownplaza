@@ -22,6 +22,22 @@
                 <p class="store_list_headers">CATEGORY</p>
             </div>
         </div>
+        
+        <div id="store_list_container">
+            <script>
+                <div class="feature_row">
+                    <div class="feature_column">
+                        <p class="store_list_headers"><i class="fa fa-circle promo_circle visibility_hidden"></i>STORE</p>
+                    </div>
+                    <div class="feature_column">
+                        <p class="store_list_headers">PHONE NUMBER</p>
+                    </div>
+                    <div class="feature_column">
+                        <p class="store_list_headers">CATEGORY</p>
+                    </div>
+                </div>
+            </script>
+        </div>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
