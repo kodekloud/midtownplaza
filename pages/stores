@@ -32,7 +32,7 @@
                         <p class="display_cell store_list_name">{{name}}</p>
                     </div>
                     <div class="col-md-3">
-                        <p class="">{{phone}}</p>
+                        <p class="store_list_detail">{{phone}}</p>
                     </div>
                     <div class="col-md-4">
                         <p class=""></p>
