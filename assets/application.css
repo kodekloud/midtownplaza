@@ -357,7 +357,7 @@ a{
 .promo_circle{
     color: #cf717d;
     font-size: 16px;
-    margin-right: 10px;
+    width:25px;
 }
 
 .store_list_promo{
