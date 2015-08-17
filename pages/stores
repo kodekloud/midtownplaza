@@ -35,6 +35,7 @@
                     <div class="feature_column">
                         <p class="store_list_headers"></p>
                     </div>
+                    <div class="clearfix"></div>
                 </script>
             </div>
         </div>
