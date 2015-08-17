@@ -284,6 +284,17 @@ a{
     text-align: center;
 }
 
+.feature_header{
+    font-family: 'EB Garamond';
+    font-size:22px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+
 .feature_insider{
     margin-left:-5px;
     margin-right:-5px;
