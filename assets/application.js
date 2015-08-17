@@ -106,8 +106,8 @@ function renderStoreDetails(container, template, collection, slug){
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
         
-        renderStoreExtras($('#promotions_container'), $('#promotions_template'), "promos", val.promotions)
-        renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
+        // renderStoreExtras($('#promotions_container'), $('#promotions_template'), "promos", val.promotions)
+        // renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs)
         
         if (val.website.length > 0){
             val.show = "display:block"
