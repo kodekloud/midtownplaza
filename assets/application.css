@@ -375,6 +375,7 @@ a{
 .store_list_headers{
     font-size:16px;
     font-weight:500;
+    display:inline-block;
 }
 
 .feature_2_dates{
