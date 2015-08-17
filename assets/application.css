@@ -339,6 +339,7 @@ a{
     margin-bottom:36px;
     color: #cf717d;
     text-decoration:underline;
+    display:inline-block;
 }
 
 .feature_2_dates{
