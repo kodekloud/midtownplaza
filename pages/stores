@@ -29,7 +29,7 @@
                 <div class="row store_row">
                     <div class="col-md-5 display_table">
                         <i style="{{promotion_exist}}" class="display_cell fa fa-circle promo_circle"></i>
-                        <p class="display_cell store_list_name">{{name}}</p>
+                        <p class="display_cell store_list_name"><a href="/stores/{{slug}}">{{name}}</p>
                     </div>
                     <div class="col-md-3">
                         <p class="store_list_details">{{phone}}</p>
