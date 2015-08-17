@@ -384,6 +384,10 @@ a{
     text-decoration: underline;
 }
 
+.store_list_details{
+    font-size: 16px;
+}
+
 .feature_2_dates{
     font-size:16px;
     margin-bottom:5px;
