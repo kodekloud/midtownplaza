@@ -73,7 +73,7 @@ function renderStoreList(container, template, collection, type){
             }
         }
         if (val.promotions.length > 0){
-            val.promotion_exist = "display:inline-block";
+            val.promotion_exist = "visibility:show;
         }
         else{
             val.promotion_exist = "visibility:hidden";
