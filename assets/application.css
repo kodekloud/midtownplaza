@@ -437,9 +437,9 @@ a{
 }
 
 .page_left{
-    width:704px;
+    width:703px;
     float:left;
-    padding:0 15px;
+    padding:0 6.5px;
 }
 .page_right{
     width:366px;
