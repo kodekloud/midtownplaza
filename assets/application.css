@@ -337,7 +337,8 @@ a{
     margin-top: 15px;
     font-size:15px;
     margin-bottom:36px;
-    
+    color: #cf717d;
+    text-decoration:underline;
 }
 
 .feature_2_dates{
