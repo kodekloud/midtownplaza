@@ -23,8 +23,7 @@
         </div>
         
         <div id="store_list_container">
-            <div class="row">
-                <script id="store_list_template" type="x-tmpl-mustache/text">
+            <script id="store_list_template" type="x-tmpl-mustache/text">
                     <div class="col-md-5">
                         <p class="store_list_headers"><i class="fa fa-circle promo_circle visibility_hidden"></i>{{name}}</p>
                     </div>
