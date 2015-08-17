@@ -24,7 +24,7 @@
         
         <div id="store_list_container">
             <script id="store_list_template" type="x-tmpl-mustache/text">
-                {{initial}}
+                <i class="fa fa-circle promo_circle visibility_hidden"></i>{{initial}}
                 <div class="row">
                     <div class="col-md-5 display_table">
                         <i class="display_cell fa fa-circle promo_circle visibility_hidden"></i>
