@@ -12,7 +12,8 @@
         <p class="store_list_promo"><i class="fa fa-circle promo_circle"></i>Store Promotion</p>
         <div class="row">
             <div class="col-md-5">
-                <i class="fa fa-circle promo_circle visibility_hidden"></i>STORE
+                <i class="fa fa-circle promo_circle visibility_hidden"></i>
+                <p>STORE</p>
             </div>
             <div class="col-md-3">
                 <p class="">PHONE NUMBER</p>
