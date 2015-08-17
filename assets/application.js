@@ -76,7 +76,7 @@ function renderStoreList(container, template, collection, type){
             val.promotion_exist = "display:inline-block";
         }
         else{
-            val.promotion_exist = "display:none";
+            val.promotion_exist = "visibility:hidden";
         }
         
         val.block = current_initial + '-block';
