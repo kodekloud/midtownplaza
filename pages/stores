@@ -7,7 +7,7 @@
             </div>
             <div class="feature_column"></div>
             <div class="feature_column">
-                <a>Floor plan</a>
+                <a href="#" class="floor_plan">Floor plan</a>
             </div>
         </div>
     </div>
