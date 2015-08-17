@@ -28,7 +28,7 @@
                 <i style="{{show}}" class="fa fa-circle promo_circle visibility_hidden"></i><span style="{{show}}" class="store_initial">{{initial}}</span>
                 <div class="row">
                     <div class="col-md-5 display_table">
-                        <i style="promotion_exist" class="display_cell fa fa-circle promo_circle"></i>
+                        <i style="{{promotion_exist}}" class="display_cell fa fa-circle promo_circle"></i>
                         <p class="display_cell store_list_name">{{name}}</p>
                     </div>
                     <div class="col-md-3">
