@@ -440,11 +440,11 @@ a{
     background: url("http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/0d83e540b9f2c2dcd06ea629819eea1e/location_indicator_map.png") no-repeat;
     cursor: pointer;
     display: block;
-    height: 65px;
+    height: 40px;
     margin-top: 5px;
     outline: medium none;
     text-indent: -9999px;
-    width: 45px;
+    width: 32px;
 }
 .page_left{
     width:703px;
