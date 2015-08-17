@@ -125,7 +125,6 @@ function renderStoreDetails(container, template, collection, slug){
 }
 
 function renderStoreExtras(container, template, type, ids){
-    console.log(ids)
     if (ids.length > 0 && type == "promos") {
         $('#promotion_extra').show();
     }
