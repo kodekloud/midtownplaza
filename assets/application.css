@@ -427,6 +427,10 @@ a{
     font-size:16px;
 }
 
+.store_website a{
+    color:#000;
+}
+
 .feature_2_dates{
     font-size:16px;
     margin-bottom:5px;
