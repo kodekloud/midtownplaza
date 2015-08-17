@@ -17,7 +17,7 @@
             <div class="col-md-3">
                 <p class="store_list_headers">PHONE NUMBER</p>
             </div>
-            <div class="feature_column">
+            <div class="col-md-3">
                 <p class="store_list_headers">CATEGORY</p>
             </div>
         </div>
