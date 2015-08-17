@@ -10,6 +10,9 @@
                 <a href="#" class="floor_plan">Floor plan</a>
             </div>
         </div>
+        <div>
+            <i class="fa fa-circle"></i>
+        </div>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
