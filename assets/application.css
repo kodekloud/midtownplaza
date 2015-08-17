@@ -18,6 +18,10 @@
     transform: translateY(-50%);
 }
 
+.store_middle{
+    height:134px;    
+}
+
 .display_table{
     display:table;
 }
