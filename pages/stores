@@ -1,1 +1,15 @@
 <div class="green_bar"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var banners = getBanners();
+            // renderBanner('#banner_template','#home_banner',banners);
+            show_content();
+            $('.flexslider').flexslider({
+                animation: "slide",
+            });
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
