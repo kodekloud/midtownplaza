@@ -13,13 +13,13 @@
         <p class="store_list_promo"><i class="fa fa-circle promo_circle"></i>Store Promotion</p>
         <div class="feature_row">
             <div class="feature_column">
-                STORE
+                <p class="store_list_headers">STORE</p>
             </div>
             <div class="feature_column">
-                PHONE NUMBER
+                <p class="store_list_headers">PHONE NUMBER</p>
             </div>
             <div class="feature_column">
-                CATEGORY
+                <p class="store_list_headers">CATEGORY</p>
             </div>
         </div>
     </div>
