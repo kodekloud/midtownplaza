@@ -386,6 +386,9 @@ a{
     text-decoration: underline;
 }
 
+.store_list_name a:hover{
+    color:#000;
+}
 .store_list_details{
     font-size: 16px;
 }
