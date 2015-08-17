@@ -78,12 +78,7 @@ function renderStoreList(container, template, collection, type){
         else{
             val.promotion_exist = "display:none";
         }
-        if (val.jobs.length > 0){
-            val.job_exist = "display:inline-block";
-        }
-        else{
-            val.job_exist = "display:none";
-        }
+        
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
