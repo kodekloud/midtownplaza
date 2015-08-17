@@ -15,10 +15,10 @@
                 <i class="fa fa-circle promo_circle visibility_hidden"></i>STORE
             </div>
             <div class="col-md-3">
-                <p class="store_list_headers">PHONE NUMBER</p>
+                <p class="">PHONE NUMBER</p>
             </div>
             <div class="col-md-4">
-                <p class="store_list_headers">CATEGORY</p>
+                <p class="">CATEGORY</p>
             </div>
         </div>
         
