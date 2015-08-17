@@ -64,7 +64,7 @@ function renderStoreList(container, template, collection, type){
         else{
             val.initial = current_initial;
             store_initial = current_initial;
-            val.show = "display:block;";
+            val.show = "display:inline-block;";
         }
         if (val.promotions.length > 0){
             val.promotion_exist = "display:inline-block";
