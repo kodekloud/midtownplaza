@@ -309,7 +309,8 @@ a{
 .store_details_container{
     margin-top:13px;
     margin-bottom:32px;
-    border-top:;
+    border-top:2px solid #ccc;
+    border-bottom:2px solid #ccc;
 }
 
 .feature_insider{
