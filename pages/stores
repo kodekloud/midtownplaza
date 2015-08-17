@@ -6,7 +6,9 @@
                 <h2 class="store_list_heading">STORE DIRECTORY</h2>
             </div>
             <div class="feature_column"></div>
-            <div class="feature_column">Floor plan</div>
+            <div class="feature_column">
+                Floor plan
+            </div>
         </div>
     </div>
     <div class="page_right">
