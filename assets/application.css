@@ -632,7 +632,7 @@ a{
         text-align:right;
     }
     .dashes{
-        display:nonw;
+        display:none;
     }
     .footer{
         text-align:center;
