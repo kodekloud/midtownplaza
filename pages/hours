@@ -60,7 +60,7 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             var hours = getPropertyHours();
-            renderPageData('#reg_hours_container','#reg_hours_template',hours, 'reg_hours')
+            renderHours('#reg_hours_container','#reg_hours_template',hours, 'reg_hours')
             show_content();
         }
         loadMallDataCached(renderAll); 
