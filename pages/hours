@@ -8,6 +8,7 @@
                 <tr>
                     <td class="hours_left">
                         <span>{{day}}</span>
+                        <span>&nbsp;</span>
                     </td>   
                     <td class="hours_right">
                         {{h}}
