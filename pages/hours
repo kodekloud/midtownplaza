@@ -7,7 +7,7 @@
             <script id="reg_hours_template" type="x-tmpl-mustache/text">
                 <tr>
                     <td class="hours_left">
-                        {{day}}
+                        <span>{{day}}</span>
                     </td>   
                     <td class="hours_right">
                         {{h}}
