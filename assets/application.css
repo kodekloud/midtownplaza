@@ -416,6 +416,14 @@ a{
 .hours_container td{
     padding:10px 0;
 }
+.hours_container .hours_left{
+    width:75%;
+}
+
+.hours_container .hours_left{
+    width:75%;
+}
+
 .hours_heading{
     font-size: 18px;
     color: #cf717d;
