@@ -47,7 +47,7 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            renderpageHTML();
+            
             show_content();
         }
         loadMallDataCached(renderAll); 
