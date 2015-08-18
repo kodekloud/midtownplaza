@@ -229,7 +229,9 @@ a{
 }
 
 .giftcards_box{
-    
+    background: #7abfc7;
+    height:172px;
+    padding:20px;
 }
 
 .newsletter_header{
