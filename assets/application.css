@@ -391,7 +391,8 @@ a{
 .left_promo_div{
     width: 164px;
     float: left;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 44px;
 }
 
 .promo_circle{
