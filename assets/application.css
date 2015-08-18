@@ -418,6 +418,7 @@ a{
 }
 .hours_container .hours_left{
     width:75%;
+    overflow:hidden
 }
 
 .hours_container .hours_right{
