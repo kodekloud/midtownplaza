@@ -17,6 +17,9 @@
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+.font_18{
+    font-size: 18px !important;
+}
 
 .img_auto{
     max-width: 100%;
