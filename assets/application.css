@@ -413,7 +413,7 @@ a{
     width:100%;
 }
 
-.hours_container tr{
+.hours_container td{
     padding:10px 0;
 }
 .hours_heading{
