@@ -409,6 +409,9 @@ a{
     margin-bottom: 32px;
     margin-top: 0;
 }
+.hours_container{
+    width:100%;
+}
 
 .hours_heading{
     font-size: 18px;
