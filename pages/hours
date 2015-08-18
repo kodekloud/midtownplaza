@@ -49,7 +49,6 @@
         function renderAll (){
             renderpageHTML();
             show_content();
-            
         }
         loadMallDataCached(renderAll); 
 		
