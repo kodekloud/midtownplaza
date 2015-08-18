@@ -4,17 +4,17 @@
         <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/97d02b415158d73dae7934a7b77ea8e8/aboutus.jpg" class="banner_hours" alt="banner" />
         <h2 class="hours_heading">REGULAR HOURS</h2>    
         <table id="reg_hours_container" class="reg_hours_container">
-                <script id="reg_hours_template" type="x-tmpl-mustache/text">
-                    <tr>
-                        <td class="hours_left">
-                            {{day}}
-                        </td>   
-                        <td class="hours_right">
-                            {{h}}
-                        </td>
-                    </tr>
-                </script>
-            </table>
+            <script id="reg_hours_template" type="x-tmpl-mustache/text">
+                <tr>
+                    <td class="hours_left">
+                        {{day}}
+                    </td>   
+                    <td class="hours_right">
+                        {{h}}
+                    </td>
+                </tr>
+            </script>
+        </table>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
