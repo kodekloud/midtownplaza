@@ -631,6 +631,9 @@ a{
         width:50%;
         text-align:right;
     }
+    .dashes{
+        display:nonw;
+    }
     .footer{
         text-align:center;
     }
