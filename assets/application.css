@@ -413,6 +413,9 @@ a{
     width:100%;
 }
 
+.hours_container tr{
+    padding:10px;
+}
 .hours_heading{
     font-size: 18px;
     color: #cf717d;
