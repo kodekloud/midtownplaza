@@ -419,6 +419,7 @@ a{
 .hours_container .hours_left{
     width:75%;
     overflow:hidden
+    background:#fff;
 }
 
 .hours_container .hours_left:before{
