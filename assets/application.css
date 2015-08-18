@@ -428,6 +428,8 @@ a{
     overflow:hidden;
 }
 
+dt:after { content: " .................................................................................." }
+
 .hours_heading{
     font-size: 18px;
     color: #cf717d;
