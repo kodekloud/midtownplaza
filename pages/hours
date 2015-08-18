@@ -1,7 +1,7 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
-        <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/97d02b415158d73dae7934a7b77ea8e8/aboutus.jpg" class="" alt="banner">
+        <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/97d02b415158d73dae7934a7b77ea8e8/aboutus.jpg" class="width_100" alt="banner">
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
