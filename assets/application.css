@@ -517,6 +517,10 @@ a{
     font-size:16px;
 }
 
+.promo_desc{
+    font-size:16px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
