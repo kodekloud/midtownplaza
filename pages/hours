@@ -1,10 +1,5 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
-    <div class="page_left">
-        <div id="404_msg" class="hidden_now"><p>Sorry we can't find the page you're looking for</p></div>
-        <h3 class="feature_2_header page_header" id="page_title"></h3>
-        <div id="mm_page_content"></div>
-    </div>
     <div class="page_right">
         <div class="hours_box feature_box">
             <h3 class="hours_header">HOURS</h3>
