@@ -430,7 +430,7 @@ a{
 }
 
 .dashes{
-    border-bottom:1px dashed;
+    border-bottom:2px dotted #ccc;
     display:inline-block;
     width:100%;
 }
