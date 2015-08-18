@@ -1,5 +1,8 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
+    <div class="page_left">
+        
+    </div>
     <div class="page_right">
         <div class="hours_box feature_box">
             <h3 class="hours_header">HOURS</h3>
