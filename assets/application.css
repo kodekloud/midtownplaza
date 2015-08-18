@@ -627,6 +627,10 @@ a{
     .hours_container .hours_left{
         width:50%;
     }
+    .hours_container .hours_right{
+        width:50%;
+        text-align:right;
+    }
     .footer{
         text-align:center;
     }
