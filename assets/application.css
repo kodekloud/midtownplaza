@@ -430,6 +430,7 @@ a{
 
 .dashes{
     border-bottom:1px dashed;
+    display:inline-block;
 }
 .hours_heading{
     font-size: 18px;
