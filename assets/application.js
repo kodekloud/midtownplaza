@@ -158,7 +158,7 @@ function renderStoreExtras(container, template, type, ids){
     $(container).html(item_rendered.join(''));
 }
 
-function renderHours(container, template, collection){
+function renderHours(container, template, collection, type){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
