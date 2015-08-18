@@ -243,6 +243,31 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 };
+
+function convert_hour(d){
+    var h = (d.getUTCHours());
+    var m = addZero(d.getUTCMinutes());
+    var s = addZero(d.getUTCSeconds());
+    if (h >= 12) {
+        if ( h != 12) {
+            h = h - 12;    
+        }
+        
+        i = "PM"
+    } else {
+        i = "AM"
+    }
+    return h+":"+m+" "+i;
+}
+
+
+
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
 function get_month (id){
     switch(id) {
         case 0:
