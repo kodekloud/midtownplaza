@@ -521,6 +521,12 @@ a{
     font-size:16px;
 }
 
+.promo_separator{
+    margin-top:28px;
+    border-bottom:2px solid #ccc;
+    padding-bottom:36px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
