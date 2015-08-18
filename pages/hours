@@ -48,11 +48,6 @@
     $(document).ready(function(e) {
         function renderAll (){
             renderpageHTML();
-            
-        }
-        
-        function renderpageHTML(){
-            
             show_content();
             
         }
