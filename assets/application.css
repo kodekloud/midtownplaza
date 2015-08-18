@@ -425,6 +425,7 @@ a{
 
 .hours_container .hours_right{
     width:25%;
+    overflow:hidden;
 }
 
 .hours_heading{
