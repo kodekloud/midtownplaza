@@ -418,7 +418,7 @@ a{
 }
 .hours_container .hours_left{
     width:75%;
-    overflow:hidden
+    overflow:hidden;
     background:#fff;
 }
 
