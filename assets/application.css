@@ -411,6 +411,7 @@ a{
 }
 .hours_container{
     width:100%;
+    margin-bottom:36px;
 }
 
 .hours_container td{
