@@ -17,7 +17,7 @@
             </script>
         </table>
         <h2 class="hours_heading">HOLIDAY HOURS</h2>    
-        <table id="reg_hours_container" class="hours_container">
+        <table id="holiday_hours_container" class="hours_container">
             <script id="reg_hours_template" type="x-tmpl-mustache/text">
                 <tr>
                     <td class="hours_left">
