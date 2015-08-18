@@ -512,6 +512,11 @@ a{
     font-size: 18px;
 }
 
+.promo_date{
+    font-weight:500;
+    font-size:16px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
