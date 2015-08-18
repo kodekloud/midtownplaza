@@ -624,6 +624,9 @@ a{
     }
 }
 @media(max-width:800px){
+    .hours_container .hours_left{
+        width:50%;
+    }
     .footer{
         text-align:center;
     }
