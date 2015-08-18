@@ -238,7 +238,10 @@ a{
 .giftcards_box img{
     width:150px;
 }
-
+.banner_hours{
+    width:100%;
+    margin-bottom:28px;
+}
 .newsletter_header{
     margin-top: 0;
     margin-bottom: 15px;
