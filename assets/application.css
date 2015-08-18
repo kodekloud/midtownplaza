@@ -422,7 +422,7 @@ a{
 }
 
 .hours_container .hours_left:before{
-    clip: rect(0px, 190px, 20px, 0px);
+    
     content: " ............................................................ ";
     position: absolute;
     z-index: -1;
