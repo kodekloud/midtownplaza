@@ -419,6 +419,9 @@ a{
 .hours_container .hours_left{
     width:75%;
 }
+.hours_container .hours_left span{
+    background:#fff;
+}
 
 .hours_container .hours_left:before{
     content: " ............................................................ ";
