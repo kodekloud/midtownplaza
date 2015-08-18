@@ -422,7 +422,6 @@ a{
 }
 
 .hours_container .hours_left:before{
-    
     content: " ............................................................ ";
     position: absolute;
     z-index: -1;
