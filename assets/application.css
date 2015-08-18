@@ -235,6 +235,10 @@ a{
     text-align:center;
 }
 
+.giftcards_box img{
+    width:150px;
+}
+
 .newsletter_header{
     margin-top: 0;
     margin-bottom: 15px;
