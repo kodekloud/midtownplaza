@@ -428,7 +428,9 @@ a{
     overflow:hidden;
 }
 
-
+.dashes{
+    border-bottom:1px dashed;
+}
 .hours_heading{
     font-size: 18px;
     color: #cf717d;
