@@ -418,16 +418,10 @@ a{
 }
 .hours_container .hours_left{
     width:75%;
-}
-.hours_container .hours_left span{
-    background:#fff;
+    overflow: hidden; 
+    white-space: nowrap 
 }
 
-.hours_container .hours_left:before{
-    content: " .................................................................................................................................................................................... ";
-    position: absolute;
-    z-index: -1;
-}
 
 .hours_container .hours_right{
     width:25%;
