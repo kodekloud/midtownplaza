@@ -16,9 +16,9 @@ function convert_hour(d){
             h = h - 12;    
         }
         
-        i = "PM"
+        i = "pm"
     } else {
-        i = "AM"
+        i = "am"
     }
     return h+":"+m+" "+i;
 }
