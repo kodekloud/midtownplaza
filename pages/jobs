@@ -2,7 +2,7 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="careers_heading">CAREERS</h2>
-        <div id="jobs_container" id="accordion">
+        <div id="jobs_container">
             <script id="jobs_template" type="x-tmpl-mustache/text">
                 <a data-toggle="collapse" data-parent="#accordion" href="#{{slug}}">{{name}}</a>
             </script>
