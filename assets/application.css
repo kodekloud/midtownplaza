@@ -660,6 +660,7 @@ a{
 .promo_one, .promo_two{
     padding: 0 10px;
     width:50%;
+    float:left;
 }
 
 
