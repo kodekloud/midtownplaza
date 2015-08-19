@@ -10,7 +10,8 @@
                 <div id="{{slug}}" class="panel-collapse collapse job_div">
                     <p>{{job_type}}</p>
                     {{{rich_description}}}
-                    <p class="promo_date">{{contact_name}}</p>
+                    <p class="promo_date">Contact</p>
+                    <p></p>
                 </div>
                 <hr class="jobs_separator">
             </script>
