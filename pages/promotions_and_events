@@ -12,7 +12,7 @@
                         <img src="{{image_url}}" alt="promo/event" class="width_100" />
                     </div>
                     <div class="clearfix"></div>
-                    <div class="promo_box_separator"></div>
+                    <hr class="promo_box_separator"></hr>
                 </div>
             </script>
         </div>
