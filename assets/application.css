@@ -676,6 +676,10 @@ a{
    float: right;
 }
 
+.promo_container:nth-child(even) .promo_one{
+   float: right;
+}
+
 .promo_box_separator{
     margin: 25px 24px;
     border-bottom:2px solid #ccc;
