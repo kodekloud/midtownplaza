@@ -336,6 +336,6 @@ function renderGeneral(container, template, collection, type){
 }
 
 
-function renderPromosEvents(){
+function renderPromosEvents(container, template, collection){
     
 }
