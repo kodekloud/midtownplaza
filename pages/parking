@@ -2,7 +2,8 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="hours_heading parking_header">PARKING</h2>    
-        
+        <div id="404_msg" class="hidden_now"><p>Sorry we can't find the page you're looking for</p></div>
+        <div id="mm_page_content"></div>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
