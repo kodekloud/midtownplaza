@@ -337,5 +337,8 @@ function renderGeneral(container, template, collection, type){
 
 
 function renderPromosEvents(container, template, collection){
-    
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future use
+    $.each( collection , function( key, val ) {
 }
