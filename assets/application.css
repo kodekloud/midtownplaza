@@ -676,8 +676,8 @@ a{
    float: right;
 }
 
-.promo_container:nth-child(even) .promo_one{
-   float: right;
+.promo_container:nth-child(even) .promo_two{
+   text-align: left;
 }
 
 .promo_box_separator{
