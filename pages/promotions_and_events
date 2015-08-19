@@ -54,7 +54,8 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var events = getEventList();
+            var events = getEventsList();
+            var events = getEventsList();
             show_content();
         }
         loadMallDataCached(renderAll); 
