@@ -53,7 +53,7 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var hours = getJobsList();
+            var jobs = getJobsList();
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
         }
