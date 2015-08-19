@@ -2,7 +2,7 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="hours_heading promo_heading">PROMOTIONS & EVENTS</h2>
-        <div class="promo_container">
+        <div class="promo_container" id="promo_container">
             <div class="promo_one">
                 yo
             </div>
@@ -63,7 +63,7 @@
             $.each(promos, function(i, v){
                 v.type="promo";
             });
-            renderPromosEvents()
+            renderPromosEvents('')
             show_content();
         }
         loadMallDataCached(renderAll); 
