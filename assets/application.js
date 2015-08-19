@@ -334,3 +334,8 @@ function renderGeneral(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
+
+function renderPromosEvents(){
+    
+}
