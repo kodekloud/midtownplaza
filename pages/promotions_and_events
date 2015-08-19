@@ -64,7 +64,7 @@
             $.each(promos, function(i, v){
                 v.type="promo";
             });
-            var promos_events = (promos.concat(events)).sortBy(function(o){ return o.name });
+            var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date });
             renderPromosEvents('#promo_container', '#promo_template', )
             show_content();
         }
