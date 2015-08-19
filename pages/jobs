@@ -5,6 +5,7 @@
         <div id="jobs_container">
             <script id="jobs_template" type="x-tmpl-mustache/text">
                 <h2 class="jobs_header"><a data-toggle="collapse" data-parent="#jobs_container" href="#{{slug}}">{{store_name}}</a></h2>
+                <p class="promo_date">{{name}}</p>
                 <div id="{{slug}}" class="panel-collapse collapse">
                     {{description}}
                 </div>
