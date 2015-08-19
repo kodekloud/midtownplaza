@@ -623,6 +623,16 @@ a{
     margin-bottom: 17px;
 }
 
+.careers_heading{
+    margin-top: 15px;
+    font-size: 19px;
+    color: #cf717d;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 17px;
+    margin-bottom: 17px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
