@@ -7,6 +7,7 @@
                 <div class="promo_container">
                     <div class="promo_one">
                         <h2 class="promo_name_header">{{name}}</h2>
+                        <p class="promo_date">Aug 13 - Sep 7</p>
                     </div>
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="promo/event" class="img_auto" />
