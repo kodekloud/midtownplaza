@@ -348,7 +348,7 @@ function renderPromosEvents(container, template, collection){
             val.image_url = val.event_image_url_abs
         }
         if ((val.image_url).indexOf('missing.png') > -1) {
-            val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
+            val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
