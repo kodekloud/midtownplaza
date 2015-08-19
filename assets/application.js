@@ -342,10 +342,10 @@ function renderPromosEvents(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future use
     $.each( collection , function( key, val ) {
         if (val.type=="promo"){
-            val.image_url = val.promo_image_url_abs
+            val.image_url = val.promo_image_url_abs;
         }
         if (val.type=="event"){
-            val.image_url = val.event_image_url_abs
+            val.image_url = val.event_image_url_abs;
         }
         if ((val.image_url).indexOf('missing.png') > -1) {
             val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
