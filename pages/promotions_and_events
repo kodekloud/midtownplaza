@@ -6,7 +6,7 @@
             <script id="promo_template" type="x-tmpl-mustache/text">
                 <div class="promo_container">
                     <div class="promo_one">
-                        {{name}}
+                        <h2 class="feature_2_header">{{name}}</h2>
                     </div>
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="promo/event" class="img_auto" />
