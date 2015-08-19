@@ -58,7 +58,6 @@
             var pages_json = "http://midtown2.mallmaverick.com/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 $("#page_title").html(data.title)
-                console.log(data.body)
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
