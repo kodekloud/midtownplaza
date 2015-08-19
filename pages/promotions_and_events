@@ -12,8 +12,8 @@
                         <img src="{{image_url}}" alt="promo/event" class="width_100" />
                     </div>
                     <div class="clearfix"></div>
-                    <hr class="promo_box_separator"></hr>
                 </div>
+                <hr class="promo_box_separator"></hr>
             </script>
         </div>
     </div>
