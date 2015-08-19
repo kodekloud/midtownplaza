@@ -5,7 +5,7 @@
         <div class="promo_container" id="promo_container">
             <script id="promo_template" type="x-tmpl-mustache/text">
                 <div class="promo_one">
-                    yo
+                    {{name}}
                 </div>
                 <div class="promo_two">
                     lo
