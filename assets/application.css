@@ -661,13 +661,15 @@ a{
     margin-right:-24px;
 }
 
-.promo_container:nth-child(even) .promo_one{
-   background:yellow;
-}
+
 .promo_one, .promo_two{
     padding: 0 24px;
     width:50%;
     float:left;
+}
+
+.promo_container:nth-child(even) .promo_one{
+   float: right;
 }
 
 .promo_box_separator{
