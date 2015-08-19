@@ -606,7 +606,10 @@ a{
     margin-bottom:0;
 }
 .jobs_seperator{
-    
+   margin-top:28px;
+    border-top:2px solid #ccc;
+    padding-bottom:28px;
+    margin-bottom:0; 
 }
 
 .closing_date{
