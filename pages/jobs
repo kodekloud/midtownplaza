@@ -10,7 +10,7 @@
                 <div id="{{slug}}" class="panel-collapse collapse">
                     {{description}}
                 </div>
-                <hr class="job_seperator">
+                <hr class="jobs_seperator">
             </script>
         </div>
     </div>
