@@ -45,7 +45,7 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var hours = getJobsList()
+            var hours = getJobsList();
             show_content();
         }
         loadMallDataCached(renderAll); 
