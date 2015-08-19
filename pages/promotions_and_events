@@ -8,6 +8,7 @@
                     <div class="promo_one">
                         <h2 class="promo_name_header">{{name}}</h2>
                         <p class="promo_date">{{dates}}</p>
+                        <p>{{description}}</p>
                     </div>
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="promo/event" class="img_auto" />
