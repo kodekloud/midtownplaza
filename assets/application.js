@@ -344,6 +344,9 @@ function renderPromosEvents(container, template, collection){
         if (val.type="promo"){
             val.image_url = val.promo_image_url_abs
         }
+        if (val.type="promo"){
+            val.image_url = val.promo_image_url_abs
+        }
         var rendered = Mustache.render(template_html,val);
          item_rendered.push(rendered);
     });
