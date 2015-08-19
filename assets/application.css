@@ -635,6 +635,10 @@ a{
     color: #cf717d;
 }
 
+.job_div{
+    font-size:16px;    
+}
+
 .jobs_header{
     font-size: 19px;
     color: #000;
