@@ -57,7 +57,7 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var jobs = getJobsList().sortBy(function(o){ return o.name });
+            var jobs = getJobsList().sortBy(function(o){ return o.name }).reverse();
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
         }
