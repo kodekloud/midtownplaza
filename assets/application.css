@@ -613,6 +613,10 @@ a{
     margin: 5px 0;
 }
 
+.careers_heading{
+        margin-top: 15px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
