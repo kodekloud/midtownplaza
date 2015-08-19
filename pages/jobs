@@ -57,7 +57,7 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var jobs = getJobsList().sortBy(store_name );
+            var jobs = getJobsList().sortBy(function(o){ return o.store_name });
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
         }
