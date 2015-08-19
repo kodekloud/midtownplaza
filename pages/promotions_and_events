@@ -11,8 +11,9 @@
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="promo/event" class="width_100" />
                     </div>
-                </div>
+                    
                 <div class="clearfix"></div>
+                </div>
             </script>
         </div>
     </div>
