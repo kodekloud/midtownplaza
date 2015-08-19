@@ -9,7 +9,7 @@
                 <p class="closing_date">Closing date: {{closing_date}}</p>
                 <div id="{{slug}}" class="panel-collapse collapse job_div">
                     <p>{{job_type}}</p>
-                    {{{description}}}
+                    {{{rich_description}}}
                 </div>
                 <hr class="jobs_separator">
             </script>
