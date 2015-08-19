@@ -630,7 +630,8 @@ a{
 }
 
 .jobs_arrow{
-    margin-left: 350px;
+    position: absolute;
+    left:300px;
     color: #cf717d;
 }
 
