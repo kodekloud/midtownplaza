@@ -55,6 +55,9 @@
     $(document).ready(function(e) {
         function renderAll (){
             var events = getEventsList();
+            $.each(events, function(){
+                
+            });
             var promos = getPromosList();
             show_content();
         }
