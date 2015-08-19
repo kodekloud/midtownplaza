@@ -57,14 +57,8 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        function sortByKey(array, key) {
-            return array.sort(function(a, b) {
-                var x = a[key]; var y = b[key];
-                return ((x < y) ? -1 : ((x > y) ? 1 : 0));
-            });
-        }
         function renderAll (){
-            var jobs = sortByKey(getJobsList(), 'name');
+            var jobs = getJobsList().sortBy(function(o){ return o.store_name });
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
         }
