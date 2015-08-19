@@ -59,7 +59,7 @@
                 v.type="event";
             });
             
-            var promos = getPromosList();
+            var promos = getPromotionsList();
             $.each(promos, function(i, v){
                 v.type="promo";
             });
