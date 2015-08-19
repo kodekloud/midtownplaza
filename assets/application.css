@@ -661,7 +661,7 @@ a{
     margin-right:-24px;
 }
 
-.promo_one:nth-child(even){
+.promo_container:nth-child(even){
     float:right !important;
 }
 .promo_one, .promo_two{
