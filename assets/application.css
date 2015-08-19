@@ -693,6 +693,10 @@ a{
     margin-top: 0;
 }
 
+.description{
+    font-size:16px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
