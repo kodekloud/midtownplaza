@@ -8,7 +8,7 @@
                     {{name}}
                 </div>
                 <div class="promo_two">
-                    <img src="{{image_url"
+                    <img src="{{image_url}}"
                 </div>
             </script>
         </div>
