@@ -309,7 +309,7 @@ function renderGeneral(container, template, collection, type){
             end = new Date (val.end_date);
             start.setDate(start.getDate()+1);
             end.setDate(end.getDate()+1);
-            val.closing_date = (get_month(end.getMonth()))+" "+(end.getDate());
+            val.closing_date = (get_month(end.getMonth()))+" "+(end.getDate());  
             if (val.contact_name == ""){
                 val.contact_name = "N/A" ;               
             }
