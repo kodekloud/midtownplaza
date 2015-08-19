@@ -343,3 +343,13 @@ function renderPromosEvents(container, template, collection){
     $.each( collection , function( key, val ) {
     });
 }
+
+
+
+
+
+
+
+
+
+
