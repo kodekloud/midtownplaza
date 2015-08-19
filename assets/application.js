@@ -243,3 +243,94 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 };
+
+function renderGeneral(container, template, collection, type){
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future use
+    $.each( collection , function( key, val ) {
+        if (type == "promos"){
+            if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
+                if (val.promotionable_type == "Store") {
+                    var store_details = getStoreDetailsByID(val.promotionable_id);
+                    if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
+                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
+                        val.store_image = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
+                    } else {
+                        val.alt_promo_image_url = (store_details.store_front_url_abs); 
+                        val.store_image = store_details.store_front_url_abs
+                    }
+                    
+                    val.store_name = store_details.name;
+                } else {
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
+                }
+                
+            } else {
+                val.alt_promo_image_url = (val.promo_image_url_abs);
+                if (val.promotionable_type == "Store") {
+                    var store_details = getStoreDetailsByID(val.promotionable_id);
+                    val.store_detail_btn = store_details.slug;
+                    val.store_name = store_details.name;
+                    val.store_image = store_details.store_front_url_abs
+                }
+        
+            }
+            
+            
+            start = new Date (val.start_date);
+            end = new Date (val.end_date);
+            start.setDate(start.getDate()+1);
+            end.setDate(end.getDate()+1);
+        
+            if (start.toDateString() == end.toDateString()) {
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+            } else {
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+            }
+            
+        }
+        if(type == "jobs"){
+            val.alt_promo_image_url = (val.promo_image_url_abs);
+            if (val.jobable_type == "Store") {
+                var store_details = getStoreDetailsByID(val.jobable_id);
+                if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png"
+                } else {
+                    val.alt_promo_image_url = (store_details.store_front_url_abs);    
+                }
+                val.store_name = store_details.name;
+                val.store_slug = store_details.slug;
+            }
+            else{
+                val.store_name = "Scarborough Town Centre";
+            }
+            start = new Date (val.start_date);
+            end = new Date (val.end_date);
+            start.setDate(start.getDate()+1);
+            end.setDate(end.getDate()+1);
+            val.closing_date = (get_month(end.getMonth()))+" "+(end.getDate());  
+            if (val.contact_name == ""){
+                val.contact_name = "N/A"                
+            }
+            if (val.contact_email == ""){
+                val.contact_email = "N/A"                
+            }
+        }
+        if(type=="events"){
+            start = new Date (val.start_date);
+            end = new Date (val.end_date);
+            start.setDate(start.getDate()+1);
+            end.setDate(end.getDate()+1);
+            if (start.toDateString() == end.toDateString()) {
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+            } else {
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+            }
+        }
+        var rendered = Mustache.render(template_html,val);
+         item_rendered.push(rendered);
+    });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
+}
