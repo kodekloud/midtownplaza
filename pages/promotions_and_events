@@ -64,7 +64,8 @@
             $.each(promos, function(i, v){
                 v.type="promo";
             });
-            renderPromosEvents('#promo_container', '#promo_template')
+            var promos_events = (promos.concat(events)).sortBy(function(o){ return o.name });
+            renderPromosEvents('#promo_container', '#promo_template', )
             show_content();
         }
         loadMallDataCached(renderAll); 
