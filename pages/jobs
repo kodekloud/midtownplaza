@@ -6,7 +6,7 @@
             <script id="jobs_template" type="x-tmpl-mustache/text">
                 <a data-toggle="collapse" data-parent="#jobs_container" href="#{{slug}}">{{name}}</a>
                 <div id="{{slug}}" class="panel-collapse collapse">
-                    yo
+                    {{description}}
                 </div>
             </script>
         </div>
