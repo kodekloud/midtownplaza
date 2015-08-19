@@ -21,6 +21,9 @@
     font-size: 18px !important;
 }
 
+.width_100{
+    width:100%;
+}
 .img_auto{
     max-width: 100%;
     max-height: 100%;
