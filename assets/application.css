@@ -660,6 +660,10 @@ a{
     margin-left:-24px;
     margin-right:-24px;
 }
+
+.promo_container:nth-child(even) {
+    background: #0000ff;
+}
 .promo_one, .promo_two{
     padding: 0 24px;
     width:50%;
