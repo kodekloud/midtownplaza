@@ -668,6 +668,9 @@ a{
     float:left;
 }
 
+.promo_box_separator{
+    clear:both;
+}
 
 
 @media(max-width:1024px){
