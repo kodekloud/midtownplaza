@@ -4,7 +4,7 @@
         <h2 class="careers_heading">CAREERS</h2>
         <div id="jobs_container" id="accordion">
             <script id="jobs_template" type="x-tmpl-mustache/text">
-                <a data-toggle="collapse" data-parent="#accordion" href="#{{slug}}">1. What is HTML?</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#{{slug}}">{{name}}</a>
             </script>
         </div>
     </div>
