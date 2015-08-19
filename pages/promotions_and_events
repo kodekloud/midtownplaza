@@ -11,7 +11,7 @@
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="promo/event" class="width_100" />
                     </div>
-                    <div class="clearfix"></div>
+                    <div class="promo_separator"></div>
                 </div>
             </script>
         </div>
