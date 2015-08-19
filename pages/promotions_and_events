@@ -1,7 +1,7 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
-        yo
+        <h2 class="hours_heading"></h2>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
