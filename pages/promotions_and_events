@@ -2,7 +2,9 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="hours_heading promo_heading">PROMOTIONS & EVENTS</h2>
-        
+        <div class="promo_container">
+            
+        </div>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
