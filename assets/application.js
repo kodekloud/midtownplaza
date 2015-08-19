@@ -350,6 +350,10 @@ function renderPromosEvents(container, template, collection){
         if ((val.image_url).indexOf('missing.png') > -1) {
             val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
         }
+        start = new Date (val.start_date);
+        end = new Date (val.end_date);
+        start.setDate(start.getDate()+1);
+        end.setDate(end.getDate()+1);
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         } else {
