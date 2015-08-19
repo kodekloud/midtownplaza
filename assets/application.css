@@ -668,9 +668,7 @@ a{
     float:left;
 }
 
-.promo_two{
-    text-align:right;
-}
+
 
 .promo_container:nth-child(even) .promo_one{
    float: right;
