@@ -58,7 +58,11 @@
             $.each(events, function(i, v){
                 v.type="event";
             });
+            
             var promos = getPromosList();
+            $.each(promos, function(i, v){
+                v.type="promo";
+            });
             show_content();
         }
         loadMallDataCached(renderAll); 
