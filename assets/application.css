@@ -662,7 +662,7 @@ a{
 }
 
 .promo_container:nth-child(even){
-    float:right !important;
+   background:yellow;
 }
 .promo_one, .promo_two{
     padding: 0 24px;
