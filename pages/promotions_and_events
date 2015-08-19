@@ -2,13 +2,15 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="hours_heading promo_heading">PROMOTIONS & EVENTS</h2>
-        <div class="promo_container" id="promo_container">
+        <div id="promo_container">
             <script id="promo_template" type="x-tmpl-mustache/text">
-                <div class="promo_one">
-                    {{name}}
-                </div>
-                <div class="promo_two">
-                    <img src="{{image_url}}" alt="promo/event" class="width_100" />
+                <div class="promo_container">
+                    <div class="promo_one">
+                        {{name}}
+                    </div>
+                    <div class="promo_two">
+                        <img src="{{image_url}}" alt="promo/event" class="width_100" />
+                    </div>
                 </div>
             </script>
         </div>
