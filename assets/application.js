@@ -341,6 +341,8 @@ function renderPromosEvents(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future use
     $.each( collection , function( key, val ) {
+        var rendered = Mustache.render(template_html,val);
+         item_rendered.push(rendered);
     });
 }
 
