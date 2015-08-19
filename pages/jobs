@@ -12,7 +12,7 @@
                     {{{rich_description}}}
                     <p class="promo_date">Contact</p>
                     <p>{{contact_name}}</p>
-                    <p>{{contact_name}}</p>
+                    <p>{{contact_email}}</p>
                 </div>
                 <hr class="jobs_separator">
             </script>
