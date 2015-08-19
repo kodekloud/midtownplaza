@@ -329,7 +329,7 @@ function renderGeneral(container, template, collection, type){
             }
         }
         var rendered = Mustache.render(template_html,val);
-         item_rendered.push(rendered);
+        item_rendered.push(rendered);
     });
     $(container).show();
     $(container).html(item_rendered.join(''));
