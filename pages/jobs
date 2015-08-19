@@ -2,9 +2,9 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="careers_heading">CAREERS</h2>
-        <div id="jobs_container">
+        <div id="jobs_container" id="accordion">
             <script id="jobs_template" type="x-tmpl-mustache/text">
-                <a data-toggle="collapse" data-parent="#{{slug}}" href="#collapseOne">1. What is HTML?</a>
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
             </script>
         </div>
     </div>
