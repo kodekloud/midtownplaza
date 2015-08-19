@@ -639,6 +639,7 @@ a{
     font-size:16px;    
 }
 
+
 .jobs_header{
     font-size: 19px;
     color: #000;
@@ -647,6 +648,10 @@ a{
     position: relative;
 }
 
+.promo_heading {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
 
 @media(max-width:1024px){
     .site_container{
