@@ -4,12 +4,13 @@
         <h2 class="hours_heading promo_heading">PROMOTIONS & EVENTS</h2>
         <div class="promo_container" id="promo_container">
             <script id="promo_template" type="x-tmpl-mustache/text">
-            <div class="promo_one">
-                yo
-            </div>
-            <div class="promo_two">
-                lo
-            </div>
+                <div class="promo_one">
+                    yo
+                </div>
+                <div class="promo_two">
+                    lo
+                </div>
+            </script>
             
         </div>
     </div>
