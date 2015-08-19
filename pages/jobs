@@ -9,7 +9,8 @@
                 <p class="closing_date">Closing date: {{closing_date}}</p>
                 <div id="{{slug}}" class="panel-collapse collapse job_div">
                     <p>{{job_type}}</p>
-                    {{{rich_description}}}
+                    <div>{{{rich_description}}}</div>
+                    <br />
                     <p class="promo_date">Contact</p>
                     <p>{{contact_name}}</p>
                     <p>{{contact_email}}</p>
