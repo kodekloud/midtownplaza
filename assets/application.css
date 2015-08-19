@@ -629,6 +629,11 @@ a{
     margin-bottom: 17px;
 }
 
+.jobs_arrow{
+    margin-left: 350px;
+    color: #cf717d;
+}
+
 .jobs_header{
     font-size: 19px;
     color: #000;
