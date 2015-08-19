@@ -63,6 +63,7 @@
             $.each(promos, function(i, v){
                 v.type="promo";
             });
+            renderPromosEvents()
             show_content();
         }
         loadMallDataCached(renderAll); 
