@@ -64,7 +64,7 @@
             });
         }
         function renderAll (){
-            var jobs = sortByKey(getJobsList(), 'name').reverse();
+            var jobs = sortByKey(getJobsList(), 'name');
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
         }
