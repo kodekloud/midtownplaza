@@ -70,7 +70,7 @@
             $.each(promos, function(i, v){
                 v.type="promo";
             });
-            var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date });
+            var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date }).reverse();
             renderPromosEvents('#promo_container', '#promo_template', promos_events)
             show_content();
         }
