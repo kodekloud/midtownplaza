@@ -47,7 +47,7 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var pages_json = "http://midtown2.mallmaverick.com/pages/" + slug + ".json"
+            var pages_json = "http://midtown2.mallmaverick.com/pages/midtown2-parking-directions.json"
             $.getJSON(pages_json).done(function(data) {
                 $("#page_title").html(data.title)
                 console.log(data.body)
