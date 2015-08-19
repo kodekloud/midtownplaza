@@ -295,7 +295,7 @@ function renderGeneral(container, template, collection, type){
             if (val.jobable_type == "Store") {
                 var store_details = getStoreDetailsByID(val.jobable_id);
                 if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/557af89f6e6f64717a000000/3dbb78c8bf8493b2de511c175b2a425b/stc_logo.png";
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
                 } else {
                     val.alt_promo_image_url = (store_details.store_front_url_abs);    
                 }
