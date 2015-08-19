@@ -8,6 +8,7 @@
                 <p class="promo_date">{{name}}</p>
                 <p class="closing_date">Closing date: {{closing_date}}</p>
                 <div id="{{slug}}" class="panel-collapse collapse">
+                    <p>{{job_type}}</p>
                     {{description}}
                 </div>
                 <hr class="jobs_separator">
