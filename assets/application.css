@@ -653,6 +653,12 @@ a{
     margin-bottom: 40px;
 }
 
+.promo_container{
+    margin-left:-10px;
+    margin-left:-10px;
+}
+
+
 @media(max-width:1024px){
     .site_container{
         width:100%
