@@ -1,7 +1,12 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
-        <h2 class="careers_heading">CAREERS</h2>    
+        <h2 class="careers_heading">CAREERS</h2>
+        <div id="jobs_container">
+            <script id="jobs_template" type="x-tmpl-mustache/text">
+            
+            </script>
+        </div>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
