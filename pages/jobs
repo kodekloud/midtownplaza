@@ -1,7 +1,7 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
-        <h2 class="careers_heading">CAREERS<span>></span></h2>
+        <h2 class="careers_heading">CAREERS<span class="jobs_arrow">></span></h2>
         <div id="jobs_container">
             <script id="jobs_template" type="x-tmpl-mustache/text">
                 <h2 class="jobs_header"><a data-toggle="collapse" data-parent="#jobs_container" href="#{{slug}}">{{store_name}}</a></h2>
