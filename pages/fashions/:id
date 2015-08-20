@@ -8,11 +8,12 @@
             </script>
         </div>
         <div id="fashion_images_container">
-        <script id="fashion_images_template" type="x-tmpl-mustache/text">
-            <div class="row">
-                
-            </div>
-        </script>
+            <script id="fashion_images_template" type="x-tmpl-mustache/text">
+                <div class="row">
+                    
+                </div>
+            </script>
+        <?div>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
