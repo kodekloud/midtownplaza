@@ -439,7 +439,7 @@ function renderEventDetails(container, template, collection){
                 val.store_name = store_details.name;
                 
             }
-            val.alt_promo_image_url = getImageURL(val.promo_image_url);
+            val.alt_promo_image_url = getImageURL(val.event_image_url);
             
         }
         start = new Date (val.start_date);
