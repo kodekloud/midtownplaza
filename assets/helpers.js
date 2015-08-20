@@ -7,8 +7,7 @@ function show_content(){
     $(".modal-backdrop").remove();
 }
 
-function pinIt(e){
-    e.preventDefault();
+function pinIt(){
     var e = document.createElement('script');
     e.setAttribute('type','text/javascript');
     e.setAttribute('charset','UTF-8');
