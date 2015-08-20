@@ -70,7 +70,7 @@
 <script>
     $(document).ready(function(e) {
         init(e);
-        function pinIt(){
+        pinIt();
                 var e = document.createElement('script');
                 e.setAttribute('type','text/javascript');
                 e.setAttribute('charset','UTF-8');
