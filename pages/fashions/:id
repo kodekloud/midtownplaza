@@ -5,6 +5,8 @@
         <div id="fashion_container">
             <script id="fashion_template" type="x-tmpl-mustache/text">
                 <p class="description">{{description}}</p>
+                <div class="row">
+                </div>
             </script>
         </div>
     </div>
