@@ -2,6 +2,7 @@
 <div class="page_main_container">
     <div class="page_left">
         <h2 class="store_list_heading">SHOP THE LOOK</h2>
+        <p class="description"></p>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
