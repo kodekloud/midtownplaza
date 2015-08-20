@@ -18,6 +18,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
+            var posts = getAllPublishedPosts();
             show_content();
             
         }
