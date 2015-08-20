@@ -19,6 +19,7 @@
         init(e);
         function renderAll (){
             var posts = getAllPublishedPosts();
+            var published_posts = sortByKey(posts, 'publish_date').reverse();
             show_content();
             
         }
