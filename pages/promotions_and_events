@@ -71,7 +71,7 @@
                 v.type="promotions";
             });
             
-            renderPromosEvents('#promo_container', '#promo_template', promos_events)
+            renderPromosEventsDetails('#promo_container', '#promo_template', promos_events)
             show_content();
         }
         loadMallDataCached(renderAll); 
