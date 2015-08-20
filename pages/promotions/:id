@@ -5,7 +5,7 @@
             <script id="promo_template" type="x-tmpl-mustache/text">
                 <h2 class="details_header">{{name}}</h2>
                 <h2 class="details_dates">{{dates}}</h2>
-                <img alt="promo details" src="alt_promo_image_url" />
+                <img alt="promo details" src="{{alt_promo_image_url}}" />
             </script>
         </div>
     </div>
