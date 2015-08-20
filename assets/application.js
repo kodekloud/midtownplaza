@@ -485,7 +485,7 @@ function renderFashionImages(container, template, collection){
         val.image_url = getPropertyDetails().mm_host + val.photo_url;
         var rendered = Mustache.render(template_html,val);
         if( counter % 3 === 0){
-            console.log("yo")
+            val.cc= "yo"
         }
         else{
             console.log("no")
