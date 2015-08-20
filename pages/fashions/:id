@@ -49,6 +49,7 @@
             var slug = pathArray[pathArray.length-1];
             var fashion = getFashionBySlug(slug);
             var fashion_images = fashion.fashion_images;
+            renderFashion("#fashion_container", "#fashion_template", fashion);
             show_content();
         }
         loadMallDataCached(renderAll); 
