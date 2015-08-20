@@ -767,6 +767,9 @@ a{
 
 }
 .blog_header{
+    padding-bottom:13px;
+    margin-bottom:32px;
+    border-bottom: 2px solid #ccc;
     
 }
 .blog_heading{
