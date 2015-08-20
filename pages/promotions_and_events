@@ -61,15 +61,6 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var events = getEventsList();
-            $.each(events, function(i, v){
-                v.type="events";
-            });
-            
-            var promos = getPromotionsList();
-            $.each(promos, function(i, v){
-                v.type="promotions";
-            });
             
             renderPromosEventsDetails('#promo_container', '#promo_template', promos_events)
             show_content();
