@@ -13,6 +13,7 @@ function pinIt(){
     e.setAttribute('charset','UTF-8');
     e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
     document.body.appendChild(e);
+    return false;
 }
 
 
