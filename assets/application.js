@@ -488,7 +488,7 @@ function renderFashionImages(container, template, collection){
             val.cc= "yo"
         }
         else{
-            console.log("no")
+            val.cc="no";
         }
         item_rendered.push(rendered);
         counter+=1;
