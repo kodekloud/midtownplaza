@@ -698,6 +698,10 @@ a{
     word-wrap: break-word;
 }
 
+.promo_details_header{
+    
+}
+
 
 @media(max-width:1024px){
     .site_container{
