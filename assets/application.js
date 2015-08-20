@@ -476,7 +476,7 @@ function renderFashion(container, template, collection){
 }
 
 function renderFashionImages(container, template, collection){
-    counter = 1;
+    counter = 0;
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
