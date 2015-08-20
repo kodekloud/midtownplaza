@@ -3,7 +3,7 @@
     <div class="page_left">
         <div id="promo_container">
             <script id="promo_template" type="x-tmpl-mustache/text">
-                <h2 class="hours_heading promo_heading">{{name}}</h2>
+                <h2 class="details_header">{{name}}</h2>
             </script>
         </div>
     </div>
