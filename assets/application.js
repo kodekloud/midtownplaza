@@ -487,7 +487,7 @@ function renderFashionImages(container, template, collection){
             val.cc= "style:clear:both";
         }
         else{
-            val.cc=""
+            val.cc="";
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
