@@ -15,8 +15,8 @@
                     </div>
                     <h2 class="fashion_heading">{{caption}}</h3>
                     <div class="description">{{{description}}}</div>
-                    <div {{cc}}></div>
                 </div>
+                <div {{cc}}></div>
             </script>
         </div>
     </div>
