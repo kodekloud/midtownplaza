@@ -733,7 +733,9 @@ a{
 .fashion_images_container{
     margin: 25px 0;
 }
-.fashion_heading
+.fashion_heading{
+    
+}
 
 @media(max-width:1024px){
     .site_container{
