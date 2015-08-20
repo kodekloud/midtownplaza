@@ -718,6 +718,10 @@ a{
     margin-bottom:32px;
 }
 
+.details_description{
+    font-size:18px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
