@@ -760,7 +760,7 @@ a{
     transform: translate(-50%, -50%);
 
 }
-.fashion_img_container .col-md-4{
+#fashion_images_container .col-md-4{
     min-height:500px;
 }
 
