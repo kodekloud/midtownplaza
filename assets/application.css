@@ -704,6 +704,10 @@ a{
     margin-bottom:0;
 }
 
+.details_dates{
+    margin: 0 32px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
