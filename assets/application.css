@@ -722,6 +722,12 @@ a{
     font-size:18px;
 }
 
+.details_share_icons{
+    width: 26px;
+    margin-top: -14px;
+    margin-left: 4.5px;
+    margin-right: 4.5px;
+}
 
 @media(max-width:1024px){
     .site_container{
