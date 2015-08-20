@@ -73,7 +73,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var event = getEventDetailsBySlug(slug);
-            renderEventDetails('#promo_container', '#event_template', event)
+            renderEventDetails('#event_container', '#event_template', event)
             show_content();
             
         }
