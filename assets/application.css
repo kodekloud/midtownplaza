@@ -761,7 +761,7 @@ a{
 
 }
 .fashion_img_container{
-    min-height:400px;
+    min-height:500px;
 }
 
 @media(max-width:1024px){
