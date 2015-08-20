@@ -63,7 +63,7 @@
         function renderAll (){
             var events = getEventsList();
             $.each(events, function(i, v){
-                v.type="event";
+                v.type="events";
             });
             
             var promos = getPromotionsList();
