@@ -51,7 +51,7 @@
         function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var store_details = getStoreDetailsBySlug(slug);
+            var promo = getStoreDetailsBySlug(slug);
             renderPromosEvents('#promo_container', '#promo_template', promo)
             show_content();
         }
