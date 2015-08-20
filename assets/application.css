@@ -732,6 +732,7 @@ a{
 
 #fashion_images_container{
     margin: 25px 0;
+    text-align:center;
 }
 .fashion_heading{
     font-size: 16px;
