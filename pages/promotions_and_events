@@ -1,9 +1,9 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
+        <h2 class="hours_heading promo_heading">PROMOTIONS & EVENTS</h2>
         <div id="promo_container">
             <script id="promo_template" type="x-tmpl-mustache/text">
-                <h2 class="hours_heading promo_heading">{{name}}</h2>
                 <div class="promo_container">
                     <div class="promo_one">
                         <h2 class="promo_name_header"><a href="/promotions_and_events/{{slug}}">{{name}}</a></h2>
@@ -61,7 +61,16 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
+            var events = getEventsList();
+            $.each(events, function(i, v){
+                v.type="events";
+            });
             
+            var promos = getPromotionsList();
+            $.each(promos, function(i, v){
+                v.type="promotions";
+            });
+            var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date });
             renderPromosEvents('#promo_container', '#promo_template', promos_events)
             show_content();
         }
