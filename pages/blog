@@ -4,7 +4,7 @@
             <script id="blog_template" type="x-tmpl-mustache/text">
                 <div class="promo_container">
                     <div class="promo_one">
-                        <h2 class="promo_name_header"><a href="/{{type}}/{{slug}}">{{name}}</a></h2>
+                        <h2 class="promo_name_header"><a href="#">{{name}}</a></h2>
                         <p class="description">{{description}}</p>
                     </div>
                     <div class="promo_two">
