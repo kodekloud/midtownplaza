@@ -769,6 +769,8 @@ a{
 
 .blog_heading{
     color: #cf717d;
+    font-weight:bold;
+    font-size:19px;
 }
 
 @media(max-width:1024px){
