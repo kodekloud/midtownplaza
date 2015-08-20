@@ -7,8 +7,8 @@
                 <p class="description">{{description}}</p>
             </script>
         </div>
-        
-        <script id="fashion_template" type="x-tmpl-mustache/text">
+        <div id="fashion_images_container">
+        <script id="fashion_images_template" type="x-tmpl-mustache/text">
             <div class="row">
                 
             </div>
