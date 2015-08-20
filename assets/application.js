@@ -485,7 +485,7 @@ function renderFashionImages(container, template, collection){
         val.image_url = getPropertyDetails().mm_host + val.photo_url;
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
-        counter+=1
+        counter+=1;
     });
     
     $(container).show();
