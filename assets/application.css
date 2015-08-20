@@ -771,7 +771,8 @@ a{
     color: #cf717d;
     font-weight:bold;
     font-size:19px;
-    margin-top:32;
+    margin-top:32px;
+    
 }
 
 @media(max-width:1024px){
