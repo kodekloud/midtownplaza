@@ -700,7 +700,8 @@ a{
 
 .details_header{
     font-size:45px;
-    
+    margin-top:15px;
+    margin-bottom:0;
 }
 
 
