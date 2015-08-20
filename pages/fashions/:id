@@ -9,7 +9,8 @@
         </div>
         <div id="fashion_images_container" class="row">
             <script id="fashion_images_template" type="x-tmpl-mustache/text">
-                
+                <div class="col-md-4">
+                </div>
             </script>
         </div>
     </div>
