@@ -10,7 +10,7 @@
                     {{store_name}}
                     <span class="pull-right">
                         Share
-                        <a style="margin-right: 25px;" target="_blank" href="http://www.facebook.com/sharer.php?u=http://erinmills.ca/promotions/{{slug}}">
+                        <a style="margin-right: 25px;" target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/promotions/{{slug}}">
                             <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_facebook.png" class="" alt="">
                         </a>
                         <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_twitter.png" class="" alt="">
