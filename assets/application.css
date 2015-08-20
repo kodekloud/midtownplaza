@@ -743,7 +743,7 @@ a{
 .fashion_img_container{
     height:300px;
     overflow:hidden;
-    postition:relative;
+    position:relative;
 }
 
 @media(max-width:1024px){
