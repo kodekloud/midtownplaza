@@ -484,7 +484,7 @@ function renderFashionImages(container, template, collection){
     $.each( collection , function( key, val ) {
         val.image_url = getPropertyDetails().mm_host + val.photo_url;
         if( counter % 3 === 0){
-            val.cc= "style:clear:both";
+            val.cc= "style=clear:both";
         }
         else{
             val.cc="";
