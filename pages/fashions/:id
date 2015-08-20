@@ -11,7 +11,7 @@
             <script id="fashion_images_template" type="x-tmpl-mustache/text">
                 <div class="col-md-4">
                     <img class="width_100" alt="fashion" src="{{image_url}}" />
-                    <h2 class="fashion_heading"></h3>
+                    <h2 class="fashion_heading">{{name}}</h3>
                 </div>
             </script>
         </div>
