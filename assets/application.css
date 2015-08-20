@@ -766,7 +766,9 @@ a{
     transform: translate(-50%, -50%);
 
 }
-
+.blog_header{
+    
+}
 .blog_heading{
     color: #cf717d;
     font-weight:bold;
