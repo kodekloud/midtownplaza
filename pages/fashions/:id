@@ -6,11 +6,13 @@
             <script id="fashion_template" type="x-tmpl-mustache/text">
                 <p class="description">{{description}}</p>
             </script>
-                <div class="row">
-                    
-                </div>
-            
         </div>
+        
+        <script id="fashion_template" type="x-tmpl-mustache/text">
+            <div class="row">
+                
+            </div>
+        </script>
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
