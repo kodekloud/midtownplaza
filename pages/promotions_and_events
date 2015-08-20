@@ -68,7 +68,7 @@
             
             var promos = getPromotionsList();
             $.each(promos, function(i, v){
-                v.type="promotion";
+                v.type="promotions";
             });
             var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date });
             renderPromosEvents('#promo_container', '#promo_template', promos_events)
