@@ -9,7 +9,7 @@
                         <p class="description">{{description}}</p>
                     </div>
                     <div class="promo_two">
-                        <img src="{{image_url}}" alt="promo/event" class="img_auto" />
+                        <img src="{{image_url}}" alt="blog" class="img_auto" />
                     </div>
                     <div class="clearfix"></div>
                 </div>
