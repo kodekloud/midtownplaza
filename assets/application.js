@@ -373,8 +373,9 @@ function renderPromoDetails(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
+    console.log(item_list)
     $.each( item_list , function( key, val ) {
-        console.log(val)
+        
         if ((val.promo_image_url).indexOf('missing.png') > -1){
             if (val.promotionable_type == "Store") {
                 var store_details = getStoreDetailsByID(val.promotionable_id);
