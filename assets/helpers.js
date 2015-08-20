@@ -8,12 +8,12 @@ function show_content(){
 }
 
 function pinIt(){
-                var e = document.createElement('script');
-                e.setAttribute('type','text/javascript');
-                e.setAttribute('charset','UTF-8');
-                e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
-                document.body.appendChild(e);
-            }
+    var e = document.createElement('script');
+    e.setAttribute('type','text/javascript');
+    e.setAttribute('charset','UTF-8');
+    e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
+    document.body.appendChild(e);
+}
 
 
 function convert_hour(d){
