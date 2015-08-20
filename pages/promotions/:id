@@ -6,6 +6,7 @@
                 <h2 class="details_header">{{name}}</h2>
                 <h2 class="details_dates">{{dates}}</h2>
                 <img class="width_100" alt="promo details" src="{{alt_promo_image_url}}" />
+                <p class="description">{{store_name}}</p>
             </script>
         </div>
     </div>
