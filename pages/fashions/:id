@@ -3,7 +3,7 @@
     <div class="page_left">
         <h2 class="store_list_heading">SHOP THE LOOK</h2>
         <div id="fashion_container">
-            <script id="promo_template" type="x-tmpl-mustache/text">
+            <script id="fashion_template" type="x-tmpl-mustache/text">
                 <p class="description"></p>
             </script>
         </div>
