@@ -736,6 +736,7 @@ a{
 .fashion_heading{
     font-size: 19px;
     color: #cf717d;
+    margin-bottom:10px;
 }
 
 @media(max-width:1024px){
