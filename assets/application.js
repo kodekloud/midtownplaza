@@ -486,9 +486,6 @@ function renderFashionImages(container, template, collection){
         if( counter % 3 === 0){
             val.cc= "style:clear:both";
         }
-        else{
-            val.cc="no";
-        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
         counter+=1;
