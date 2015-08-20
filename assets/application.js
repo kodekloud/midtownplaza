@@ -487,6 +487,9 @@ function renderFashionImages(container, template, collection){
         if( counter % 3 === 0){
             console.log("yo")
         }
+        else{
+            console.log("no")
+        }
         item_rendered.push(rendered);
         counter+=1;
     });
