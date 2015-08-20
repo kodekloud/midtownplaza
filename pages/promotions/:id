@@ -10,6 +10,7 @@
                     {{store_name}}
                     <span class="pull-right">
                         Share
+                        
                     </span>
                 </p>
                 <p class="details_description">{{description}}</p>
