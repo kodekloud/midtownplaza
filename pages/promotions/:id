@@ -13,7 +13,7 @@
                         <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/promotions/{{slug}}">
                             <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_facebook.png" class="details_share_icons" alt="share fb">
                         </a>
-                        <a target="_blank" href="http://twitter.com/share?url=http://erinmills.ca/promotions/{{slug}}"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_twitter.png" class="details_share_icons" alt="share twitter">
+                        <a target="_blank" href="http://twitter.com/share?url=http://midtownplaza.ca/promotions/{{slug}}"><img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_twitter.png" class="details_share_icons" alt="share twitter">
                         <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_pinterest.png" class="details_share_icons" alt="share pinterest">
                         <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_instagram.png" class="details_share_icons" alt="share instagram">
                     </span>
