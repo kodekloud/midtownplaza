@@ -72,7 +72,7 @@
         function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
-            var promo = getEventDetailsBySlug(slug);
+            var event = getEventDetailsBySlug(slug);
             renderEventDetails('#promo_container', '#promo_template', promo)
             show_content();
             
