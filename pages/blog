@@ -1,4 +1,5 @@
 <div class="green_bar"></div>
+<h2 blog_header></h2>
 <script>
     $(document).ready(function(e) {
         init(e);
