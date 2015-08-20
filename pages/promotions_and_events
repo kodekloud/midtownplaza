@@ -6,7 +6,7 @@
             <script id="promo_template" type="x-tmpl-mustache/text">
                 <div class="promo_container">
                     <div class="promo_one">
-                        <h2 class="promo_name_header"><a href="/promotions_and_events/{{slug}}">{{name}}</a></h2>
+                        <h2 class="promo_name_header"><a href="/{{type}}/{{slug}}">{{name}}</a></h2>
                         <p class="promo_date">{{dates}}</p>
                         <p class="description">{{description}}</p>
                     </div>
