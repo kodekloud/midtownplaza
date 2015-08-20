@@ -766,8 +766,9 @@ a{
     transform: translate(-50%, -50%);
 
 }
-#fashion_images_container .col-md-4{
-    
+
+.blog_heading{
+    color: #cf717d;
 }
 
 @media(max-width:1024px){
