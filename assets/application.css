@@ -685,6 +685,11 @@ a{
     border-bottom:2px solid #ccc;
 }
 
+.blog_box_separator{
+    margin: 25px 24px;
+    border-bottom:2px solid #ccc;
+}
+
 .promo_name_header{
     font-size: 19px;
     color: #cf717d;
