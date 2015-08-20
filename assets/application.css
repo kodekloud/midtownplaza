@@ -677,7 +677,7 @@ a{
 }
 
 .promo_container:nth-child(even) .promo_two{
-   text-align: left;
+   text-align: center;
 }
 
 .promo_box_separator{
