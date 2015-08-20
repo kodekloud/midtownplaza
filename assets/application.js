@@ -341,10 +341,10 @@ function renderPromosEvents(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future use
     $.each( collection , function( key, val ) {
-        if (val.type=="promo"){
+        if (val.type=="promotions"){
             val.image_url = val.promo_image_url_abs;
         }
-        if (val.type=="event"){
+        if (val.type=="events"){
             val.image_url = val.event_image_url_abs;
         }
         if ((val.image_url).indexOf('missing.png') > -1) {
