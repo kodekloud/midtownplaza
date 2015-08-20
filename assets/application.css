@@ -705,7 +705,7 @@ a{
 }
 
 .details_dates{
-    margin: 0 32px;
+    margin: 32px 0;
     font-size: 19px;
     color: #cf717d;
 }
