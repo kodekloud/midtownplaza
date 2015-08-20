@@ -1,1 +1,16 @@
 <div class="green_bar"></div>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var event = getEventDetailsBySlug(slug);
+            renderEventDetails('#event_container', '#event_template', event)
+            show_content();
+            
+        }
+        loadMallDataCached(renderAll); 
+		
+    });
+</script>
