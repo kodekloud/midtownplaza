@@ -1,6 +1,6 @@
 <div class="green_bar"></div>
 <h2 class="blog_header"><b>MIDTOWN</b> BLOG</h2>
-    <div id="promo_container">
+    <div id="blog_container">
             <script id="promo_template" type="x-tmpl-mustache/text">
                 <div class="promo_container">
                     <div class="promo_one">
