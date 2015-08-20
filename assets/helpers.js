@@ -8,6 +8,7 @@ function show_content(){
 }
 
 function pinIt(){
+    return false;
     var e = document.createElement('script');
     e.setAttribute('type','text/javascript');
     e.setAttribute('charset','UTF-8');
