@@ -10,7 +10,9 @@
         <div id="fashion_images_container" class="row">
             <script id="fashion_images_template" type="x-tmpl-mustache/text">
                 <div class="col-md-4">
-                    <img class="width_100" alt="fashion" src="{{image_url}}" />
+                    <div class="fashion_img_container">
+                        <img class="width_100" alt="fashion" src="{{image_url}}" />
+                    </div>
                     <h2 class="fashion_heading">{{caption}}</h3>
                 </div>
             </script>
