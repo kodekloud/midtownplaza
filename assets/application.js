@@ -413,10 +413,6 @@ function renderPromoDetails(container, template, collection){
     });
     $(container).show();
     $(container).html(item_rendered.join(''));
-    if (collection.promotionable_type == "Store"){
-        $("#store_btn").show();
-    }
-    $(".modal-backdrop").remove();
 }
 
 
