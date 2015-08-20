@@ -687,6 +687,7 @@ a{
 
 .blog_box_separator{
     margin: 28px 24px;
+    margin-bottom:32px;
     border-bottom:2px solid #ccc;
 }
 
