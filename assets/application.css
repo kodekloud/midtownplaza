@@ -746,6 +746,17 @@ a{
     position:relative;
 }
 
+.fashion_img_container img{
+        width: 100%;
+    position: absolute;
+    min-width: 100%;
+    max-width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
