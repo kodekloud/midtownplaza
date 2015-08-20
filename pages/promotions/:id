@@ -1,0 +1,59 @@
+<div class="green_bar"></div>
+<div class="page_main_container">
+    <div class="page_left">
+        <div id="promo_container">
+            <script id="promo_template" type="x-tmpl-mustache/text">
+                <h2 class="hours_heading promo_heading">{{name}}</h2>
+            </script>
+        </div>
+    </div>
+    <div class="page_right">
+        <div class="hours_box feature_box">
+            <h3 class="hours_header">HOURS</h3>
+            <p class="check_hours"><a href="#">Check Holiday Hours</a></p>
+            <h3 class="newsletter_header font_19">MONDAY AUGUST 00</h3>
+            <h3 class="hours_home">9:30 am - 5:30 pm</h3>
+            <p class="call_mp_home"><a href="tel:3066538844">Call 306-653-8844</a></p>
+        </div>
+        <div class="giftcards_box feature_box">
+            <h3 class="giftcards_header">GIFT CARDS</h3>
+            <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/97d02b415158d73dae7934a7b77ea8e8/midtown_gc_360.png" class="" alt="giftcards">
+        </div>
+        
+        <div class="newsletter_box feature_box">
+            <h3 class="newsletter_header">NEWSLETTER</h3>
+            <p>Exclusive deals straight to your inbox!</p>
+            <input type="text" placeholder="Enter your email address" id="newsletter_email" class="pull-left" />
+            <input type="submit" value="SUBSCRIBE" class="btn_mp pull-left" />
+            <div class="clearfix"></div>
+            <label class="check_text"><input type="checkbox" id="newsletter_agree" />I agree to receive newsletter from Midtown Plaza.</label>
+        </div>
+        <div class="feature_box">
+            <h3 class="feature_header">Blog</h3>
+            <div class="feature_insider">
+                <div class="feature_insider_right">
+                    <h3 class="feature_2_header">AUGUST 6, 2015</h3>
+                    <p class="feature_2_dates">LOREM IPSUM</p>
+                    <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a class="read_more" href="#">read more</a>
+                </div>
+                <div class="feature_insider_left pull-right">
+                    <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<script>
+    $(document).ready(function(e) {
+        function renderAll (){
+            
+            renderPromosEvents('#promo_container', '#promo_template', promo)
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+		
+    });
+</script>
