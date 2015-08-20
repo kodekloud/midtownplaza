@@ -669,7 +669,7 @@ a{
 }
 
 .promo_two{
-    text-align:right;
+    text-align:center;
 }
 
 .promo_container:nth-child(even) .promo_one{
