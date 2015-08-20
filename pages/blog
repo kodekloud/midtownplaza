@@ -20,6 +20,7 @@
         function renderAll (){
             var posts = getAllPublishedPosts();
             var published_posts = sortByKey(posts, 'publish_date').reverse();
+            renderPosts("#blog_container", "#blog_template", published_posts);
             show_content();
             
         }
