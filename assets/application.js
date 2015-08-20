@@ -430,7 +430,7 @@ function renderEventDetails(container, template, collection){
                 
             } else {
                 val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
-                val.store_name = store_details.name;
+                val.store_name = "Midtown Plaza";
             }
             
         } else {
