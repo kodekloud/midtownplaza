@@ -948,7 +948,7 @@ a{
     .promo_container{
         margin:0;
     }
-    .promo_one, .promo_two {
+    .promo_one, .promo_two, .blog_left, .blog_right {
         padding: 0 7px;
         width:100%;
         text-align: left;
@@ -956,6 +956,7 @@ a{
     .blog_details_container{
         margin:0;
     }
+    
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
