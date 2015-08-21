@@ -823,6 +823,7 @@ a{
 .blog_right{
     padding:0 13px;
     border-left:1px solid #ccc;
+    float:left;
 }
 
 
