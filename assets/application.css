@@ -789,6 +789,11 @@ a{
     line-height: 25px;
 }
 
+.blog_description{
+    font-size:16px;
+    word-wrap: break-word;
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
