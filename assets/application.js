@@ -519,7 +519,9 @@ function renderPosts(container, template, collection){
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-        
+        if (val.tag != undefined){
+            val.tag_list = val.tag.join(', ');
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
         counter = counter+1;
