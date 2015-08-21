@@ -778,6 +778,7 @@ a{
     font-size:19px;
     margin-top:0;
     margin-bottom:26px;
+    text-transform: uppercase;
 }
 
 .blog_name_header{
