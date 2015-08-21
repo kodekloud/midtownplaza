@@ -969,6 +969,9 @@ a{
     .mobile_padding{
         padding: 0 7px;
     }
+    #fashion_images_container .description{
+        margin-bottom:26px;
+    }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
