@@ -6,7 +6,7 @@
                     <div class="promo_one">
                         <p class="blog_heading">STYLE NEWS {{published_on}}</p>
                         <h2 class="blog_name_header"><a href="#">{{title}}</a></h2>
-                        <p class="description">{{body}}</p>
+                        <p class="description">{{description_short}}</p>
                     </div>
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="blog" class="img_auto" />
