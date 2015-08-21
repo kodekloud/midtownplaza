@@ -841,6 +841,10 @@ a{
     margin-bottom: 32px;
     text-transform: uppercase;
 }
+.blog_details_tags{
+    margin-bottom:0;
+    margin-top:16px;
+}
 
 
 @media(max-width:1024px){
