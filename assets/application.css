@@ -949,7 +949,7 @@ a{
         margin:0;
     }
     .promo_one, .promo_two {
-        padding: 0;
+        padding: 0 7px;
         width:100%;
     }
 }
