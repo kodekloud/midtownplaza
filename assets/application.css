@@ -814,7 +814,7 @@ a{
     margin:0 -13px;
 }
 .blog_left{
-    
+    padding:0 13px;
 }
 
 @media(max-width:1024px){
