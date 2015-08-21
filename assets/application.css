@@ -833,6 +833,14 @@ a{
     text-transform: uppercase;
     margin-bottom: 32px;
 }
+.blog_details_dates{
+    color: #cf717d;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
 
 
 @media(max-width:1024px){
