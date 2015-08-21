@@ -806,6 +806,10 @@ a{
     text-decoration:underline;
 }
 
+.blog_sharer{
+    margin-top:50px;
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
