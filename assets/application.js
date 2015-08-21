@@ -570,7 +570,7 @@ function renderPostDetails(container, template, collection){
             val.tag_list = val.tag.join(', ');
         }
         if(val.author.length > 100){
-            val.author="By " + val.author;
+            val.author = "By " + val.author;
         }
         
         var rendered = Mustache.render(template_html,val);
