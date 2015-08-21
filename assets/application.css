@@ -962,6 +962,9 @@ a{
     .feature_insider{
         margin:0;
     }
+    #promo_container{
+            padding: 0 7px;
+    }
 
 }
 
