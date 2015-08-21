@@ -1,0 +1,32 @@
+<div class="green_bar"></div>
+<h2 class="blog_header"><b>MIDTOWN</b> BLOG</h2>
+    <div id="blog_container">
+            <script id="blog_template" type="x-tmpl-mustache/text">
+                <div class="promo_container">
+                    <div class="promo_one">
+                        <p class="blog_heading">STYLE NEWS {{published_on}}</p>
+                        <h2 class="blog_name_header"><a href="#">{{title}}</a></h2>
+                        <p class="description">{{description_short}}<a href="/blogs/{{slug}}">read more</a></p>
+                    </div>
+                    <div class="promo_two">
+                        <img src="{{image_url}}" alt="blog" class="img_auto" />
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr class="blog_box_separator"></hr>
+                </div>
+            </script>
+        </div>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            var posts = getAllPublishedPosts();
+            var published_posts = sortByKey(posts, 'publish_date').reverse();
+            renderPosts("#blog_container", "#blog_template", published_posts);
+            show_content();
+            
+        }
+        loadMallDataCached(renderAll); 
+		
+    });
+</script>
