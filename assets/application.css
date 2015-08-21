@@ -780,6 +780,12 @@ a{
     margin-bottom:26px;
 }
 
+.blog_name_header{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
