@@ -1,5 +1,5 @@
 <div class="green_bar"></div>
-<div class="page_main_container">
+<div class="page_main_container mobile_padding">
     <div class="page_left">
         <h2 class="store_list_heading">SHOP THE LOOK</h2>
         <div id="fashion_container">
