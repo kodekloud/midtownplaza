@@ -815,14 +815,13 @@ a{
 }
 .blog_left{
     padding:0 13px;
-    border-right:1px solid #ccc;
+    border-right:2px solid #ccc;
     width:800px;
     float:left;
 }
 
 .blog_right{
     padding:0 13px;
-    border-left:1px solid #ccc;
     float:left;
     width:266px;
 }
