@@ -569,7 +569,7 @@ function renderPostDetails(container, template, collection){
         if (val.tag != undefined){
             val.tag_list = val.tag.join(', ');
         }
-        if(val.author.length > 100){
+        if(val.author.length > 0){
             val.author = "By " + val.author;
         }
         
