@@ -815,6 +815,7 @@ a{
 }
 .blog_left{
     padding:0 13px;
+    border-right:1px solid #ccc;
 }
 
 @media(max-width:1024px){
