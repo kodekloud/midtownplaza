@@ -816,7 +816,9 @@ a{
 .blog_left{
     padding:0 13px;
     border-right:1px solid #ccc;
+    width:737px;
 }
+
 
 @media(max-width:1024px){
     .site_container{
