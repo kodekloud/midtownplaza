@@ -680,7 +680,7 @@ a{
    text-align: center;
 }
 
-.promo_container:nth-child(even) .promo_two{
+.promo_container:nth-child(even) .promo_two .blog_details_tags{
     
 }
 
