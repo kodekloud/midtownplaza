@@ -819,6 +819,10 @@ a{
     width:773px;
 }
 
+.blog_right{
+    padding:0 13px;
+}
+
 
 @media(max-width:1024px){
     .site_container{
