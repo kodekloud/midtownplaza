@@ -802,7 +802,8 @@ a{
 }
 
 .blog_read_more:hover{
-    
+    color:#cf717d;
+    text-decoration:underline;
 }
 
 @media(max-width:1024px){
