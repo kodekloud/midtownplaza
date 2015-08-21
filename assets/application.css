@@ -813,6 +813,9 @@ a{
 .blog_details_container{
     margin:0 -13px;
 }
+.blog_left{
+    
+}
 
 @media(max-width:1024px){
     .site_container{
