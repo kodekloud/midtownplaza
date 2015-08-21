@@ -951,6 +951,7 @@ a{
     .promo_one, .promo_two {
         padding: 0 7px;
         width:100%;
+        text-align: left;
     }
 }
 
