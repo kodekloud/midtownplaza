@@ -794,6 +794,10 @@ a{
     word-wrap: break-word;
 }
 
+.blog_read_more{
+    
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
