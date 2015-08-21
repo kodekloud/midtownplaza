@@ -569,6 +569,9 @@ function renderPostDetails(container, template, collection){
         if (val.tag != undefined){
             val.tag_list = val.tag.join(', ');
         }
+        if(val.author.length > 100){
+            val.author="By " + val.author;
+        }
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
