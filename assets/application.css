@@ -816,14 +816,14 @@ a{
 .blog_left{
     padding:0 13px;
     border-right:2px solid #ccc;
-    width:800px;
+    width:801px;
     float:left;
 }
 
 .blog_right{
     padding:0 13px;
     float:left;
-    width:266px;
+    width:265px;
 }
 
 .blog_details_heading{
