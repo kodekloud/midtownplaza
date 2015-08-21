@@ -810,6 +810,9 @@ a{
     margin-top:40px;
     font-size:18px;
 }
+.blog_details_container{
+    margin:0 -13px;
+}
 
 @media(max-width:1024px){
     .site_container{
