@@ -681,7 +681,7 @@ a{
 }
 
 .promo_container:nth-child(even) .promo_two .blog_details_tags{
-    text-align:right;
+    text-align:left;
 }
 
 .promo_box_separator{
