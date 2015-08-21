@@ -817,11 +817,12 @@ a{
     padding:0 13px;
     border-right:1px solid #ccc;
     width:773px;
+    float:left;
 }
 
 .blog_right{
     padding:0 13px;
-    border-right:1px solid #ccc;
+    border-left:1px solid #ccc;
 }
 
 
