@@ -944,6 +944,9 @@ a{
     .page_left, .page_right{
         width:100%;
     }
+    .promo_container{
+        margin:0;
+    }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
