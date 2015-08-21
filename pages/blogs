@@ -22,6 +22,7 @@
                     </div>
                     <div class="promo_two">
                         <img src="{{image_url}}" alt="blog" class="img_auto" />
+                        <p class="blog_details_tags">{{tag_list}}</p>
                     </div>
                     <div class="clearfix"></div>
                     <hr class="blog_box_separator"></hr>
