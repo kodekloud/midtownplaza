@@ -4,7 +4,7 @@
             <script id="blog_template" type="x-tmpl-mustache/text">
                 <div class="promo_container">
                     <div class="promo_one">
-                        <p class="blog_heading">{{published_on}}</p>
+                        <p class="blog_heading">STYLE NEWS {{published_on}}</p>
                         <h2 class="blog_name_header"><a href="#">{{title}}</a></h2>
                         <p class="description">{{description}}</p>
                     </div>
