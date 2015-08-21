@@ -9,10 +9,10 @@
                         <p class="blog_description">{{description_short}} <a href="/blogs/{{slug}}" class="blog_read_more">read more</a></p>
                         <span class="pull-right">
                             Share
-                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/promotions/{{slug}}">
+                            <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/blogs/{{slug}}">
                                 <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_facebook.png" class="details_share_icons" alt="share fb" />
                             </a>
-                            <a target="_blank" href="http://twitter.com/share?text={{name}}&url=http://midtownplaza.ca/promotions/{{slug}}">
+                            <a target="_blank" href="http://twitter.com/share?text={{name}}&url=http://midtownplaza.ca/blogs/{{slug}}">
                                 <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_twitter.png" class="details_share_icons" alt="share twitter" />
                             </a>
                             <button onclick="pinIt()" style="padding: 0;border: 0;background: none;">
