@@ -801,6 +801,10 @@ a{
     text-decoration:underline;
 }
 
+.blog_read_more:hover{
+    
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
