@@ -11,7 +11,7 @@
                     <p>{{job_type}}</p>
                     <div>{{{rich_description}}}</div>
                     <br />
-                    <div style="hide_contact">
+                    <div style="{{hide_contact}}">
                         <p class="promo_date">Contact</p>
                         <p>{{contact_name}}</p>
                         <p>{{contact_email}}</p>
