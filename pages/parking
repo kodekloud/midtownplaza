@@ -68,6 +68,7 @@
                 }
             }); 
             show_content();
+            $('iframe').addClass('scrolloff');
             $('#map_frame').on('click', function () {
                 $('iframe').removeClass('scrolloff');
             });
