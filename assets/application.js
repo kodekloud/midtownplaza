@@ -324,7 +324,7 @@ function renderGeneral(container, template, collection, type){
                 val.contact_email = "N/A";              
             }
             if(val.contact_email == "N/A" && val.contact_name == "N/A"){
-                
+                val.hide_contact = "disply:none"
             }
         }
         if(type=="events"){
