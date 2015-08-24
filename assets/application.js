@@ -464,7 +464,7 @@ function renderPromoDetails(container, template, collection){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
         }
-        console.log(valurl)
+        console.log(val.url)
        
         start = new Date (val.start_date);
         end = new Date (val.end_date);
