@@ -21,7 +21,9 @@
 <div class="feature_row">
     <div class="feature_column">
         <div class="newsletter_box feature_box">
-            <div id="success_subscribe"></div>
+            <div id="success_subscribe">
+                <p>Thanks for subscribing.</p>
+            </div>
             <h3 class="newsletter_header">NEWSLETTER</h3>
             <p>Exclusive deals straight to your inbox!</p>
             <form action="http://mobilefringe.createsend.com/t/d/s/yhudtt/" id="newsletter_form">
