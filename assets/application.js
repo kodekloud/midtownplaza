@@ -452,6 +452,7 @@ function renderPromoDetails(container, template, collection){
                 var store_details = getStoreDetailsByID(val.promotionable_id);
                 val.store_detail_btn = store_details.slug ;
                 val.store_name = store_details.name;
+                val.url=store_details.slug;
                 
             }
             val.alt_promo_image_url = getImageURL(val.promo_image_url);
