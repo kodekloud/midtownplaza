@@ -4,6 +4,10 @@ body{
     margin-top:10px;
 }
 
+.scrolloff {
+    pointer-events: none;
+}
+
 .hide_phone{
     display:block;
 }
