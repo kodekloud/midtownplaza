@@ -351,7 +351,7 @@ function renderPromosEvents(container, template, collection){
     $.each( collection , function( key, val ) {
         if (val.type=="promotions"){
             val.image_url = val.promo_image_url_abs;
-            store_details = getStoreDetailsByID(val.jobable_id);
+            store_details = getStoreDetailsByID(val.promotionable_id);
         }
         if (val.type=="events"){
             val.image_url = val.event_image_url_abs;
