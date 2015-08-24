@@ -858,7 +858,9 @@ a{
     font-size:16px;
 }
 
-
+.promo_container .blog_details_tags{
+    text-align:left;
+}
 
 @media(max-width:1024px){
     .site_container{
