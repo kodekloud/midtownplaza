@@ -3,9 +3,9 @@ function init(e){
 
     $('#newsletter_form').submit(function(e){
         e.preventDefault();
-        if ($("#agree_terms").prop("checked") != true){
+        if ($("#newsletter_agree").prop("checked") != true){
             alert("Please agree to the term and conditions.");
-            $("#agree_terms").focus();
+            $("#newsletter_agree").focus();
             return false;
         }
         $.getJSON(
