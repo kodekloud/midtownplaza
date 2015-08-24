@@ -862,7 +862,7 @@ a{
     text-align:left;
 }
 
-
+.promo_container:nth-child(even) .promo_two .blog_details_tags
 
 @media(max-width:1024px){
     .site_container{
