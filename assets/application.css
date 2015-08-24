@@ -862,7 +862,9 @@ a{
     text-align:left;
 }
 
-.promo_container:nth-child(even) .promo_two .blog_details_tags
+.promo_container:nth-child(odd) .promo_two .blog_details_tags{
+    text-align:left;
+}
 
 @media(max-width:1024px){
     .site_container{
