@@ -7,7 +7,7 @@
                         <p class="blog_heading">STYLE NEWS {{published_on}}</p>
                         <h2 class="blog_name_header"><a href="/blogs/{{slug}}">{{title}}</a></h2>
                         <p class="blog_description">{{description_short}} <a href="/blogs/{{slug}}" class="blog_read_more">read more</a></p>
-                        <p class="blog_sharer">
+                        <p class="blog_sharer share_links">
                             Share
                             <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/blogs/{{slug}}">
                                 <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_facebook.png" class="details_share_icons" alt="share fb" />
