@@ -56,8 +56,10 @@ function renderStoreList(container, template, collection, type){
         }
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
-        val.categories_list = getCategoryDetails(val.categories[0])
-       
+        var category = getCategoryDetails(val.categories[0]);
+        if (caegory != undefined){
+            val.categories_list = category.name
+        }
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;";
