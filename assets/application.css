@@ -808,6 +808,13 @@ a{
     margin-bottom:26px;
 }
 
+.blog_read_more{
+    font-family: 'EB Garamond';
+    font-size:14px;
+    color:#cf717d;
+    text-decoration:underline;
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
