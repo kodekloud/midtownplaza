@@ -23,11 +23,12 @@
         <div class="newsletter_box feature_box">
             <h3 class="newsletter_header">NEWSLETTER</h3>
             <p>Exclusive deals straight to your inbox!</p>
-            <form action="http://mobilefringe.createsend.com/t/d/s/yhudtt/"></form>
-            <input name="cm-yhudtt-yhudtt" type="text" placeholder="Enter your email address" id="newsletter_email" class="pull-left" />
-            <input type="submit" value="SUBSCRIBE" class="btn_mp pull-left" />
-            <div class="clearfix"></div>
-            <label class="check_text"><input type="checkbox" id="newsletter_agree" />I agree to receive newsletters from Midtown Plaza.</label>
+            <form action="http://mobilefringe.createsend.com/t/d/s/yhudtt/">
+                <input name="cm-yhudtt-yhudtt" type="text" placeholder="Enter your email address" id="newsletter_email" class="pull-left" />
+                <input type="submit" value="SUBSCRIBE" class="btn_mp pull-left" />
+                <div class="clearfix"></div>
+                <label class="check_text"><input type="checkbox" id="newsletter_agree" />I agree to receive newsletters from Midtown Plaza.</label>
+            </form>
         </div>
     </div>
     <div class="feature_column">
