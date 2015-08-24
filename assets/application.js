@@ -382,6 +382,7 @@ function renderPromoDetails(container, template, collection){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.promo_image_url).indexOf('missing.png') > -1){
+            console.log("here")
             if (val.promotionable_type == "Store") {
                 var store_details = getStoreDetailsByID(val.promotionable_id);
                 val.alt_promo_image_url = getImageURL(store_details.store_front_url);
