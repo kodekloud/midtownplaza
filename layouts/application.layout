@@ -58,8 +58,8 @@
                                         Shopping
                                     </a>
                                     <ul class="dropdown-menu center_menu">
-                                        <li><a href="#">Directory</a></li>
-                                        <li><a href="#">Hours</a></li>
+                                        <li><a href="/stores">Directory</a></li>
+                                        <li><a href="/hours">Hours</a></li>
                                         <li><a href="#">Parking</a></li>
                                       </ul>
                                 </li>
