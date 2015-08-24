@@ -460,7 +460,7 @@ function renderPromoDetails(container, template, collection){
             val.store_name = "Midtown Plaza";
         }
         
-        if(val.url == "" || val.url === null || val.url -- undefined){
+        if(val.url == "" || val.url === null || val.url === undefined){
            val.css = "style=cursor:default;";
            val.noLink = "return false";
         }
