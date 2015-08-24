@@ -117,6 +117,9 @@ function renderStoreDetails(container, template, collection, slug){
         else{
             val.show = "display:none";
         }
+        if(val.description.length > 0){
+            val.desc_pad = "padding_10";
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
