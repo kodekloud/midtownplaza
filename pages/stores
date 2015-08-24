@@ -34,7 +34,7 @@
                     <div class="col-md-3">
                         <p class="store_list_details">{{phone}}</p>
                     </div>
-                    <div class="col-md-4 hidden_phone">
+                    <div class="col-md-4 hide_phone">
                         <p class="store_list_details">{{categories_list}}</p>
                     </div>
                 </div>
