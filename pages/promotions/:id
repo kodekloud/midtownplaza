@@ -17,7 +17,7 @@
                         <a target="_blank" href="http://twitter.com/share?text={{name}}&url=http://midtownplaza.ca/promotions/{{slug}}">
                             <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_twitter.png" class="details_share_icons" alt="share twitter" />
                         </a>
-                        <a onclick="pinIt()" style="padding: 0;border: 0;background: none;">
+                        <a href="#" onclick="pinIt()" style="padding: 0;border: 0;background: none;">
                             <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4b8169f48b9e5a4673f8d97be395de80/share_pinterest.png" class="details_share_icons" alt="share pinterest" />
                         </a>
                     </span>
