@@ -8,6 +8,10 @@ body{
     display:block;
 }
 
+
+.cursor_pointer{
+    cursor:pointer;
+}
 .visibility_hidden{
     visibility:hidden;
 }
