@@ -863,7 +863,7 @@ a{
 }
 
 .promo_container:nth-child(odd) .promo_two .blog_details_tags{
-    text-align:left;
+    text-align:right;
 }
 
 @media(max-width:1024px){
