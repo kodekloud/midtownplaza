@@ -355,7 +355,7 @@ function renderPromosEvents(container, template, collection){
         }
         if (val.type=="events"){
             val.image_url = val.event_image_url_abs;
-            store_details = getStoreDetailsByID(val.jobable_id);
+            store_details = getStoreDetailsByID(val.eventable_id);
         }
         if ((val.image_url).indexOf('missing.png') > -1) {
             if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
