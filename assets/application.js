@@ -346,6 +346,7 @@ function renderGeneral(container, template, collection, type){
 function renderPromosEvents(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
+    var store_details 
     Mustache.parse(template_html);   // optional, speeds up future use
     $.each( collection , function( key, val ) {
         if (val.type=="promotions"){
