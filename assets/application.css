@@ -901,6 +901,9 @@ a{
     .promo_container:nth-child(odd) .promo_two .blog_details_tags {
         text-align: left;
     }
+    .blog_box_separator{
+            margin: 28px 0;
+    }
     .promo_container{
         margin:0;
     }
