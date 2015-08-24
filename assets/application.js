@@ -323,6 +323,9 @@ function renderGeneral(container, template, collection, type){
             if (val.contact_email == ""){
                 val.contact_email = "N/A";              
             }
+            if(val.contact_email == "N/A" && val.contact_name == "N/A"){
+                
+            }
         }
         if(type=="events"){
             start = new Date (val.start_date);
