@@ -458,6 +458,10 @@ function renderPromoDetails(container, template, collection){
         if (val.store_name == undefined){
             val.store_name = "Midtown Plaza";
         }
+        if(val.url == "" || val.url === null){
+           val.css = "style=cursor:default;";
+           val.noLink = "return false";
+       }
         start = new Date (val.start_date);
         end = new Date (val.end_date);
         start.setDate(start.getDate()+1);
