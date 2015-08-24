@@ -22,7 +22,7 @@
     <div class="feature_column">
         <div class="newsletter_box feature_box">
             <div id="success_subscribe">
-                <i class="fa fa-close pull-right"></i>
+                <i class="fa fa-close pull-right" id="close_subscribe"></i>
                 <p>Thanks for subscribing.</p>
             </div>
             <h3 class="newsletter_header">NEWSLETTER</h3>
