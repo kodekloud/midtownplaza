@@ -898,6 +898,9 @@ a{
     }
 }
 @media(max-width:800px){
+    .store_details_container{
+        height:inherit;
+    }
     .top_logos{
         text-align: center;
     }
