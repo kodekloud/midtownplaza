@@ -11,11 +11,11 @@
         </div>
         <p class="store_list_promo"><i class="fa fa-circle promo_circle"></i>Store promotion</p>
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 col-xs-6">
                 <i class="fa fa-circle promo_circle visibility_hidden"></i>
                 <p class="store_list_headers">STORE</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-6">
                 <p class="store_list_headers">PHONE NUMBER</p>
             </div>
             <div class="col-md-4 hide_phone">
