@@ -915,6 +915,9 @@ a{
         width:100%;
         text-align:center;
     }
+    .store_middle{
+        height:inherit;
+    }
     .top_logos{
         text-align: center;
     }
