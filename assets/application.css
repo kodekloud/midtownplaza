@@ -898,6 +898,9 @@ a{
     }
 }
 @media(max-width:800px){
+    .top_logos{
+        text-align: center;
+    }
     .hours_container .hours_left{
         width:50%;
     }
