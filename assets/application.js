@@ -405,7 +405,6 @@ function renderPromoDetails(container, template, collection){
                 
             }
             val.alt_promo_image_url = getImageURL(val.promo_image_url);
-            val.store_name = "Midtown Plaza"
         }
         start = new Date (val.start_date);
         end = new Date (val.end_date);
