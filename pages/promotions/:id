@@ -8,7 +8,7 @@
                 <h2 class="details_dates">{{dates}}</h2>
                 <img class="width_100" alt="promo details" src="{{alt_promo_image_url}}" />
                 <p class="details_store_name">
-                    @ {{store_name}}
+                    <a href="{{url}}" {{css}} onclick="{{noLink}}">@ {{store_name}}</a>
                     <span class="pull-right share_links">
                         Share
                         <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/promotions/{{slug}}">
