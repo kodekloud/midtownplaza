@@ -1,3 +1,10 @@
+<style>
+    h2{
+        font-size: 19px;
+        color: #cf717d;
+        font-weight: bold;
+    }
+</style>
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
