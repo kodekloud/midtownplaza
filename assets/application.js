@@ -346,23 +346,16 @@ function renderGeneral(container, template, collection, type){
 function renderPromosEvents(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
-    var store_details = {}
     Mustache.parse(template_html);   // optional, speeds up future use
     $.each( collection , function( key, val ) {
         if (val.type=="promotions"){
             val.image_url = val.promo_image_url_abs;
-            store_details = getStoreDetailsByID(val.promotionable_id);
         }
         if (val.type=="events"){
             val.image_url = val.event_image_url_abs;
-            store_details = getStoreDetailsByID(val.eventable_id);
         }
         if ((val.image_url).indexOf('missing.png') > -1) {
-            if ((store_details.store_front_url_abs).indexOf('missing.png') > -1 || store_details == undefined) {
-                val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
-            } else {
-                val.alt_promo_image_url = (store_details.store_front_url_abs);    
-            }
+            val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
         }
         start = new Date (val.start_date);
         end = new Date (val.end_date);
