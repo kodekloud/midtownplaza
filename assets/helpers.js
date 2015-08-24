@@ -19,8 +19,7 @@ function init(e){
                 }
             });
         });
-    });
-}
+    }
 
 function show_content(){
     $('.yield').fadeIn();
