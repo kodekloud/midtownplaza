@@ -2,7 +2,7 @@
 <h2 class="blog_header"><b>MIDTOWN</b> BLOG</h2>
     <div id="blog_container">
             <script id="blog_template" type="x-tmpl-mustache/text">
-                <div class="promo_container">
+                <div class="promo_container mobile_padding">
                     <div class="promo_one">
                         <p class="blog_heading">STYLE NEWS {{published_on}}</p>
                         <h2 class="blog_name_header"><a href="/blogs/{{slug}}">{{title}}</a></h2>
