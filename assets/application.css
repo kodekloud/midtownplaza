@@ -815,6 +815,11 @@ a{
     text-decoration:underline;
 }
 
+.blog_read_more:hover{
+    color:#cf717d;
+    text-decoration:underline;
+}
+
 @media(max-width:1024px){
     .site_container{
         width:100%
