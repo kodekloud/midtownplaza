@@ -371,7 +371,7 @@ a{
 .store_details_description{
     margin-bottom: 32px;
     border-bottom: 2px solid #ccc;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
 }
 
 .store_details_container img{
