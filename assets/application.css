@@ -911,6 +911,9 @@ a{
     -o-transform: translateY(0);
      transform: translateY(0); 
     }
+    .store_details_container .left_promo_div{
+        
+    }
     .top_logos{
         text-align: center;
     }
