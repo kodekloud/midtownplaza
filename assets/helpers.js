@@ -15,7 +15,6 @@ function init(e){
                 if (data.Status === 400) {
                     alert("Please try again later.");
                 } else { // 200
-                    alert("yo")
                     $("#success_subscribe").fadeIn();
                 }
             });
