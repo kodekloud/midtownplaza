@@ -611,6 +611,7 @@ a{
 .promo_date{
     font-weight:500;
     font-size:16px;
+    margin-bottom: 5px;
 }
 
 .promo_desc{
