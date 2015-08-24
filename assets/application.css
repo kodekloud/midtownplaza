@@ -898,8 +898,31 @@ a{
     }
 }
 @media(max-width:800px){
-    .promo_one, .promo_two{
+    .promo_container{
+        margin:0;
+    }
+    .promo_one, .promo_two, .blog_left, .blog_right {
+        padding: 0 7px;
         width:100%;
+        text-align: left;
+    }
+    .blog_details_container{
+        margin:0;
+    }
+    .blog_left, .blog_right {  
+        margin-bottom: 30px;
+    }
+    .feature_insider{
+        margin:0;
+    }
+    #promo_container{
+        padding: 0 7px;
+    }
+    .mobile_padding{
+        padding: 0 7px;
+    }
+    #fashion_images_container .description{
+        margin-bottom:32px;
     }
     .store_details_container{
         height:inherit;
