@@ -71,7 +71,7 @@
             $('#mm_page_content').on('click', function () {
                 $('iframe').removeClass('scrolloff');
             });
-            $("iframe").mouseleave(function () {
+            $("#map_frame").mouseleave(function () {
                 $(this).addClass('scrolloff');
             });
         }
