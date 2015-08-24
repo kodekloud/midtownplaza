@@ -23,7 +23,7 @@
         <div class="newsletter_box feature_box">
             <div id="success_subscribe">
                 <i class="fa fa-close pull-right" id="close_subscribe"></i>
-                <p>Thanks for subscribing.</p>
+                <p class="middle_align text-center">Thanks for subscribing.</p>
             </div>
             <h3 class="newsletter_header">NEWSLETTER</h3>
             <p>Exclusive deals straight to your inbox!</p>
