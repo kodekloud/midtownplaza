@@ -252,6 +252,7 @@ a{
     background: #7abfc7;
     height:172px;
     padding:20px;
+    position: relative;
 }
 
 .giftcards_box{
