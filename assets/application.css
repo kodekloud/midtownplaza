@@ -901,6 +901,9 @@ a{
     .top_logos{
         text-align: center;
     }
+    .logo_2{
+        display:none;
+    }
     .hours_container .hours_left{
         width:50%;
     }
