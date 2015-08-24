@@ -912,7 +912,8 @@ a{
      transform: translateY(0); 
     }
     .store_details_container .left_promo_div{
-        width:100%;
+        width:100%
+        text-align:center;
     }
     .top_logos{
         text-align: center;
