@@ -8,7 +8,6 @@ function init(e){
                 $("#agree_terms").focus();
                 return false;
             }
-            e.preventDefault();
             $.getJSON(
                 this.action + "?callback=?",
                 $(this).serialize(),
