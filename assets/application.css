@@ -1,5 +1,9 @@
 /*Created 2015-07-31 by Rajbir Karan Singh*/
 
+body{
+    margin-top:10px;
+}
+
 .hide_phone{
     display:block;
 }
@@ -7,6 +11,7 @@
 .visibility_hidden{
     visibility:hidden;
 }
+
 
 .middle_align{
     position: relative;
@@ -671,9 +676,6 @@ a{
 .promo_two{
     text-align:center;
 }
-.promo_one .blog_details_tags{
-    text-align:right;
-}
 
 .promo_container:nth-child(even) .promo_one{
    float: right;
@@ -681,10 +683,6 @@ a{
 
 .promo_container:nth-child(even) .promo_two{
    text-align: center;
-}
-
-.promo_container:nth-child(even) .promo_two .blog_details_tags{
-    text-align:left;
 }
 
 .promo_box_separator{
@@ -785,84 +783,7 @@ a{
     font-size:19px;
     margin-top:0;
     margin-bottom:26px;
-    text-transform: uppercase;
 }
-
-.blog_name_header{
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 0;
-    line-height: 25px;
-}
-
-.blog_description{
-    font-size:18px;
-    word-wrap: break-word;
-}
-
-.blog_read_more{
-    font-family: 'EB Garamond';
-    font-size:18px;
-    color:#cf717d;
-    text-decoration:underline;
-}
-
-.blog_read_more:hover{
-    color:#cf717d;
-    text-decoration:underline;
-}
-
-.blog_sharer{
-    margin-top:40px;
-    font-size:18px;
-}
-.blog_details_container{
-    margin:0 -13px;
-}
-.blog_left{
-    padding:0 13px;
-    border-right:2px solid #ccc;
-    width:801px;
-    float:left;
-}
-
-.blog_right{
-    padding:0 13px;
-    float:left;
-    width:265px;
-}
-
-.blog_details_heading{
-    font-size:45px;
-    font-weight:bold;
-    margin-top: 0;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-    line-height: 35px;
-}
-.blog_details_dates{
-    color: #cf717d;
-    font-weight: bold;
-    font-size: 19px;
-    margin-top: 0;
-    margin-bottom: 32px;
-    text-transform: uppercase;
-    line-height: 15px;
-}
-.blog_details_tags{
-    margin-bottom:0;
-    margin-top:16px;
-    font-size:16px;
-}
-
-.side_blog_header{
-    font-size:22px;
-    font-weight:bold;
-    margin-top:10px;
-    margin-bottom:45px;
-}
-
 
 @media(max-width:1024px){
     .site_container{
@@ -905,7 +826,6 @@ a{
     .feature_column{
         width:100%;
         margin-bottom:10px;
-        padding: 0;
     }
     .social_footer{
         float:none;
@@ -944,33 +864,6 @@ a{
     }
     .page_left, .page_right{
         width:100%;
-        padding: 0;
-    }
-    .promo_container{
-        margin:0;
-    }
-    .promo_one, .promo_two, .blog_left, .blog_right {
-        padding: 0 7px;
-        width:100%;
-        text-align: left;
-    }
-    .blog_details_container{
-        margin:0;
-    }
-    .blog_left, .blog_right {  
-        margin-bottom: 30px;
-    }
-    .feature_insider{
-        margin:0;
-    }
-    #promo_container{
-        padding: 0 7px;
-    }
-    .mobile_padding{
-        padding: 0 7px;
-    }
-    #fashion_images_container .description{
-        margin-bottom:32px;
     }
 }
 
