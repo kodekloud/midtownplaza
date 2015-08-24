@@ -26,7 +26,7 @@
         <div id="store_list_container">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <i style="{{show}}" class="fa fa-circle promo_circle visibility_hidden"></i><span style="{{show}}" class="store_initial">{{initial}}</span>
-                <div class="row ">
+                <div class="row mobile_stores">
                     <div class="col-md-5 display_table col-xs-6">
                         <i style="{{promotion_exist}}" class="display_cell fa fa-circle promo_circle"></i>
                         <p class="display_cell store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
