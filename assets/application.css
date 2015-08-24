@@ -902,7 +902,7 @@ a{
         margin:0;
     }
     .promo_one, .promo_two, .blog_left, .blog_right {
-        
+        padding: 0 0px;
         width:100%;
         text-align: left;
     }
