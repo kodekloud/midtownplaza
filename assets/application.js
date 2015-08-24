@@ -310,7 +310,7 @@ function renderGeneral(container, template, collection, type){
                 val.store_slug = store_details.slug;
             }
             else{
-                val.store_name = "Scarborough Town Centre";
+                val.store_name = "Midtown Plaza";
             }
             start = new Date (val.start_date);
             end = new Date (val.end_date);
