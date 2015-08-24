@@ -927,6 +927,9 @@ a{
     .mobile_padding{
         padding: 0 7px;
     }
+    .blog_left{
+        border:0;
+    }
     #fashion_images_container .description{
         margin-bottom:32px;
     }
