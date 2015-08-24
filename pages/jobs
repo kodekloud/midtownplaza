@@ -15,7 +15,7 @@
                         <p class="promo_date">Contact</p>
                         <p>{{contact_name}}</p>
                         <p>{{contact_email}}</p>
-                    <?div>
+                    </div>
                 </div>
                 <hr class="jobs_separator">
             </script>
