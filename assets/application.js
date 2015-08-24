@@ -56,7 +56,7 @@ function renderStoreList(container, template, collection, type){
         }
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
-        val.categories_list = val.category_list = getCategoriesNamesByStoreSlug(val.slug);
+        val.categories_list = ""
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){
             val.initial = "";
             val.show = "display:none;";
@@ -519,66 +519,13 @@ function renderPosts(container, template, collection){
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-        if (val.tag != undefined){
-            val.tag_list = val.tag.join(', ');
-        }
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
         counter = counter+1;
     });
     
     $(container).show();
-    $(container).html(item_rendered.join(''));
-}
-
-function renderPostDetails(container, template, collection){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $(template).html();
-    $.each( collection , function( key, val ) {
-        if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
-        } else {
-            val.post_image = val.image_url;
-        }
-        if(val.body.length > 100){
-            val.description_short = val.body.substring(0,100) + "...";
-        }
-        else{
-            val.description_short = val.body;
-        }
-        var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
-        val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-        var next_p = getNextPublishedPostBySlug(val.slug);
-        var prev_p = getPrevPublishedPostBySlug(val.slug);
-        if (next_p == undefined){
-            val.next_post_show = "display:none";
-        }
-        else{
-            val.next_post = next_p.title;
-            val.next_slug = next_p.slug;
-            val.next_post_show = "display:inline-block";
-        }
-        if (prev_p == undefined){
-            val.prev_post_show = "display:none";
-        }
-        else{
-            val.prev_post = prev_p.title;
-            val.prev_slug = prev_p.slug;
-            val.prev_post_show = "display:inline-block";
-        }
-        
-        if (val.tag != undefined){
-            val.tag_list = val.tag.join(', ');
-        }
-        if(val.author.length > 0){
-            val.author = "By " + val.author;
-        }
-        
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
-    });
-    
     $(container).html(item_rendered.join(''));
 }
 
