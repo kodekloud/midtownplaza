@@ -912,7 +912,7 @@ a{
      transform: translateY(0); 
     }
     .store_details_container .left_promo_div{
-        
+        width:100%;
     }
     .top_logos{
         text-align: center;
