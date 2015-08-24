@@ -32,7 +32,7 @@
                         <p class="display_cell store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                     </div>
                     <div class="col-md-3 col-xs-6">
-                        <p class="store_list_details">{{phone}}</p>
+                        <p class="store_list_details hide_phone">{{phone}}</p>
                     </div>
                     <div class="col-md-4 hide_phone">
                         <p class="store_list_details">{{categories_list}}</p>
