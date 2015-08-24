@@ -384,14 +384,13 @@ function renderPromoDetails(container, template, collection){
         if ((val.promo_image_url).indexOf('missing.png') > -1){
             if (val.promotionable_type == "Store") {
                 var store_details = getStoreDetailsByID(val.promotionable_id);
-                val.alt_promo_image_url = getImageURL(store_details.store_front_url);
                 val.store_detail_btn = store_details.slug ;
                 val.store_name = store_details.name;
                 if(store_details.store_front_url.indexOf('missing.png') > -1){
                     val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
                 }
                 else{
-                    
+                    val.alt_promo_image_url = getImageURL(store_details.store_front_url);
                 }
                 
             } else {
