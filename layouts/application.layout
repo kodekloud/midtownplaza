@@ -138,8 +138,8 @@
                                 <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact</a>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu4" style=" left: inherit; right: -1px; ">
                                     <li><a href="/jobs">Careers</a></li>
-                                    <li><a href="#">About/Contact Us</a></li>
-                                    <li><a href="#">Leasing Information</a></li>
+                                    <li><a href="/pages/midtown2-contact-us">About/Contact Us</a></li>
+                                    <li><a href="/pages/midtown2-leasing">Leasing Information</a></li>
                                 </ul>
                             </div>
                         </div>
