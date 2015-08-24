@@ -69,7 +69,7 @@
             }); 
             show_content();
             $('#map_frame').on('click', function () {
-                $('iframe').removeClass('scrolloff');
+                $(this).removeClass('scrolloff');
             });
             $("#map_frame").mouseleave(function () {
                 $(this).addClass('scrolloff');
