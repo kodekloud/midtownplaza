@@ -68,7 +68,7 @@
                 }
             }); 
             show_content();
-            $('#mm_page_content').on('click', function () {
+            $('#map_frame').on('click', function () {
                 $('iframe').removeClass('scrolloff');
             });
             $("#map_frame").mouseleave(function () {
