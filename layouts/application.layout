@@ -69,7 +69,7 @@
                                         Style
                                     </a>
                                     <ul class="dropdown-menu center_menu">
-                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="/blogs">Blog</a></li>
                                         <li><a href="#">Shop the Look</a></li>
                                       </ul>
                                 </li>
