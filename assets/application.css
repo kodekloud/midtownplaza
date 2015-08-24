@@ -898,6 +898,9 @@ a{
     }
 }
 @media(max-width:800px){
+    .promo_one, .promo_two{
+        width:100%;
+    }
     .store_details_container{
         height:inherit;
         border-bottom: 0;
