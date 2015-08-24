@@ -445,6 +445,7 @@ a{
 .hours_container .hours_right{
     width:22%;
     overflow:hidden;
+        text-align: right;
     padding-left:5px;
 }
 
