@@ -357,6 +357,7 @@ function renderPromosEvents(container, template, collection){
             val.image_url = val.event_image_url_abs;
             store_details = getStoreDetailsByID(val.eventable_id);
         }
+        console.log(store_details)
         if ((val.image_url).indexOf('missing.png') > -1) {
             if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
                 val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
