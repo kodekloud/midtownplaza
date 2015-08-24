@@ -899,8 +899,8 @@ a{
 }
 @media(max-width:800px){
     .promo_container:nth-child(odd) .promo_two .blog_details_tags {
-    text-align: right;
-}
+        text-align: left;
+    }
     .promo_container{
         margin:0;
     }
