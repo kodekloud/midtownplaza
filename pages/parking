@@ -69,10 +69,10 @@
             }); 
             show_content();
             $('#map_frame').on('click', function () {
-                $(this).removeClass('scrolloff');
+                $('iframe').removeClass('scrolloff');
             });
             $("#map_frame").mouseleave(function () {
-                $(this).addClass('scrolloff');
+                $('iframe').addClass('scrolloff');
             });
         }
         loadMallDataCached(renderAll); 
