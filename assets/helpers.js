@@ -3,7 +3,7 @@ function init(e){
 
     $('#newsletter_form').submit(function(e){
         e.preventDefault();
-    })
+    });
 }
 
 function show_content(){
