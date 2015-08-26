@@ -7,6 +7,11 @@ body{
 .scrolloff {
     pointer-events: none;
 }
+
+.flex-direction-nav {
+    display: none;
+}
+
 .dropdown-menu2 .sub-menu {
     left: 100%;
     position: absolute;
