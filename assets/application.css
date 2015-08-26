@@ -734,6 +734,7 @@ a{
     font-weight: bold;
     margin-top:0;
     position: relative;
+    text-transform: uppercase;
 }
 
 .promo_heading {
