@@ -15,10 +15,10 @@
                 <i class="fa fa-circle promo_circle visibility_hidden"></i>
                 <p class="store_list_headers">STORE</p>
             </div>
-            <div class="col-md-3 col-xs-6">
+            <div class="col-md-4 col-xs-6">
                 <p class="store_list_headers">PHONE NUMBER</p>
             </div>
-            <div class="col-md-4 hide_phone">
+            <div class="col-md-3 hide_phone">
                 <p class="store_list_headers">CATEGORY</p>
             </div>
         </div>
@@ -31,11 +31,11 @@
                         <i style="{{promotion_exist}}" class="display_cell fa fa-circle promo_circle"></i>
                         <p class="display_cell store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                     </div>
-                    <div class="col-md-3 col-xs-3">
+                    <div class="col-md-4 col-xs-3">
                         <p class="store_list_details hide_phone">{{phone}}</p>
                         <a class="show_phone" style="text-align: right;margin-right: 30px;" href="tel:{{phone}}"><i class="fa fa-phone" style="font-size:25px"></i></a>
                     </div>
-                    <div class="col-md-4 hide_phone">
+                    <div class="col-md-3 hide_phone">
                         <p class="store_list_details">{{categories_list}}</p>
                     </div>
                 </div>
