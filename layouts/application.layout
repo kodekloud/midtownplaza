@@ -116,7 +116,7 @@
                         <div class="menu_link">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Style</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
                                     <li><a href="/blogs/">Blog</a></li>
                                     <li><a href="/fashions/midtown2-shop-the-look">Shop the Look</a></li>
                                 </ul>
@@ -126,7 +126,7 @@
                         <div class="menu_link">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
                                     <li><a href="/pages/midtown2-gift-cards">Gift Cards</a></li>
                                     <li><a href="/pages/midtown2-accessibilty">Security & Accessibilty</a></li>
                                 </ul>
@@ -136,7 +136,7 @@
                         <div class="menu_link text-right">
                             <div class="dropdown">
                                 <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact</a>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu4" style=" left: inherit; right: -1px; ">
+                                <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4" style=" left: inherit; right: -1px; ">
                                     <li><a href="/jobs">Careers</a></li>
                                     <li><a href="/pages/midtown2-contact-us">About/Contact Us</a></li>
                                     <li><a href="/pages/midtown2-leasing">Leasing Information</a></li>
