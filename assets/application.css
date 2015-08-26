@@ -769,12 +769,14 @@ a{
 .promo_box_separator{
     margin: 25px 24px;
     border-bottom:1px solid #ccc;
+    border-top:0;
 }
 
 .blog_box_separator{
     margin: 28px 24px;
     margin-bottom:32px;
     border-bottom:1px solid #ccc;
+    border-top:0;
 }
 
 .promo_name_header{
