@@ -75,7 +75,7 @@
             </div>
             <div class="feature_insider_right">
                 <h3 class="feature_2_header">SHOP THE LOOK</h3>
-                <p class="feature_2_dates">From our stylist</p>
+                <p class="feature_2_blog">From our stylist</p>
                 <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <a class="read_more" href="#">read more</a>
             </div>
@@ -89,7 +89,7 @@
             </div>
             <div class="feature_insider_right">
                 <h3 class="feature_2_header">AUGUST 6, 2015</h3>
-                <p class="feature_2_dates">LOREM IPSUM</p>
+                <p class="feature_2_blog">LOREM IPSUM</p>
                 <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <a class="read_more" href="#">read more</a>
             </div>
