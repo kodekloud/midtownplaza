@@ -346,7 +346,7 @@ a{
 .btn_mp{
     color: #fff;
     background-color: #7abfc7;
-    border: 2px solid;
+    border: 1px solid;
     height: 30px;
     width: 96px;
     border-radius:0
@@ -409,7 +409,7 @@ a{
     font-size:22px;
     margin-top: 10px;
     padding-bottom: 8px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 14px;
     text-align: center;
 }
@@ -419,7 +419,7 @@ a{
     font-size:22px;
     margin-top: 16px;
     padding-bottom: 12px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 14px;
     text-align: center;
 }
@@ -427,14 +427,14 @@ a{
 .store_details_container{
     margin-top:13px;
     /*margin-bottom:10px;*/
-    border-top:2px solid #ccc;
-    /*border-bottom:2px solid #ccc;*/
+    border-top:1px solid #ccc;
+    /*border-bottom:1px solid #ccc;*/
     height:158px;
 }
 
 .store_details_description{
     margin-bottom: 32px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     /*padding-bottom: 10px;*/
 }
 
@@ -689,13 +689,13 @@ a{
 
 .promo_separator{
     margin-top:28px;
-    border-top:2px solid #ccc;
+    border-top:1px solid #ccc;
     padding-bottom:28px;
     margin-bottom:0;
 }
 .jobs_separator{
     margin-top:21px;
-    border-top:2px solid #ccc;
+    border-top:1px solid #ccc;
     padding-bottom:21px;
     margin-bottom:0; 
 }
@@ -712,7 +712,7 @@ a{
     font-size: 19px;
     color: #cf717d;
     font-weight: bold;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     padding-bottom: 17px;
     margin-bottom: 17px;
 }
@@ -767,13 +767,13 @@ a{
 
 .promo_box_separator{
     margin: 25px 24px;
-    border-bottom:2px solid #ccc;
+    border-bottom:1px solid #ccc;
 }
 
 .blog_box_separator{
     margin: 28px 24px;
     margin-bottom:32px;
-    border-bottom:2px solid #ccc;
+    border-bottom:1px solid #ccc;
 }
 
 .promo_name_header{
@@ -866,7 +866,7 @@ a{
 .blog_header{
     padding-bottom:13px;
     margin-bottom:32px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     font-weight: 300;
 }
 .blog_heading{
@@ -893,7 +893,7 @@ a{
 }
 .blog_left{
     padding:0 13px;
-    border-right:2px solid #ccc;
+    border-right:1px solid #ccc;
     width:801px;
     float:left;
 }
