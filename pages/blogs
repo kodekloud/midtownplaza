@@ -6,7 +6,7 @@
                     <div class="promo_one">
                         <p class="blog_heading">STYLE NEWS {{published_on}}</p>
                         <h2 class="blog_name_header"><a href="/blogs/{{slug}}">{{title}}</a></h2>
-                        <p class="blog_description">{{description_short}} <a href="/blogs/{{slug}}" class="blog_read_more">read more</a></p>
+                        <p class="blog_description">{{description_short}}<br /> <a href="/blogs/{{slug}}" class="blog_read_more">read more</a></p>
                         <p class="blog_sharer share_links">
                             Share
                             <a target="_blank" href="http://www.facebook.com/sharer.php?u=http://midtownplaza.ca/blogs/{{slug}}">
