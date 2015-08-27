@@ -654,6 +654,7 @@ a{
 
 .back_btn:hover{
     color:#ff6172;
+    text-decoration:none;
 }
 
 .social_footer{
@@ -704,6 +705,7 @@ a{
     font-weight: bold;
     font-size: 18px;
     margin-bottom:0;
+    text-transform: uppercase;
 }
 
 .promo_date{
