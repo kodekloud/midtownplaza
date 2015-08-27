@@ -33,6 +33,18 @@ function init(e){
     if ($.inArray(path, collapse_shopping) >= 0){
         $('#dropdownMenu1').addClass('active_menu');
     }
+    if ($.inArray(path, collapse_shopping) >= 0){
+        $('#dropdownMenu1').addClass('active_menu');
+    }
+    if ($.inArray(path, collapse_shopping) >= 0){
+        $('#dropdownMenu1').addClass('active_menu');
+    }
+    if ($.inArray(path, collapse_shopping) >= 0){
+        $('#dropdownMenu1').addClass('active_menu');
+    }
+    if ($.inArray(path, collapse_shopping) >= 0){
+        $('#dropdownMenu1').addClass('active_menu');
+    }
 }
 
 function show_content(){
