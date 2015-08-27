@@ -830,7 +830,7 @@ a{
 }
 
 .details_header{
-    font-size:16px;
+    font-size:18px;
     margin-top:15px;
     margin-bottom:0;
     line-height:35px;
@@ -839,7 +839,7 @@ a{
 
 .details_dates{
     margin: 32px 0;
-    font-size: 16px;
+    font-size: 18px;
     color: #ff6172;
     text-transform:uppercase;
     margin-top: 5px;
