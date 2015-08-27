@@ -1,3 +1,22 @@
+<style>
+    h2{
+        font-size: 18px;
+        color: #ff6172;
+        font-weight: bold;
+    }
+    #mm_page_content h3{
+        color: #ff6172;
+        border-top:1px solid #ccc;
+        padding-top:20px;
+        font-size:18px;
+    }
+    #mm_page_content h4{
+        color: #ff6172;
+        padding-top:20px;
+        font-size:18px;
+    }
+    
+</style>
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
