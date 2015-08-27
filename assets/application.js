@@ -48,7 +48,7 @@ function renderStoreList(container, template, collection, type){
     $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-                val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
@@ -101,7 +101,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+            val.alt_store_front_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
@@ -261,8 +261,8 @@ function renderGeneral(container, template, collection, type){
                 if (val.promotionable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.promotionable_id);
                     if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
-                        val.store_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                        val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
+                        val.store_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                     } else {
                         val.alt_promo_image_url = (store_details.store_front_url_abs); 
                         val.store_image = store_details.store_front_url_abs;
@@ -270,7 +270,7 @@ function renderGeneral(container, template, collection, type){
                     
                     val.store_name = store_details.name;
                 } else {
-                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 }
                 
             } else {
@@ -302,7 +302,7 @@ function renderGeneral(container, template, collection, type){
             if (val.jobable_type == "Store") {
                 var store_details = getStoreDetailsByID(val.jobable_id);
                 if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 } else {
                     val.alt_promo_image_url = (store_details.store_front_url_abs);    
                 }
@@ -359,14 +359,14 @@ function renderPromosEvents(container, template, collection){
                     val.store_detail_btn = store_details.slug ;
                     val.store_name = store_details.name;
                     if(store_details.store_front_url.indexOf('missing.png') > -1){
-                        val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                        val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                     }
                     else{
                         val.image_url = getImageURL(store_details.store_front_url);
                     }
                     
                 } else {
-                    val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                    val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 }
                 
             } else {
@@ -389,7 +389,7 @@ function renderPromosEvents(container, template, collection){
                     val.store_name = store_details.name;
                     
                 } else {
-                    val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                    val.image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 }
                 
             } else {
@@ -440,14 +440,14 @@ function renderPromoDetails(container, template, collection){
                 val.store_name = store_details.name;
                 val.url=store_details.slug;
                 if(store_details.store_front_url.indexOf('missing.png') > -1){
-                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                    val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
                 }
                 else{
                     val.alt_promo_image_url = getImageURL(store_details.store_front_url);
                 }
                 
             } else {
-                val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
             }
             
         } else {
@@ -504,7 +504,7 @@ function renderEventDetails(container, template, collection){
                 val.store_name = store_details.name;
                 
             } else {
-                val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+                val.alt_promo_image_url = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
             }
             
         } else {
@@ -581,7 +581,7 @@ function renderPosts(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+            val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
         } else {
             val.post_image = val.image_url;
         }
@@ -612,7 +612,7 @@ function renderPostDetails(container, template, collection){
     var template_html = $(template).html();
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/24ac5b317a383812fad7eab38651125a/mp_logo_2.png";
+            val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
         } else {
             val.post_image = val.image_url;
         }
