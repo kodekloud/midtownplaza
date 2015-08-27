@@ -39,7 +39,7 @@ function init(e){
     if ($.inArray(path, collapse_style) >= 0){
         $('#dropdownMenu2').addClass('active_menu');
     }
-    if ($.inArray(path, collapse_shopping) >= 0){
+    if ($.inArray(path, collapse_guest) >= 0){
         $('#dropdownMenu3').addClass('active_menu');
     }
     if ($.inArray(path, collapse_shopping) >= 0){
