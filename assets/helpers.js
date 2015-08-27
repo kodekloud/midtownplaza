@@ -24,7 +24,7 @@ function init(e){
         );
     });
     
-    var collapse_shopping = ["/hours", "/map", "/stores", "/pages/erinmills-location"];    
+    var collapse_shopping = ["/stores", "/hours", "/parking"];    
 }
 
 function show_content(){
