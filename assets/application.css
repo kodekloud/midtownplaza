@@ -840,6 +840,7 @@ a{
     margin: 32px 0;
     font-size: 18px;
     color: #ff6172;
+    text-transform:uppercase;
 }
 
 .details_store_name{
