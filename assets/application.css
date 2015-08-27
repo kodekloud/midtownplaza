@@ -967,12 +967,12 @@ a{
     }
 }
 @media(max-width:800px){
-    .hours_right_holidays{
+    .hours_container .hours_right_holidays{
         width: 60%;
         text-align: right;
     }
     
-    .hours_left_holidays{
+    .hours_container .hours_left_holidays{
         width:40%;
     }
     
