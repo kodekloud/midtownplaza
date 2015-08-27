@@ -702,8 +702,8 @@ a{
     text-transform:uppercase;
 }
 .active_menu{
-    color:#ccc;
-    color: rgba(0,0,0,.5);
+    color:#ccc !important;
+    color: rgba(0,0,0,.5)  !important;
 }
 
 .promo_desc{
