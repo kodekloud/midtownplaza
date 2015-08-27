@@ -800,9 +800,10 @@ a{
 .promo_name_header{
     font-size: 18px;
     color: #ff6172;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 5px;
     margin-top: 0;
+    text-transform:uppercase;
 }
 
 .description{
