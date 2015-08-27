@@ -974,6 +974,7 @@ a{
     
     .hours_container .hours_left_holidays{
         width:40%;
+        white-space: normal;
     }
     
     .promo_container:nth-child(odd) .promo_two .blog_details_tags {
