@@ -20,9 +20,12 @@ function init(e){
                 } else { // 200
                     $("#success_subscribe").fadeIn();
                 }
-            });
-        });
-    }
+            }
+        );
+    });
+    
+    var collapse_shopping = ["/hours", "/map", "/stores", "/pages/erinmills-location"];    
+}
 
 function show_content(){
     $('.yield').fadeIn();
