@@ -37,13 +37,13 @@ function init(e){
         $('#promos_menu').addClass('active_menu');
     }
     if ($.inArray(path, collapse_shopping) >= 0){
-        $('#dropdownMenu1').addClass('active_menu');
+        $('#dropdownMenu2').addClass('active_menu');
     }
     if ($.inArray(path, collapse_shopping) >= 0){
-        $('#dropdownMenu1').addClass('active_menu');
+        $('#dropdownMenu3').addClass('active_menu');
     }
     if ($.inArray(path, collapse_shopping) >= 0){
-        $('#dropdownMenu1').addClass('active_menu');
+        $('#dropdownMenu4').addClass('active_menu');
     }
 }
 
