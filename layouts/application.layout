@@ -110,7 +110,7 @@
                         </div>
                         <div class="menu_divider"></div>
                         <div class="menu_link ">
-                            <a href="/promotions_and_events">Promotion & Events</a>
+                            <a href="/promotions_and_events" id-"promos_menu">Promotion & Events</a>
                         </div>
                         <div class="menu_divider"></div>
                         <div class="menu_link">
