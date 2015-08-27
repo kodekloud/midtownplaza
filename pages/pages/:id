@@ -13,7 +13,7 @@
 <div class="page_main_container">
     <div class="page_left">
         <div id="404_msg" class="hidden_now"><p>Sorry we can't find the page you're looking for</p></div>
-        <h3 class="feature_2_header page_header" id="page_title"></h3>
+        <h2 class="feature_2_header page_header" id="page_title"></h2>
         <div id="mm_page_content"></div>
     </div>
     <div class="page_right">
