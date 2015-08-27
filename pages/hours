@@ -1,7 +1,7 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
-        <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/mtp_hours.jpg" class="banner_hours" alt="banner" />
+        <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/40a158a4ffa44f8753b83efe1d12eadc/46998083431389.Ld7KuOLI76FbN3bRf16B_height640.png" class="banner_hours" alt="banner" />
         <h2 class="hours_heading">REGULAR HOURS</h2>    
         <table id="reg_hours_container" class="hours_container">
             <script id="reg_hours_template" type="x-tmpl-mustache/text">
