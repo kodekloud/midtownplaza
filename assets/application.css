@@ -834,6 +834,7 @@ a{
     margin-top:15px;
     margin-bottom:0;
     line-height:35px;
+    text-transform:uppercase;
 }
 
 .details_dates{
