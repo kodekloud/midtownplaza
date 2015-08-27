@@ -838,6 +838,8 @@ a{
 }
 .blog_name_header{
     text-transform:uppercase;
+    font-size:18px;
+    font-weight:bold;
 }
 
 .details_dates{
