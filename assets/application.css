@@ -836,6 +836,9 @@ a{
     line-height:35px;
     text-transform:uppercase;
 }
+.blog_name_header{
+    text-transform:uppercase;
+}
 
 .details_dates{
     margin: 32px 0;
