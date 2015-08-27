@@ -4,6 +4,9 @@
         color: #cf717d;
         font-weight: bold;
     }
+    h3{
+        border-top:1px solid #ccc;
+    }
     
 </style>
 <div class="green_bar"></div>
