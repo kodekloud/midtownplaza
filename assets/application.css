@@ -955,12 +955,12 @@ a{
 }
 
 .blog_details_heading{
-    font-size:18px;
+    font-size:20px;
     font-weight:bold;
     margin-top: 0;
     text-transform: uppercase;
-    margin-bottom: 32px;
-    line-height: 35px;
+    margin-bottom: 20px;
+    line-height: 15px;
 }
 .blog_details_dates{
     color: #ff6172;
