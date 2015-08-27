@@ -87,7 +87,7 @@ body{
 }
 
 #success_subscribe{
-    background: #7abfc7;
+    background: #7f8a89;
     width: 335px;
     height: 100%;
     position: absolute;
@@ -110,7 +110,7 @@ body{
 }
 
 .green_bar{
-    background:#7abfc7;
+    background:#7f8a89;
     height:40px;
     margin-bottom:14px;
 }
@@ -294,7 +294,7 @@ a{
 }
 
 .newsletter_box{
-    background: #7abfc7;
+    background: #7f8a89;
     height:172px;
     padding:20px;
     position: relative;
@@ -345,7 +345,7 @@ a{
 
 .btn_mp{
     color: #fff;
-    background-color: #7abfc7;
+    background-color: #7f8a89;
     border: 1px solid;
     height: 30px;
     width: 96px;
