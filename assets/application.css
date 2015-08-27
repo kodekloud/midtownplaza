@@ -697,8 +697,9 @@ a{
 
 .promo_date{
     font-weight:500;
-    font-size:16px;
+    font-size:18px;
     margin-bottom: 5px;
+    text-transform:uppercase;
 }
 
 .promo_desc{
