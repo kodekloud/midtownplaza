@@ -13,6 +13,10 @@ body{
     display: none;
 }
 
+#newsletter_form{
+    font-size:14px;   
+}
+
 .dropdown-menu2 .sub-menu {
     left: 100%;
     position: absolute;
