@@ -42,7 +42,7 @@ function init(e){
     if ($.inArray(path, collapse_guest) >= 0){
         $('#dropdownMenu3').addClass('active_menu');
     }
-    if ($.inArray(path, collapse_shopping) >= 0){
+    if ($.inArray(path, collapse_contact) >= 0){
         $('#dropdownMenu4').addClass('active_menu');
     }
 }
