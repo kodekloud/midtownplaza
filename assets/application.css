@@ -648,6 +648,13 @@ a{
     color:#ff6172;
     text-decoration:underline;
 }
+.back_btn{
+    color:#ff6172;
+}
+
+.back_btn:hover{
+    color:#ff6172;
+}
 
 .social_footer{
     float:right;
