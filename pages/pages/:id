@@ -6,6 +6,7 @@
     }
     #page_main_container h3{
         border-top:1px solid #ccc;
+        padding-top:10px;
     }
     
 </style>
