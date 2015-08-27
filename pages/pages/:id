@@ -13,7 +13,7 @@
     #mm_page_content h4{
         color: #ff6172;
         padding-top:20px;
-        font-size:18px;
+        font-size:18px !important;
     }
     
 </style>
