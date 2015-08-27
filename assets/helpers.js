@@ -29,6 +29,7 @@ function init(e){
     var collapse_style = ["/blogs", "/fashions/midtown2-shop-the-look"];
     var collapse_gueest = ["/pages/midtown2-gift-cards", "/pages/midtown2-accessibility"];
     var collapse_contact = ["/jobs", "/pages/midtown2-contact-us", "/pages/midtown2-leasing"];
+    
 }
 
 function show_content(){
