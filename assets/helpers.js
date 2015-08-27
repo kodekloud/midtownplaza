@@ -24,7 +24,8 @@ function init(e){
         );
     });
     
-    var collapse_shopping = ["/stores", "/hours", "/parking"];    
+    var collapse_shopping = ["/stores", "/hours", "/parking"];
+    var collapse_promos = ["/promotions_and_events"]
 }
 
 function show_content(){
