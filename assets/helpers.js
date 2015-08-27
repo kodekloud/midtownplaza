@@ -23,7 +23,7 @@ function init(e){
             }
         );
     });
-    
+    var path = window.location.pathname
     var collapse_shopping = ["/stores", "/hours", "/parking"];
     var collapse_promos = ["/promotions_and_events"];
     var collapse_style = ["/blogs", "/fashions/midtown2-shop-the-look"];
