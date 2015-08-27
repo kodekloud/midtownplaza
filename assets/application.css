@@ -971,6 +971,11 @@ a{
         width: 60%;
         text-align: right;
     }
+    
+    .hours_left_holidays{
+        width:40%;
+    }
+    
     .promo_container:nth-child(odd) .promo_two .blog_details_tags {
         text-align: left;
     }
