@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-md-4 col-xs-3">
                         <p class="store_list_details hide_phone">{{phone}}</p>
-                        <a class="show_phone" style="text-align: right;margin-right: 30px;" href="tel:{{phone}}"><i class="fa fa-phone" style="font-size:25px"></i></a>
+                        <a class="show_phone" style="text-align: right;margin-right: 30px;" href="tel:{{phone}}"><i class="fa fa-phone" style="font-size:23px"></i></a>
                     </div>
                     <div class="col-md-3 hide_phone">
                         <p class="store_list_details">{{categories_list}}</p>
