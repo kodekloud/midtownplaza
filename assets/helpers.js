@@ -30,6 +30,9 @@ function init(e){
     var collapse_gueest = ["/pages/midtown2-gift-cards", "/pages/midtown2-accessibility"];
     var collapse_contact = ["/jobs", "/pages/midtown2-contact-us", "/pages/midtown2-leasing"];
     
+    if ($.inArray(path, collapse_shopping) >= 0){
+        $('#collapse_shopping').collapse('toggle')
+    }
 }
 
 function show_content(){
