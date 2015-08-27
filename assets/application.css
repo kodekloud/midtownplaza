@@ -702,7 +702,7 @@ a{
     text-transform:uppercase;
 }
 .active_menu{
-        color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.5);
 }
 
 .promo_desc{
