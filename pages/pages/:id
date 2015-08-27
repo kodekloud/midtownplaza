@@ -5,6 +5,7 @@
         font-weight: bold;
     }
     #mm_page_content h3{
+        color: #ff6172;
         border-top:1px solid #ccc;
         padding-top:20px;
     }
