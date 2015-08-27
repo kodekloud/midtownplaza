@@ -8,10 +8,12 @@
         color: #ff6172;
         border-top:1px solid #ccc;
         padding-top:20px;
+        font-size:18px;
     }
     #mm_page_content h4{
         color: #ff6172;
         padding-top:20px;
+        font-size:18px;
     }
     
 </style>
