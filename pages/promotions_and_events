@@ -66,6 +66,7 @@
 </div>
 <script>
     $(document).ready(function(e) {
+        init(e);
         function renderAll (){
             var events = getEventsList();
             $.each(events, function(i, v){
