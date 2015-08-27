@@ -31,7 +31,7 @@ function init(e){
     var collapse_contact = ["/jobs", "/pages/midtown2-contact-us", "/pages/midtown2-leasing"];
     
     if ($.inArray(path, collapse_shopping) >= 0){
-        $('#dropdownMenu1').collapse('toggle')
+        $('#dropdownMenu1').addClass('active_menu')
     }
 }
 
