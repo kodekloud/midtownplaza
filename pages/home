@@ -5,6 +5,11 @@
                 <img alt="banner" src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/mainbanner-1.jpg"/>
             <!--</a>-->
         </li>
+         <li>
+            <!--<a href="{{url}}" {{css}} onclick="{{noLink}}">-->
+                <img alt="banner" src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/d443eba4be885de806814312cff07c42/mainbanner-1.jpg"/>
+            <!--</a>-->
+        </li>
     </ul>
 </div>
 <div class="feature_row">
