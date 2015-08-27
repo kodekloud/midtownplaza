@@ -128,7 +128,7 @@
                                 <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services</a>
                                 <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
                                     <li><a href="/pages/midtown2-gift-cards">Gift Cards</a></li>
-                                    <li><a href="/pages/midtown2-accessibilty">Security & Accessibilty</a></li>
+                                    <li><a href="/pages/midtown2-accessibility">Security & Accessibilty</a></li>
                                 </ul>
                             </div>
                         </div>
