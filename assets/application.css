@@ -968,7 +968,8 @@ a{
 }
 @media(max-width:800px){
     .hours_right_holidays{
-        
+        width: 60%;
+    text-align: right;
     }
     .promo_container:nth-child(odd) .promo_two .blog_details_tags {
         text-align: left;
