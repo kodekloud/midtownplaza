@@ -16,7 +16,6 @@
         font-size:18px;
     }
     
-    
 </style>
 <div class="green_bar"></div>
 <div class="page_main_container">
@@ -94,7 +93,14 @@
                 }
             }); 
             show_content();
-            
+            alert("yo")
+            $('iframe').addClass('scrolloff');
+            $('#map_frame').on('click', function () {
+                $('iframe').removeClass('scrolloff');
+            });
+            $("#map_frame").mouseleave(function () {
+                $('iframe').addClass('scrolloff');
+            });
         }
         loadMallDataCached(renderAll); 
 		
