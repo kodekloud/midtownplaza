@@ -76,6 +76,13 @@
         init(e);
         function renderAll (){
             renderpageHTML();
+            $('iframe').addClass('scrolloff');
+            $('#map_frame').on('click', function () {
+                $('iframe').removeClass('scrolloff');
+            });
+            $("#map_frame").mouseleave(function () {
+                $('iframe').addClass('scrolloff');
+            });
             
         }
         
