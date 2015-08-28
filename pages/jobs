@@ -76,8 +76,8 @@
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
             $('#myCollapsible').on('hidden.bs.collapse', function () {
-  // do something…
-})
+                
+           })
         }
         loadMallDataCached(renderAll); 
 		
