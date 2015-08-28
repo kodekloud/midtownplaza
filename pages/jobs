@@ -76,7 +76,7 @@
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
             $('.collapse').on('show.bs.collapse', function () {
-                alert("yo")
+                
            })
         }
         loadMallDataCached(renderAll); 
