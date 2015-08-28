@@ -73,6 +73,30 @@
 </div>
 <script>
     $(document).ready(function(e) {
+        function renderAll (){
+            var pages_json = "http://midtown2.mallmaverick.com/pages/midtown2-parking-directions.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            show_content();
+            $('iframe').addClass('scrolloff');
+            $('#map_frame').on('click', function () {
+                $('iframe').removeClass('scrolloff');
+            });
+            $("#map_frame").mouseleave(function () {
+                $('iframe').addClass('scrolloff');
+            });
+        }
+        loadMallDataCached(renderAll); 
+		
+    });
+</script>
+<script>
+    $(document).ready(function(e) {
         init(e);
         function renderAll (){
             renderpageHTML();
