@@ -9,6 +9,10 @@ body{
     max-width:100%;
 }
 
+.font_16{
+    font-size:16px !important;
+}
+
 .border_1{
     border-bottom: 1px solid #ccc;
     padding-bottom: 14px;
