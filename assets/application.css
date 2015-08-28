@@ -13,6 +13,11 @@ body{
     border-bottom: 1px solid #ccc;
     padding-bottom: 14px;
 }
+.side_blog_header{
+    font-weight:18px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
 
 .scrolloff {
     pointer-events: none;
