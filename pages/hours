@@ -60,7 +60,7 @@
                 <label class="check_text"><input type="checkbox" id="newsletter_agree" />I agree to receive newsletters from Midtown Plaza.</label>
             </form>
         </div>
-        <div class="feature_box">
+        <div class="feature_box border_1">
             <h3 class="feature_header">Blog</h3>
             <div class="feature_insider">
                 <div class="feature_insider_right">
