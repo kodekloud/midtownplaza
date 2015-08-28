@@ -4,20 +4,22 @@
         <h2 class="careers_heading">CAREERS</h2>
         <div id="jobs_container">
             <script id="jobs_template" type="x-tmpl-mustache/text">
-                <h2 class="jobs_header font_16"><a data-toggle="collapse" data-parent="#jobs_container" href="#{{slug}}">{{store_name}}<span class="jobs_arrow">></span></a></h2>
-                <p class="promo_date font_16">{{name}}</p>
-                <p class="closing_date">Closing date: {{closing_date}}</p>
-                <div id="{{slug}}" class="panel-collapse collapse job_div">
-                    <p>{{job_type}}</p>
-                    <div>{{{rich_description}}}</div>
-                    <br />
-                    <div style="{{hide_contact}}">
-                        <p class="promo_date">Contact</p>
-                        <p>{{contact_name}}</p>
-                        <p>{{contact_email}}</p>
+                <div>
+                    <h2 class="jobs_header font_16"><a data-toggle="collapse" data-parent="#jobs_container" href="#{{slug}}">{{store_name}}<span class="jobs_arrow">></span></a></h2>
+                    <p class="promo_date font_16">{{name}}</p>
+                    <p class="closing_date">Closing date: {{closing_date}}</p>
+                    <div id="{{slug}}" class="panel-collapse collapse job_div">
+                        <p>{{job_type}}</p>
+                        <div>{{{rich_description}}}</div>
+                        <br />
+                        <div style="{{hide_contact}}">
+                            <p class="promo_date">Contact</p>
+                            <p>{{contact_name}}</p>
+                            <p>{{contact_email}}</p>
+                        </div>
                     </div>
+                    <hr class="jobs_separator">
                 </div>
-                <hr class="jobs_separator">
             </script>
         </div>
     </div>
