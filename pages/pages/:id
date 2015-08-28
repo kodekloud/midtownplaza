@@ -94,10 +94,10 @@
             }); 
             show_content();
             $('iframe').addClass('scrolloff');
-            $('iframe').on('click', function () {
+            $('#map_frame').on('click', function () {
                 $('iframe').removeClass('scrolloff');
             });
-            $("iframe").mouseleave(function () {
+            $("#map_frame").mouseleave(function () {
                 $('iframe').addClass('scrolloff');
             });
         }
