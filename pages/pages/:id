@@ -74,7 +74,10 @@
 <script>
     $(document).ready(function(e) {
         function renderAll (){
-            var pages_json = "http://midtown2.mallmaverick.com/pages/midtown2-parking-directions.json"
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = "http://midtown2.mallmaverick.com/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
