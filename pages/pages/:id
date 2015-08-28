@@ -75,6 +75,11 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
+            renderpageHTML();
+            
+        }
+        
+        function renderpageHTML(){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
@@ -95,12 +100,6 @@
             $("#map_frame").mouseleave(function () {
                 $('iframe').addClass('scrolloff');
             });
-            
-        }
-        
-        function renderpageHTML(){
-            
-            
         }
         loadMallDataCached(renderAll); 
 		
