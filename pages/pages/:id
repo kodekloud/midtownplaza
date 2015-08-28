@@ -95,7 +95,6 @@
             show_content();
             $('iframe').addClass('scrolloff');
             $('#map_frame').on('click', function () {
-                alert("yo")
                 $('iframe').removeClass('scrolloff');
             });
             $("#map_frame").mouseleave(function () {
