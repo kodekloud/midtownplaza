@@ -75,6 +75,9 @@
             var jobs = getJobsList().sortBy(function(o){ return o.name });
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
+            $('#myCollapsible').on('hidden.bs.collapse', function () {
+  // do something…
+})
         }
         loadMallDataCached(renderAll); 
 		
