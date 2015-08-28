@@ -836,6 +836,7 @@ a{
     margin-bottom:0;
     line-height:35px;
     text-transform:uppercase;
+    color: #ff6172;
 }
 .blog_name_header{
     text-transform:uppercase;
@@ -847,7 +848,6 @@ a{
 .details_dates{
     margin: 32px 0;
     font-size: 18px;
-    color: #ff6172;
     text-transform:uppercase;
     margin-top: 5px;
 }
