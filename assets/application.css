@@ -9,6 +9,10 @@ body{
     max-width:100%;
 }
 
+.border_1{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 14px;
+}
 .scrolloff {
     pointer-events: none;
 }
