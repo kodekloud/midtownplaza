@@ -75,7 +75,7 @@
             var jobs = getJobsList().sortBy(function(o){ return o.name });
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
             show_content();
-            $('#myCollapsible').on('show.bs.collapse', function () {
+            $('.collapse').on('show.bs.collapse', function () {
                 
            })
         }
