@@ -3,25 +3,25 @@
 <div class="page_main_container">
     <div class="page_left">
         <div class="position_relative">        
-            <div class="controls">
-            	<div class="dropdown custom_dropdown">                          
-                    <a class="btn-prime"  id="map_button">
-                        Select a Store <span style="margin-top:3px;" class="fa fa-caret-down pull-right"></span>
-                    </a>		    
-                </div>            
-            </div> 
-            <div class="dropdown-menu bottom" id="store_table" style="top:50px">          		
-                <div style="height:500px;overflow-y:scroll;overflow-x:hidden;">                                        
-                    <div class="map_table">            			                        
-                        <div  id="store_list_container">
-                            <script id="store_list_template" type="x-tmpl-mustache/text">
-                                <p class="store_initial" style="{{show}}">{{initial}}</p>
-                                <a href="#" class="store_name_map" store_id="store_{{id}}" onclick="return show_pin(this)">{{name}}</a>
-                            </script>
-                        </div>
-                    </div>          
-                </div>                
-            </div> 
+            <!--<div class="controls">-->
+            <!--	<div class="dropdown custom_dropdown">                          -->
+            <!--        <a class="btn-prime"  id="map_button">-->
+            <!--            Select a Store <span style="margin-top:3px;" class="fa fa-caret-down pull-right"></span>-->
+            <!--        </a>		    -->
+            <!--    </div>            -->
+            <!--</div> -->
+            <!--<div class="dropdown-menu bottom" id="store_table" style="top:50px">          		-->
+            <!--    <div style="height:500px;overflow-y:scroll;overflow-x:hidden;">                                        -->
+            <!--        <div class="map_table">            			                        -->
+            <!--            <div  id="store_list_container">-->
+            <!--                <script id="store_list_template" type="x-tmpl-mustache/text">-->
+            <!--                    <p class="store_initial" style="{{show}}">{{initial}}</p>-->
+            <!--                    <a href="#" class="store_name_map" store_id="store_{{id}}" onclick="return show_pin(this)">{{name}}</a>-->
+            <!--                </script>-->
+            <!--            </div>-->
+            <!--        </div>          -->
+            <!--    </div>                -->
+            <!--</div> -->
             <div class="map">
                 <div class="demo1 map3" style="">            
                     <img alt="map_image" id="map_image" src="http://midtown2.mallmaverick.com/system/properties/maps/000/000/025/original/map_midtown_edited.jpg?1381443167" />   
