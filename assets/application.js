@@ -702,6 +702,10 @@ function init_side(){
     renderPosts("#home_blog_container", "#home_blog_template", list);
 }
 
+function renderHomeHours(container, template, collection){
+    
+}
+
 
 
 
