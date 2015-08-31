@@ -82,7 +82,8 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var promo = getPromotionDetailsBySlug(slug);
-            renderPromoDetails('#promo_container', '#promo_template', promo)
+            renderPromoDetails('#promo_container', '#promo_template', promo);
+            init_side();
             show_content();
             
         }
