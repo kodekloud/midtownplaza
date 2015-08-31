@@ -68,7 +68,7 @@
                 <img alt="shop the look" class="feature_image" src="http://placehold.it/120x160" />
             </div>
             <div class="feature_insider_right">
-                <h3 class="feature_2_header">SHOP THE LOOK</h3>
+                <h3 class="feature_2_header">{{name}}</h3>
                 <p class="feature_2_blog">From our stylist</p>
                 <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <a class="read_more" href="#">read more</a>
