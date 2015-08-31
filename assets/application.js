@@ -692,7 +692,7 @@ function init_side_blog(){
     var posts = getAllPublishedPosts();
     var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse()[0];
     var list = [];
-    list.push(published_posts)
+    list.push(published_posts);
     renderPosts("#home_blog_container", "#home_blog_template", published_posts);
 }
 
