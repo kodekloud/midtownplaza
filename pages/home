@@ -110,7 +110,7 @@
             });
             var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date })[0];
             var pp = [];
-            pp.push(promos_events)
+            pp.push(promos_events);
             renderPromosEvents('#home_promo_container', '#home_promo_template', pp)
             show_content();
             $('.flexslider').flexslider({
