@@ -29,7 +29,7 @@ body{
     width: 100%;
     padding: 10px;
     position: absolute;
-    z-index: 9999;
+    z-index: 11;
 }
 
 .font_16{
