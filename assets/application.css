@@ -517,6 +517,7 @@ a{
     color: #ff6172;
     font-weight: bold;
     margin-bottom:5px;
+    text-transform:uppercase;
 }
 
 .store_list_heading {
