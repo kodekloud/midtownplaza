@@ -160,14 +160,14 @@ function renderStoreExtras(container, template, type, ids){
         }
         val.closing_date = get_month(end.getMonth()) + " " + end.getDate() + ", " + end.getFullYear();
         if (val.contact_name == ""){
-                val.contact_name = "N/A" ;               
-            }
-            if (val.contact_email == ""){
-                val.contact_email = "N/A";              
-            }
-            if(val.contact_email == "N/A" && val.contact_name == "N/A"){
-                val.hide_contact = "display:none";
-            }
+            val.contact_name = "N/A" ;               
+        }
+        if (val.contact_email == ""){
+            val.contact_email = "N/A";              
+        }
+        if(val.contact_email == "N/A" && val.contact_name == "N/A"){
+            val.hide_contact = "display:none";
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     }) ;
