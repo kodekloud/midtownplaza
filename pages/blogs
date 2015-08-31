@@ -1,6 +1,7 @@
 <div class="green_bar"></div>
 <h2 class="blog_header mobile_padding"><b>MIDTOWN</b> BLOG</h2>
 <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/4443522d8d0fdfd1894bd96265ef8eed/Blog_banner_Fall2015.jpg" class="width_100" alt="">
+<br />
     <div id="blog_container">
             <script id="blog_template" type="x-tmpl-mustache/text">
                 <div class="promo_container mobile_padding">
