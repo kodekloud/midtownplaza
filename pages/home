@@ -63,7 +63,7 @@
     </div>
     <div class="feature_column">
         <h3 class="feature_header">Style</h3>
-        <div class="feature_insider">
+        <div class="feature_insider" id="home_fashion_container">
             <div class="feature_insider_left">
                 <img alt="shop the look" class="feature_image" src="{{image_url}}" />
             </div>
