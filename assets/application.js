@@ -170,7 +170,6 @@ function renderStoreExtras(container, template, type, ids){
         if (val.promo_image_url_abs != undefined){
             val.image_url = val.promo_image_url_abs;
         }
-        console.log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     }) ;
