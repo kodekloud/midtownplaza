@@ -23,7 +23,7 @@
         width: 250px;
         display: block;
     }
-    .controls .dropdown-menu{
+    .position_relative .dropdown-menu{
         width:300px;
     }
 </style>
