@@ -48,7 +48,7 @@
         <h3 class="feature_header">Promotions & Events</h3>
         <div class="feature_insider">
             <div class="feature_insider_left">
-                <img alt="promos/events" class="feature_image" src="http://placehold.it/120x160" />
+                <img alt="promos/events" class="feature_image" src="{{image_url}}" />
             </div>
             <div class="feature_insider_right" id="home_promo_container">
                 <script id="home_promo_template" type="x-tmpl-mustache/text">
