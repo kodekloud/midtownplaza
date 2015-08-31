@@ -3,9 +3,6 @@
     .map_container{
         height:357px;
     }
-    .popup{
-        display:none;
-    }
     .store_initial {
         color: #fff;
         background: black;
