@@ -23,6 +23,9 @@
         width: 250px;
         display: block;
     }
+    .dropdown-menu{
+        width:300px;
+    }
 </style>
 <div class="green_bar"></div>
 <div class="page_main_container">
