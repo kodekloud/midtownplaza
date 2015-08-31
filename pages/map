@@ -2,7 +2,7 @@
 <div class="green_bar"></div>
 <div class="page_main_container">
     <div class="page_left">
-        
+        yo
     </div>
     <div class="page_right">
         <div class="hours_box feature_box">
@@ -88,7 +88,7 @@
         init(e);
         function renderAll(){
             var stores = getStoresList();
-            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
+            renderStoreList('#store_list_container','#store_list_template', stores, "stores");
             show_content();    
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
