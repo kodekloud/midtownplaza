@@ -632,6 +632,7 @@ function renderFashion(container, template, collection){
         else{
             val.description_short = val.description;
         }
+        
     });
 }
 
