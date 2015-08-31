@@ -64,7 +64,7 @@
     <div class="feature_column">
         <h3 class="feature_header">Style</h3>
         <div class="feature_insider" id="home_fashion_container">
-            <script id="home_promo_template" type="x-tmpl-mustache/text">
+            <script id="home_fashion_template" type="x-tmpl-mustache/text">
                 <div class="feature_insider_left">
                     <img alt="shop the look" class="feature_image" src="{{image_url}}" />
                 </div>
