@@ -58,7 +58,7 @@
                     <a class="read_more" href="/{{type}}/{{slug}}">read more</a>
         
                 </div>
-            <?cript>
+            </script>
         </div>
     </div>
     <div class="feature_column">
