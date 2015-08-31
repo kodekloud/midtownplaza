@@ -167,7 +167,7 @@ function renderStoreExtras(container, template, type, ids){
         if(val.contact_email == "N/A" && val.contact_name == "N/A"){
             val.hide_contact = "display:none";
         }
-        if (val.promo_image_url_abs.length > 0){
+        if (val.promo_image_url_abs.length != undefined){
             val.image_url = val.promo_image_url_abs;
         }
         console.log(val)
