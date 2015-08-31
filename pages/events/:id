@@ -58,7 +58,7 @@
         </div>
         <div class="feature_box border_1">
             <h3 class="feature_header">Blog</h3>
-            <div class="feature_insider">
+            <div class="feature_insider" id="home_blog_container">
                 <div class="feature_insider_right">
                     <h3 class="feature_2_header">AUGUST 6, 2015</h3>
                     <p class="feature_2_dates">LOREM IPSUM</p>
