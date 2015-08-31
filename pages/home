@@ -47,17 +47,18 @@
     <div class="feature_column">
         <h3 class="feature_header">Promotions & Events</h3>
         <div class="feature_insider">
-            <div class="feature_insider_left">
-                <img alt="promos/events" class="feature_image" src="{{image_url}}" />
-            </div>
-            <div class="feature_insider_right" id="home_promo_container">
-                <script id="home_promo_template" type="x-tmpl-mustache/text">
+            <script id="home_promo_template" type="x-tmpl-mustache/text">
+                <div class="feature_insider_left">
+                    <img alt="promos/events" class="feature_image" src="{{image_url}}" />
+                </div>
+                <div class="feature_insider_right" id="home_promo_container">
                     <h3 class="feature_2_header">{{name}}</h3>
                     <p class="feature_2_dates">{{dates}}</p>
                     <p class="feature_2_description">{{description_short}}</p>
                     <a class="read_more" href="/{{type}}/{{slug}}">read more</a>
-                </script>
-            </div>
+        
+                </div>
+            <?cript>
         </div>
     </div>
     <div class="feature_column">
