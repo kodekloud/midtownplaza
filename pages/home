@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="feature_column">
-        <div class="hours_box feature_box">
+        <div class="hours_box feature_box" id="home_hours_container">
             <h3 class="hours_header">HOURS</h3>
             <p class="check_hours"><a href="/hours">Check Holiday Hours</a></p>
             <h3 class="newsletter_header">MONDAY AUGUST 00</h3>
