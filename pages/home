@@ -51,6 +51,7 @@
                 <img alt="promos/events" class="feature_image" src="http://placehold.it/120x160" />
             </div>
             <div class="feature_insider_right" id="home_promo_container">
+                <script id="reg_hours_template" type="x-tmpl-mustache/text">
                 <h3 class="feature_2_header">SUMMER LAUNCH DAVIDs TEA</h3>
                 <p class="feature_2_dates">May 06-Aug 31</p>
                 <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
