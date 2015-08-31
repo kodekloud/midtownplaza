@@ -413,8 +413,8 @@ function renderPromosEvents(container, template, collection){
                 
             }
         }
-        if(val.description.length > 200){
-            val.description_short = val.body.substring(0,200) + "...";
+        if(val.description.length > 100){
+            val.description_short = val.body.substring(0,100) + "...";
         }
         else{
             val.description_short = val.body;
