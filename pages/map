@@ -136,7 +136,7 @@
                     name: 'imgMap'
                 },
                 map: {
-                    position: 'center'
+                    position: '0,0'
                 }
             });
         }
