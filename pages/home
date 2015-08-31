@@ -113,6 +113,9 @@
             var pp = [];
             pp.push(promos_events);
             renderPromosEvents('#home_promo_container', '#home_promo_template', pp)
+            
+            var latest_fashion - getFashions()[0];
+            
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
