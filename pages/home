@@ -85,7 +85,7 @@
                     <img alt="blog" class="feature_image" src="{{post_image}}" />
                 </div>
                 <div class="feature_insider_right">
-                    <h3 class="feature_2_header">{{}}</h3>
+                    <h3 class="feature_2_header">{{published_on}}</h3>
                     <p class="feature_2_blog">LOREM IPSUM</p>
                     <p class="feature_2_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <a class="read_more" href="#">read more</a>
