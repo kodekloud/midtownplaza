@@ -23,7 +23,7 @@
             <!--    </div>                -->
             <!--</div> -->
             <div class="map">
-                <div class="demo1 map3" style="">            
+                <div class="map_container" style="">            
                     <img alt="map_image" id="map_image" src="http://midtown2.mallmaverick.com/system/properties/maps/000/000/025/original/map_midtown_edited.jpg?1381443167" />   
                     	
         		</div>
