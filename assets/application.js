@@ -604,10 +604,10 @@ function renderPosts(container, template, collection){
             val.description_short = val.body;
         }
         if(val.body.length > 50){
-            val.description_short = val.body.substring(0,50) + "...";
+            val.description_shorter = val.body.substring(0,50) + "...";
         }
         else{
-            val.description_short = val.body;
+            val.description_shorter = val.body;
         }
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
