@@ -5,6 +5,10 @@ body{
     font-size:16px;
 }
 
+.caps{
+    text-trasform:uppercase
+}
+
 .center_width_100{
     max-width:100%;
 }
