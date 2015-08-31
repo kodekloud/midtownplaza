@@ -621,7 +621,7 @@ function renderFashion(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
-    item_list.push(collection)
+    item_list.push(collection);
     $.each( collection , function( key, val ) {
         console.log(val)
         //val.image_url = "http://cdn.mallmaverick.com" + val.fashion_images[0].photo_url;
