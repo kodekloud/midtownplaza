@@ -71,7 +71,7 @@
         <div class="giftcards_box feature_box">
             <a href="/pages/midtown2-gift-cards">
                 <h3 class="giftcards_header">GIFT CARDS</h3>
-                <img src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/f80b2b0cc97fadff100319399f8b2e1e/midtown_gc_360_360.png" class="" alt="giftcards">
+                <img style=" max-width: 100%; max-height: 100%; " src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/f80b2b0cc97fadff100319399f8b2e1e/midtown_gc_360_360.png" class="" alt="giftcards">
             </a>
         </div>
         
