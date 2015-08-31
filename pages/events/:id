@@ -82,6 +82,7 @@
             var slug = pathArray[pathArray.length-1];
             var event = getEventDetailsBySlug(slug);
             renderEventDetails('#event_container', '#event_template', event)
+            init_side();
             show_content();
             
         }
