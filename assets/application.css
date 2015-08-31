@@ -13,6 +13,15 @@ body{
     position: relative;
 }
 
+.btn-prime {
+    width: 200px;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: #b4b4b4;
+    cursor: pointer;
+}
+
 .controls {
     background-color: #7f8a89;
     left: 0;
