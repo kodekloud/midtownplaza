@@ -122,10 +122,7 @@
             
             var latest_fashion = getFashions()[0];
             renderFashion('#home_fashion_container', '#home_fashion_template', latest_fashion);
-            
-            var today_hours = getTodaysHours();
-            renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
-            
+
             
             init_side();
             show_content();
