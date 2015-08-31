@@ -4,7 +4,7 @@
         height:357px;
     }
     .popup {
-       display:one;
+       display:none;
     }
     .store_initial {
         color: #fff;
