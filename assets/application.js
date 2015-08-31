@@ -703,18 +703,28 @@ function init_side(){
 }
 
 function renderHomeHours(container, template, collection){
-    val.day = get_day(val.day_of_week)
-    if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-        var open_time = new Date (val.open_time)
-        var close_time = new Date (val.close_time)
-        val.open_time = convert_hour(open_time);
-        val.close_time = convert_hour(close_time);    
-        val.h = val.open_time+ " - " + val.close_time;
-    } else {
-        val.h = "Closed"
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+
+    item_list.push(collection);    
+    
+    
+    $.each( item_list , function( key, val ) {
+        val.day = get_day(val.day_of_week)
+        if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
+            var open_time = new Date (val.open_time)
+            var close_time = new Date (val.close_time)
+            val.open_time = convert_hour(open_time);
+            val.close_time = convert_hour(close_time);    
+            val.h = val.open_time+ " - " + val.close_time;
+        } else {
+            val.h = "Closed"
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
     }
-    var rendered = Mustache.render(template_html,val);
-    item_rendered.push(rendered);
     $(container).html(item_rendered.join(''));
 }
 
