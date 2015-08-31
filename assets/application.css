@@ -1006,6 +1006,9 @@ a{
     .menu_divider{
         width:132px;
     }
+    .left_promo_div{
+        width:150px;
+    }
     .site_container{
         width:100%
     }
