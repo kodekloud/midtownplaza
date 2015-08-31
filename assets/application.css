@@ -689,7 +689,7 @@ a{
 .read_more:focus{
     color:#ff6172;
     text-decoration:underline;
-    
+    content:"read less";
 }
 .back_btn{
     color:#ff6172;
