@@ -11,7 +11,7 @@ body{
 
 .blog_line{
     height:1px !important;
-    color:#ccc !important;
+    background:#ccc !important;
 }
 
 .center_width_100{
