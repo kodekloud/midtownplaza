@@ -79,7 +79,7 @@
             prefix = get_prefix();
             var pages_json = "http://midtown2.mallmaverick.com/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
-                $('#page_title').text(data.title)
+                $('#page_title').text(data.title);
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
