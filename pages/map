@@ -124,7 +124,8 @@
             $('.map3').craftmap({
                 image:{
                     width:780,
-                    height:780
+                    height:780,
+                    name: 'imgMap'
                 },
                 map: {
                     position: 'center'
