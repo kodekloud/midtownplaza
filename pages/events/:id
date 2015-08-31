@@ -59,7 +59,7 @@
         <div class="feature_box border_1">
             <h3 class="feature_header">Blog</h3>
             <div class="feature_insider" id="home_blog_container">
-                <script id="home_fashion_template" type="x-tmpl-mustache/text">
+                <script id="home_blog_template" type="x-tmpl-mustache/text">
                     <div class="feature_insider_right">
                         <h3 class="feature_2_header">{{published_on}}</h3>
                         <p class="feature_2_dates">{{title}}</p>
