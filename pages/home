@@ -119,7 +119,7 @@
             var latest_fashion = getFashions()[0];
             renderFashion('#home_fashion_container', '#home_fashion_template', latest_fashion);
             
-            init_side_blog();
+            init_side();
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
