@@ -167,6 +167,10 @@ function renderStoreExtras(container, template, type, ids){
         if(val.contact_email == "N/A" && val.contact_name == "N/A"){
             val.hide_contact = "display:none";
         }
+        if (val.promo_image_url_abs.length > 0){
+            val.image_url = val.promo_image_url_abs;
+        }
+        console.log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     }) ;
