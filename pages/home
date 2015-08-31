@@ -88,7 +88,7 @@
                     <h3 class="feature_2_header">{{published_on}}</h3>
                     <p class="feature_2_blog">{{title}}</p>
                     <p class="feature_2_description">{{description_short}}</p>
-                    <a class="read_more" href="#">read more</a>
+                    <a class="read_more" href="/blogs/{{slug}}">read more</a>
                 </div>
                 <div class="feature_insider_left hide_phone">
                     <img alt="blog" class="feature_image" src="{{post_image}}" />
