@@ -69,8 +69,8 @@
                     <img alt="shop the look" class="feature_image" src="{{image_url}}" />
                 </div>
                 <div class="feature_insider_right">
-                    <h3 class="feature_2_header">{{name}}</h3>
-                    <p class="feature_2_blog">{{author}}</p>
+                    <h3 class="feature_2_header">SHOP THE LOOK</h3>
+                    <p class="feature_2_blog">{{name}}</p>
                     <p class="feature_2_description">{{description_short}}</p>
                     <a class="read_more" href="/fashions/{{slug}}">read more</a>
                 </div>
