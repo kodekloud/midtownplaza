@@ -89,6 +89,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
+            init_side();
             show_content();
             $('iframe').addClass('scrolloff');
             $('#map_frame').on('click', function () {
