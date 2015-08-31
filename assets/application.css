@@ -1003,6 +1003,9 @@ a{
 }
 
 @media(max-width:1024px){
+    .menu_divider{
+        width:132px;
+    }
     .site_container{
         width:100%
     }
