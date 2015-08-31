@@ -80,7 +80,8 @@
                 v.type="promotions";
             });
             var promos_events = (promos.concat(events)).sortBy(function(o){ return o.start_date });
-            renderPromosEvents('#promo_container', '#promo_template', promos_events)
+            renderPromosEvents('#promo_container', '#promo_template', promos_events);
+            init_side();
             show_content();
         }
         loadMallDataCached(renderAll); 
