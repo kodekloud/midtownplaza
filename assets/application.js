@@ -707,10 +707,7 @@ function renderHomeHours(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
-
     item_list.push(collection);    
-    
-    
     $.each( item_list , function( key, val ) {
         val.day = get_day(val.day_of_week)
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
