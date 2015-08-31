@@ -80,7 +80,7 @@
     <div class="feature_column">
         <h3 class="feature_header">Blog</h3>
         <div class="feature_insider" id="home_blog_container">
-            <script id="home_fashion_template" type="x-tmpl-mustache/text">
+            <script id="home_blog_template" type="x-tmpl-mustache/text">
                 <div class="feature_insider_left show_phone">
                     <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
                 </div>
