@@ -688,7 +688,7 @@ function renderPostDetails(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function init_side_blog(){
+function init_side(){
     var posts = getAllPublishedPosts();
     var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse()[0];
     var list = [];
