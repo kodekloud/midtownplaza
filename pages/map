@@ -25,6 +25,7 @@
     }
     .position_relative .dropdown-menu{
         width:300px;
+        padding-top:0;
     }
 </style>
 <div class="green_bar"></div>
