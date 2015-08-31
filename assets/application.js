@@ -625,7 +625,7 @@ function renderFashion(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     $.each( collection , function( key, val ) {
-        
+        val.image_url = fashion_images[0].photo_url
     });
 }
 
