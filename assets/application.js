@@ -630,7 +630,7 @@ function renderFashion(container, template, collection){
             val.description_short = val.description.substring(0,50) + "...";
         }
         else{
-            val.description_short = val.body;
+            val.description_short = val.description;
         }
     });
 }
