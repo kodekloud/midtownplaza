@@ -9,6 +9,10 @@ body{
     text-transform:uppercase
 }
 
+.blog_line{
+    height:1px !important;
+}
+
 .center_width_100{
     max-width:100%;
 }
