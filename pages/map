@@ -123,8 +123,8 @@
             });
             $('.map3').craftmap({
                 image:{
-                    width:1650,
-                    height:1636
+                    width:780,
+                    height:780
                 },
                 map: {
                     position: 'center'
