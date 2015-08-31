@@ -21,12 +21,14 @@
         </div>
     </div>
     <div class="page_right">
-        <div class="hours_box feature_box">
-            <h3 class="hours_header">HOURS</h3>
-            <p class="check_hours"><a href="/hours">Check Holiday Hours</a></p>
-            <h3 class="newsletter_header font_19">MONDAY AUGUST 00</h3>
-            <h3 class="hours_home">9:30 am - 5:30 pm</h3>
-            <p class="call_mp_home"><a href="tel:3066538844">Call 306-653-8844</a></p>
+        <div class="hours_box feature_box" id="home_hours_container">
+            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                <h3 class="hours_header">HOURS</h3>
+                <p class="check_hours"><a href="/hours">Check Holiday Hours</a></p>
+                <h3 class="newsletter_header caps">{{day}} {{month}} {{weekday}}</h3>
+                <h3 class="hours_home">{{h}}</h3>
+                <p class="call_mp_home"><a href="tel:3066538844">Call 306-653-8844</a></p>
+            </script>
         </div>
         <div class="giftcards_box feature_box">
             <a href="/pages/midtown2-gift-cards">
