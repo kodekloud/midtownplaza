@@ -700,6 +700,9 @@ function init_side(){
     var list = [];
     list.push(published_posts);
     renderPosts("#home_blog_container", "#home_blog_template", list);
+    
+    var today_hours = getTodaysHours();
+            renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
 }
 
 function renderHomeHours(container, template, collection){
