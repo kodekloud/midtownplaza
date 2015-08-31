@@ -71,7 +71,7 @@
                 <h3 class="feature_2_header">{{name}}</h3>
                 <p class="feature_2_blog">{{author}}</p>
                 <p class="feature_2_description">{{description_short}}</p>
-                <a class="read_more" href="#">read more</a>
+                <a class="read_more" href="/fashions/slug">read more</a>
             </div>
         </div>
     </div>
