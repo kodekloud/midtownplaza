@@ -70,10 +70,9 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div class="clearfix"></div>
-        <a href="/promotions_and_events" class="back_btn"><i class="fa fa-chevron-left"></i> &nbsp;BACK</a>
     </div>
     <div class="clearfix"></div>
+    <a href="/promotions_and_events" class="back_btn"><i class="fa fa-chevron-left"></i> &nbsp;BACK</a>
 </div>
 <script>
     $(document).ready(function(e) {
