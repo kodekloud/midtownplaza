@@ -690,7 +690,7 @@ function renderPostDetails(container, template, collection){
 
 function init_side_blog(){
     var posts = getAllPublishedPosts();
-    var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
+    var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse()[0];
     renderPosts("#home_blog_container", "#home_blog_template", published_posts);
 }
 
