@@ -76,6 +76,7 @@
         function renderAll (){
             var jobs = getJobsList().sortBy(function(o){ return o.name });
             renderGeneral($('#jobs_container'), $('#jobs_template'), jobs, "jobs");
+            init_side();
             show_content();
             $('.collapse').on('show.bs.collapse', function () {
                 $(this).parent().attr('class')
