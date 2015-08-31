@@ -95,6 +95,7 @@
         function renderAll(){
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores");
+            init_side();
             show_content();
         }
         loadMallDataCached(renderAll); 
