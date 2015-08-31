@@ -54,7 +54,7 @@
                 <script id="home_promo_template" type="x-tmpl-mustache/text">
                     <h3 class="feature_2_header">{{name}}</h3>
                     <p class="feature_2_dates">{{dates}}</p>
-                    <p class="feature_2_description">{{description}}</p>
+                    <p class="feature_2_description">{{description_short}}</p>
                     <a class="read_more" href="/{{type}}/{{slug}}">read more</a>
                 </script>
             </div>
