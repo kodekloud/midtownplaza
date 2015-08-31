@@ -420,7 +420,7 @@ function renderPromosEvents(container, template, collection){
             val.description_short = val.description;
         }
         
-        
+        console.log(val)
         
         
         
