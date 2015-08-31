@@ -64,15 +64,17 @@
     <div class="feature_column">
         <h3 class="feature_header">Style</h3>
         <div class="feature_insider" id="home_fashion_container">
-            <div class="feature_insider_left">
-                <img alt="shop the look" class="feature_image" src="{{image_url}}" />
-            </div>
-            <div class="feature_insider_right">
-                <h3 class="feature_2_header">{{name}}</h3>
-                <p class="feature_2_blog">{{author}}</p>
-                <p class="feature_2_description">{{description_short}}</p>
-                <a class="read_more" href="/fashions/slug">read more</a>
-            </div>
+            <script id="home_promo_template" type="x-tmpl-mustache/text">
+                <div class="feature_insider_left">
+                    <img alt="shop the look" class="feature_image" src="{{image_url}}" />
+                </div>
+                <div class="feature_insider_right">
+                    <h3 class="feature_2_header">{{name}}</h3>
+                    <p class="feature_2_blog">{{author}}</p>
+                    <p class="feature_2_description">{{description_short}}</p>
+                    <a class="read_more" href="/fashions/slug">read more</a>
+                </div>
+            </script>
         </div>
     </div>
     <div class="feature_column">
