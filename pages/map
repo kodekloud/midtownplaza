@@ -85,7 +85,7 @@
     }
     $(document).ready(function(e) {
         init(e);
-        function renderAll(){;\
+        function renderAll(){
             var stores = getStoresList();
             renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
             show_content();    
