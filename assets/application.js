@@ -632,8 +632,11 @@ function renderFashion(container, template, collection){
         else{
             val.description_short = val.description;
         }
-        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
     });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
 }
 
 function renderPostDetails(container, template, collection){
