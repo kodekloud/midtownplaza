@@ -603,6 +603,12 @@ function renderPosts(container, template, collection){
         else{
             val.description_short = val.body;
         }
+        if(val.body.length > 50){
+            val.description_short = val.body.substring(0,50) + "...";
+        }
+        else{
+            val.description_short = val.body;
+        }
         val.counter = counter;
         var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
