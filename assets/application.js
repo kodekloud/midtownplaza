@@ -620,6 +620,9 @@ function renderPosts(container, template, collection){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+function renderFashion(container, template, collection){
+    
+}
 
 function renderPostDetails(container, template, collection){
     var item_list = [];
