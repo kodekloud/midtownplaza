@@ -73,7 +73,9 @@
     </div>
     <div class="clearfix"></div>
     <div class="page_main_container">
-        <a href="/promotions_and_events" class="back_btn"><i class="fa fa-chevron-left"></i> &nbsp;BACK</a>
+        <div class="page_right">
+            <a href="/promotions_and_events" class="back_btn"><i class="fa fa-chevron-left"></i> &nbsp;BACK</a>
+        </div>
     </div>
     <br /><br />
 </div>
