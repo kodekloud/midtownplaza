@@ -663,6 +663,7 @@ a{
 .feature_2_blog{
     font-size:16px;
     margin-bottom:5px;
+    text-transform:uppercase;
     font-weight:500;
 }
 
