@@ -91,7 +91,7 @@
                     <a class="read_more" href="#">read more</a>
                 </div>
                 <div class="feature_insider_left hide_phone">
-                    <img alt="blog" class="feature_image" src="http://placehold.it/120x160" />
+                    <img alt="blog" class="feature_image" src="{{post_image}}" />
                 </div>
             </script>
         </div>
