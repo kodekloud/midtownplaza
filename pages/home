@@ -38,7 +38,7 @@
                 <h3 class="hours_header">HOURS</h3>
                 <p class="check_hours"><a href="/hours">Check Holiday Hours</a></p>
                 <h3 class="newsletter_header">MONDAY AUGUST 00</h3>
-                <h3 class="hours_home">{h}</h3>
+                <h3 class="hours_home">{{h}}</h3>
                 <p class="call_mp_home"><a href="tel:3066538844">Call 306-653-8844</a></p>
             </script>
         </div>
