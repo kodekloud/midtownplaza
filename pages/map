@@ -6,6 +6,14 @@
     .popup{
         display:none;
     }
+    .store_initial {
+    color: #fff;
+    background: black;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    font-weight: bold;
+    opacity: 0.8;
+}
 </style>
 <div class="green_bar"></div>
 <div class="page_main_container">
