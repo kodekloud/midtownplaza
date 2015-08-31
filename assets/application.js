@@ -413,9 +413,8 @@ function renderPromosEvents(container, template, collection){
                 
             }
         }
-        console.log(val)
         if(val.description.length > 100){
-            val.description_short = val.body.substring(0,100) + "...";
+            val.description_short = val.description.substring(0,100) + "...";
         }
         else{
             val.description_short = val.body;
