@@ -626,8 +626,8 @@ function renderFashion(container, template, collection){
     var template_html = $(template).html();
     $.each( collection , function( key, val ) {
         val.image_url = "http://cdn.mallmaverick.com" + fashion_images[0].photo_url
-        if(val.body.length > 200){
-            val.description_short = val.body.substring(0,200) + "...";
+        if(val.description.length > 50){
+            val.description_short = val.body.substring(0,50) + "...";
         }
         else{
             val.description_short = val.body;
