@@ -710,7 +710,7 @@ function renderHomeHours(container, template, collection){
     item_list.push(collection);    
     $.each( item_list , function( key, val ) {
         val.day = get_day(val.day_of_week)
-        console.log(val)
+        val d = new Date();
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = new Date (val.open_time)
             var close_time = new Date (val.close_time)
