@@ -4,7 +4,7 @@
         <h2 class="store_list_heading" style="margin-bottom:15px">SHOP THE LOOK</h2>
         <div id="fashion_container">
             <script id="fashion_template" type="x-tmpl-mustache/text">
-                <p class="description">{{description}}</p>
+                <p class="description">{{title}}</p>
             </script>
         </div>
         <div id="fashion_images_container" class="row">
