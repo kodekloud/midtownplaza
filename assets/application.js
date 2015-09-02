@@ -703,7 +703,9 @@ function init_side(){
     var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse()[0];
     var list = [];
     list.push(published_posts);
-    renderPosts("#home_blog_container", "#home_blog_template", list);
+    if(published_posts.length > 0){
+        renderPosts("#home_blog_container", "#home_blog_template", list);
+    }
     
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
