@@ -729,7 +729,7 @@ function renderHomeHours(container, template, collection){
             val.close_time = convert_hour(close_time);    
             val.h = val.open_time+ " - " + val.close_time;
         } else {
-            val.h = "Closed"
+            val.h = "Closed";
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
