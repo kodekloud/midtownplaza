@@ -590,42 +590,42 @@ function renderFashionImages(container, template, collection){
 }
 
 function renderPosts(container, template, collection){
-    // var item_list = [];
-    // var item_rendered = [];
-    // var template_html = $(template).html();
-    // var counter = 1;
-    // Mustache.parse(template_html);   // optional, speeds up future uses
-    // $.each( collection , function( key, val ) {
-    //     if (val.image_url.indexOf('missing.png') > -1) {
-    //         val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
-    //     } else {
-    //         val.post_image = val.image_url;
-    //     }
-    //     if(val.body.length > 200){
-    //         val.description_short = val.body.substring(0,200) + "...";
-    //     }
-    //     else{
-    //         val.description_short = val.body;
-    //     }
-    //     if(val.body.length > 50){
-    //         val.description_shorter = val.body.substring(0,50) + "...";
-    //     }
-    //     else{
-    //         val.description_shorter = val.body;
-    //     }
-    //     val.counter = counter;
-    //     var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
-    //     val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-    //     if (val.tag != undefined){
-    //         val.tag_list = val.tag.join(', ');
-    //     }
-    //     var rendered = Mustache.render(template_html,val);
-    //     item_rendered.push(rendered);
-    //     counter = counter+1;
-    // });
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    var counter = 1;
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( collection , function( key, val ) {
+        if (val.image_url.indexOf('missing.png') > -1) {
+            val.post_image = "http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/46998083431386.Gxbjj42J5GPwa7QBEyyM_height640.png";
+        } else {
+            val.post_image = val.image_url;
+        }
+        if(val.body.length > 200){
+            val.description_short = val.body.substring(0,200) + "...";
+        }
+        else{
+            val.description_short = val.body;
+        }
+        if(val.body.length > 50){
+            val.description_shorter = val.body.substring(0,50) + "...";
+        }
+        else{
+            val.description_shorter = val.body;
+        }
+        val.counter = counter;
+        var date_blog = new Date((val.publish_date + " 05:00:00").replace(/-/g,"/"));
+        val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
+        if (val.tag != undefined){
+            val.tag_list = val.tag.join(', ');
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+        counter = counter+1;
+    });
     
-    // $(container).show();
-    // $(container).html(item_rendered.join(''));
+    $(container).show();
+    $(container).html(item_rendered.join(''));
 }
 function renderFashion(container, template, collection){
     var item_list = [];
