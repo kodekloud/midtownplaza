@@ -1,9 +1,9 @@
 <div class="flexslider">
     <ul class="slides" id="home_banner">
         <li>
-            <!--<a href="{{url}}" {{css}} onclick="{{noLink}}">-->
+            <a href="{{url}}" {{css}} onclick="{{noLink}}">
                 <img alt="banner" src="http://assets.kodekloud.io/sites/55bba30d6e6f64157e000000/eed38d089cd6373b1b6fe6579119ae92/MP_fall2015_banner.jpg"/>
-            <!--</a>-->
+            </a>
         </li>
     </ul>
 </div>
