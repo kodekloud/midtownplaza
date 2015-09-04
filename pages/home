@@ -105,7 +105,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
-            // renderBanner('#banner_template','#home_banner',banners);
+            renderBanner('#banner_template','#home_banner',banners);
             var events = getEventsList();
             $.each(events, function(i, v){
                 v.type="events";
