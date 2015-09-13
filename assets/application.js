@@ -110,7 +110,6 @@ function renderStoreDetails(container, template, collection, slug){
         val.map_y_coordinate = val.y_coordinate - 58;
         val.property_map = getPropertyDetails().mm_host + getPropertyDetails().map_url;
         // renderStoreExtras($('#jobs_container'), $('#jobs_template'), "jobs", val.jobs);
-        console.log(val.website)
         if (val.website != null && val.website.length > 0){
             val.show = "display:inline-block";
         }
