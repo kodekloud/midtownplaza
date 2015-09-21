@@ -7,6 +7,11 @@ body{
 .hidden-phone{
     display:inline-block;
 }
+
+.visible-phone{
+    display:inline-block;
+}
+
 .caps{
     text-transform:uppercase
 }
