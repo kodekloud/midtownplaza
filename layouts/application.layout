@@ -178,7 +178,6 @@
             <script>
                 $(document).ready(function(e){
                     $('#syria_link').click(function(e){
-                        console.log("here")
                         var url = $(this).attr("href");
                         ga('send', 'event', 'Outbound Links', e.currentTarget.host, url);
                     });
