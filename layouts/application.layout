@@ -180,7 +180,7 @@
                     $('#syria_link').click(function(e){
                         console.log("here")
                         var url = $(this).attr("href");
-                        ga.push(['trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
+                        ga('send', 'event', 'Outbound Links', e.currentTarget.host, url);
                     });
                 });
             </script>
