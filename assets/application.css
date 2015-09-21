@@ -1119,6 +1119,15 @@ a{
     }
 }
 @media(max-width:800px){
+    
+    .visible-phone{
+        display:inline-block;
+    }
+    
+    .hidden-phone{
+        display:none;
+    }
+    
     .hours_container .hours_right_holidays{
         width: 60%;
         text-align: right;
