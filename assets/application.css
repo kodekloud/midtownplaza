@@ -9,7 +9,7 @@ body{
 }
 
 .visible-phone{
-    display:inline-block;
+    display:none;
 }
 
 .caps{
