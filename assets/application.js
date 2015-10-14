@@ -481,7 +481,7 @@ function renderPromoDetails(container, template, collection){
         }
         console.log(val.url)
        
-        start = new Date (val.start_date + "T05:00:00Z");
+        start = new Date (val.start_date );
         end = new Date (val.end_date + "T05:00:00Z");
         start.setDate(start.getDate()+1);
         if (start.toDateString() == end.toDateString()) {
