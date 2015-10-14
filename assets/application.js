@@ -483,7 +483,6 @@ function renderPromoDetails(container, template, collection){
        
         start = new Date (val.start_date + "T05:00:00Z");
         end = new Date (val.end_date + "T05:00:00Z");
-        start.setDate(start.getDate()+1);
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
         } else {
